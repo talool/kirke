@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+            http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+            http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="nestedTransactionAllowed" value="true"/>
+	</bean>
+
+
+	<tx:annotation-driven order="1" />
+
+	<bean id="generalDAOImpl" class="com.googlecode.genericdao.dao.hibernate.GeneralDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="daoDispatcher" class=" com.googlecode.genericdao.dao.hibernate.DAODispatcher">
+		<property name="generalDAO" ref="generalDAOImpl" />
+	</bean>
+
+	<bean id="taloolServiceImpl" class="com.talool.service.TaloolServiceImpl">
+		<property name="daoDispatcher" ref="daoDispatcher" />
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<bean id="activityServiceImpl" class="com.talool.service.ActivityServiceImpl">
+		<property name="daoDispatcher" ref="daoDispatcher" />
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<bean id="analyticServiceImpl" class="com.talool.service.AnalyticServiceImpl">
+		<property name="daoDispatcher" ref="daoDispatcher" />
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="taloolService" ref="taloolServiceImpl" />
+		<property name="customerService" ref="customerServiceImpl" />
+	</bean>
+	
+	<bean id="redemptionCodeStrategyImpl" class="com.talool.purchase.DealUniqueConfirmationCodeStrategyImpl">
+	 <constructor-arg value="6"/>
+	</bean>
+	
+	<bean id="customerServiceImpl" class="com.talool.service.CustomerServiceImpl">
+		<property name="daoDispatcher" ref="daoDispatcher" />
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="redemptionCodeStrategy" ref="redemptionCodeStrategyImpl" />
+	</bean>
+
+	<!-- a PlatformTransactionManager is still required <bean id="transactionManager" 
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager" <property 
+		name="dataSource" ref="dataSource" /> </bean> -->
+
+	<!-- Annotations supported in hibernate4 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="packagesToScan">
+			<list>
+				<value>com.talool.domain</value>
+			    <value>com.talool.persistence</value>
+			</list>
+		</property>
+
+		<property name="hibernateProperties">
+			<props>
+
+		<prop key="hibernate.dialect">org.hibernatespatial.postgis.PostgisDialect</prop>
+					
+				<prop key="hibernate.jdbc.use_get_generated_keys">
+					false
+				</prop>
+				<prop key="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory
+				</prop>
+				<prop key="hibernate.format_sql">${hibernate.format.sql}</prop>
+				<prop key="hibernate.use_sql_comments">false</prop>
+				<prop key="hibernate.show_sql">${hibernate.show.sql}</prop>
+				<!-- -->
+			
+
+				<prop key="hibernate.generate_statistics">true</prop>
+				<prop key="hibernate.cache.use_structured_entries">true</prop>
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+				<prop key="hibernate.cache.region.factory_class">net.sf.ehcache.hibernate.EhCacheRegionFactory</prop>
+				<prop key="hibernate.cache.provider_class">net.sf.ehcache.hibernate.EhCacheProvider"</prop>
+				<prop key="hibernate.cache.provider_configuration_file_resource_path">ehcache.xml</prop>
+			</props>
+		</property>
+
+	</bean>
+
+</beans>

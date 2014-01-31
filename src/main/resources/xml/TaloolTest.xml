@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Talool>
+    
+    <Merchant name="name" category="category">
+        <Tags>
+            <Tag>tag</Tag>
+            <Tag>tag</Tag>
+            <Tag>tag</Tag>
+        </Tags>
+        <Locations>
+            <Location name="name" url="" phone="" address1="" address2="" city="" state="" zip="" country="" latitue="" longitude="">
+                <Image type="logo" url=""/>
+                <Image type="photo" url=""/>
+            </Location>
+        </Locations>
+        <Accounts>
+            <Account></Account>
+        </Accounts>
+        <Merchants>
+            <Merchant></Merchant>
+        </Merchants>
+        <Deals>
+            <Deal title="" expires="">
+                <Summary></Summary>
+                <Details></Details>
+                <Image type="photo" url=""/>
+                <Tags>
+		            <Tag>tag</Tag>
+		            <Tag>tag</Tag>
+		            <Tag>tag</Tag>
+		        </Tags>
+            </Deal>
+        </Deals>
+    </Merchant>
+    
+</Talool>

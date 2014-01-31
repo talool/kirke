@@ -1,0 +1,1283 @@
+<entertainment:offerReport id="999EDI00011749" xmlns:entertainment="http://www.entertainment.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.entertainment.com customdatafeed-1.0.xsd ">
+  <offer_detail id="05007135050RED01506443EPC00497999PRD00000058">
+    <createdDate>2012-02-18</createdDate>
+    <phone>(253)854-9074</phone>
+    <rcAssociation></rcAssociation>
+    <rating>50</rating>
+    <validQualifier></validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType>Mexican</foodType>
+    <offer>050OFR00904763</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>05003126</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/050/2/6/05003126.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>050RED01506443</redemptionLocation>
+    <industrySegment>Casual Dining</industrySegment>
+    <industry>Casual Dine</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>!No Que No!|Family Mexican Restaurant|Sun. - Thurs. 11 a.m.-10 p.m.|Fri. &amp; Sat. NIGHT CLUB</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy one complimentary LUNCH OR DINNER ENTREE when a second LUNCH OR DINNER ENTREE of equal or greater value &amp; 2 BEVERAGES are purchased at regular price</offerTextLong>
+    <locationname>6. !No Que No!</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>WA</state>
+    <latitude>473817.230000</latitude>
+    <zipcode>98032</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>!No Que No!</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>105 N. Central Ave.</address>
+    <amenities></amenities>
+    <minPageNumber>-50.000000</minPageNumber>
+    <longitude>-1222312.730000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier>Specials &amp; To-Go orders excluded</offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>05007135050RED01506443EPC00497999PRD00000058</endecaKey>
+    <city>Kent</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>UP TO $9.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Value</offerTextShort>
+    <dollarvalue>9.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Dining</category>
+    <subcategory>Casual Dining</subcategory>
+    <cuisineType>Mexican</cuisineType>
+    <physicalAddress>105 N. Central Ave.</physicalAddress>
+    <physicalCity>Kent</physicalCity>
+    <physicalState>WA</physicalState>
+    <physicalDayPhone>(253)854-9074</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>98032</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  
+  <!-- 
+  <offer_detail id="04605074046RED00911658EPC00500999PRD00000056">
+    <createdDate>2005-08-31</createdDate>
+    <phone>(413)569-0366</phone>
+    <rcAssociation></rcAssociation>
+    <rating>36</rating>
+    <validQualifier>One coupon/card per customer per visit; Please present coupon/card at time of purchase</validQualifier>
+    <redemption>SHOW</redemption>
+    <foodType></foodType>
+    <offer>046OFR00676333</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>04603171</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/046/7/1/04603171.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>046RED00911658</redemptionLocation>
+    <industrySegment>Salon Services</industrySegment>
+    <industry>Services</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy></stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy an ongoing 20% off the regular price of any SALON SERVICES - maximum discount $25.00</offerTextLong>
+    <locationname>&quot;A Hair Better&quot;</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>N</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>-1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>MA</state>
+    <latitude>420558.000000</latitude>
+    <zipcode>01077</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;A Hair Better&quot;</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>491 College Hwy.</address>
+    <amenities></amenities>
+    <minPageNumber>-36.000000</minPageNumber>
+    <longitude>-727691.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>04605074046RED00911658EPC00500999PRD00000056</endecaKey>
+    <city>Southwick</city>
+    <offerSetSeq>2</offerSetSeq>
+    <value>UP TO $25.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>20% Off Salon Services</offerTextShort>
+    <dollarvalue>25.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>FV</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Health &amp; Beauty</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>491 COLLEGE HWY</physicalAddress>
+    <physicalCity>SOUTHWICK</physicalCity>
+    <physicalState>MA</physicalState>
+    <physicalDayPhone>(413)569-0366</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>01077</physicalZipCode>
+    <physicalZipCode4>9269</physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="03814004038RED01377174EPC00497999PRD00000058">
+    <createdDate>2010-10-26</createdDate>
+    <phone>(303)650-2300</phone>
+    <rcAssociation></rcAssociation>
+    <rating>81</rating>
+    <validQualifier></validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType>Mexican</foodType>
+    <offer>038OFR00847429</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>03807402</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/038/0/2/03807402.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>038RED01377174</redemptionLocation>
+    <industrySegment>Fast Casual</industrySegment>
+    <industry>Quick Service(Ind. &amp; Chain)</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy></stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy one complimentary MENU ITEM when a second MENU ITEM of equal or greater value is purchased</offerTextLong>
+    <locationname>&quot;Big&quot; Mama&apos;s Burritos</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>CO</state>
+    <latitude>398272.000000</latitude>
+    <zipcode>80030</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;Big&quot; Mama&apos;s Burritos</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>3190 W. 72nd Ave.</address>
+    <amenities></amenities>
+    <minPageNumber>-81.000000</minPageNumber>
+    <longitude>-1050278.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url>http://www.bigmamasburrito.com</url>
+    <trackingCode></trackingCode>
+    <endecaKey>03814004038RED01377174EPC00497999PRD00000058</endecaKey>
+    <city>Westminster</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>UP TO $5.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>2-for-1 Menu Item</offerTextShort>
+    <dollarvalue>5.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Dining</category>
+    <subcategory>Informal &amp; Carryout</subcategory>
+    <cuisineType>Mexican</cuisineType>
+    <physicalAddress>3190 W. 72nd Ave.</physicalAddress>
+    <physicalCity>Westminster</physicalCity>
+    <physicalState>CO</physicalState>
+    <physicalDayPhone>(303)650-2300</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>80030</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="03406689034RED01250038EPC00497999PRD00000058">
+    <createdDate>2009-09-18</createdDate>
+    <phone>(718)876-5223</phone>
+    <rcAssociation></rcAssociation>
+    <rating>11</rating>
+    <validQualifier></validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>034OFR00789946</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>03406000</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/034/0/0/03406000.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>034RED01250038</redemptionLocation>
+    <industrySegment>Lessons(glf, tennis, ski, etc)</industrySegment>
+    <industry>Sports</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Music and Art Lessons for all ages and all levels|This is the place where Music and Art merge!|We have not only gifted teachers, but they are active performers!|We offer private instruction in guitar, piano, violin, cello, viola, and voice|Your child will get to know themselves better and the world around them|A great source of inspiration for you and your child!</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy a complimentary TRIAL LESSON (registration fee waived when you sign up)</offerTextLong>
+    <locationname>&quot;DEA&quot; Music and Art School</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>NY</state>
+    <latitude>406160.000000</latitude>
+    <zipcode>10305</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;DEA&quot; Music and Art School</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>19 St. Mary&apos;s Ave.</address>
+    <amenities></amenities>
+    <minPageNumber>-11.000000</minPageNumber>
+    <longitude>-740683.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier>New customers ONLY; One per customer/per visit with a one time use only</offerQualifier>
+    <url>http://www.deamusicandart.com</url>
+    <trackingCode></trackingCode>
+    <endecaKey>03406689034RED01250038EPC00497999PRD00000058</endecaKey>
+    <city>Staten Island</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>$50.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Offer</offerTextShort>
+    <dollarvalue>50.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Events &amp; Attractions</category>
+    <subcategory>Sporting Events</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>19 St. Mary&apos;s Ave.</physicalAddress>
+    <physicalCity>Staten Island</physicalCity>
+    <physicalState>NY</physicalState>
+    <physicalDayPhone>(718)876-5223</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>10305</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="03011472030RED01375185EPC00497999PRD00000058">
+    <createdDate>2010-10-02</createdDate>
+    <phone>(508)295-0596</phone>
+    <rcAssociation></rcAssociation>
+    <rating>16</rating>
+    <validQualifier></validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>030OFR00844059</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>03009187</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/030/8/7/03009187.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>030RED01375185</redemptionLocation>
+    <industrySegment>Salon Services</industrySegment>
+    <industry>Services</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Professional Pet Grooming by Jackie|Over 19 Years Experience</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy $5.00 any FULL GROOM</offerTextLong>
+    <locationname>&quot;Jacks&quot; Are Wild</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>MA</state>
+    <latitude>417575.000000</latitude>
+    <zipcode>02571</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;Jacks&quot; Are Wild</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>177 Main St.</address>
+    <amenities></amenities>
+    <minPageNumber>-16.000000</minPageNumber>
+    <longitude>-707145.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>03011472030RED01375185EPC00497999PRD00000058</endecaKey>
+    <city>Wareham</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>$5.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Value</offerTextShort>
+    <dollarvalue>5.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Health &amp; Beauty</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>177 Main St.</physicalAddress>
+    <physicalCity>Wareham</physicalCity>
+    <physicalState>MA</physicalState>
+    <physicalDayPhone>(508)295-0596</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>02571</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="16907078169RED01352085EPC00500999PRD00000056">
+    <createdDate>2010-07-02</createdDate>
+    <phone>(401)764-0377</phone>
+    <rcAssociation></rcAssociation>
+    <rating>9</rating>
+    <validQualifier></validQualifier>
+    <redemption>SHOW</redemption>
+    <foodType></foodType>
+    <offer>169OFR00832484</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>16903772</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/169/7/2/16903772.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>169RED01352085</redemptionLocation>
+    <industrySegment>Gift Shop</industrySegment>
+    <industry>Retail</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Home accessories|Silk floral arrangements|Soy candles|Swarovski Crystal suncatchers|Organic skin care|Custom designs created</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy an ongoing 10% off the regular price of any PURCHASE (sale items excluded)</offerTextLong>
+    <locationname>&quot;Just Myrna&quot;</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>N</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>-1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>RI</state>
+    <latitude>418324.000000</latitude>
+    <zipcode>02857</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;Just Myrna&quot;</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>174 Danielson Pike</address>
+    <amenities></amenities>
+    <minPageNumber>-9.000000</minPageNumber>
+    <longitude>-715898.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>16907078169RED01352085EPC00500999PRD00000056</endecaKey>
+    <city>North Scituate</city>
+    <offerSetSeq>2</offerSetSeq>
+    <value>10% OFF</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>10% Off Discount</offerTextShort>
+    <dollarvalue>3.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>FV</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Retail</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>174 Danielson Pike</physicalAddress>
+    <physicalCity>North Scituate</physicalCity>
+    <physicalState>RI</physicalState>
+    <physicalDayPhone>(401)764-0377</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>02857</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="06309586063RED01489311EPC00497999PRD00000058">
+    <createdDate>2011-12-06</createdDate>
+    <phone>(757)615-8148</phone>
+    <rcAssociation></rcAssociation>
+    <rating>11</rating>
+    <validQualifier></validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>063OFR00896770</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>06303918</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/063/1/8/06303918.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>063RED01489311</redemptionLocation>
+    <industrySegment>Lessons(glf, tennis, ski, etc)</industrySegment>
+    <industry>Sports</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Create and take home your 16&quot; x 20&quot; canvas art in approx. 2 1/2 hours|Enthusiastic coaches guide you the whole way|We provide all supplies|No experience required|Kids 9 and up welcome with an adult</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy one Session at 50% Off the regular price of $45.00 per person - maximum discount $22.50</offerTextLong>
+    <locationname>&quot;Let&apos;s Paint&quot; - Fun &amp; Easy Art</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>VA</state>
+    <latitude>368958.360000</latitude>
+    <zipcode>23455</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;Let&apos;s Paint&quot; - Fun &amp; Easy Art</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>1642 Pleasure House Road Suite 105</address>
+    <amenities></amenities>
+    <minPageNumber>-11.000000</minPageNumber>
+    <longitude>-761399.760000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url>http://www.letspaintfun.net</url>
+    <trackingCode></trackingCode>
+    <endecaKey>06309586063RED01489311EPC00497999PRD00000058</endecaKey>
+    <city>Virginia Beach</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>50% OFF</value>
+    <validLine>Subject to availability, Must call/email and receive confirmed reservation. Not valid with any other discounts or p</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Offer</offerTextShort>
+    <dollarvalue>45.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Events &amp; Attractions</category>
+    <subcategory>Sporting Events</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>1642 Pleasure House Road Suite 105</physicalAddress>
+    <physicalCity>Virginia Beach</physicalCity>
+    <physicalState>VA</physicalState>
+    <physicalDayPhone>(757)615-8148</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>23455</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="01408876014RED00940914EPC00500999PRD00000056">
+    <createdDate>2006-05-01</createdDate>
+    <phone>(949)813-1102</phone>
+    <rcAssociation></rcAssociation>
+    <rating>-9</rating>
+    <validQualifier>Reservations required; New Customers only; Not valid with any other discounts or promotions</validQualifier>
+    <redemption>SHOW</redemption>
+    <foodType></foodType>
+    <offer>014OFR00700235</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>01404398</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/014/9/8/01404398.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>014RED00940914</redemptionLocation>
+    <industrySegment>Lessons(glf, tennis, ski, etc)</industrySegment>
+    <industry>Sports</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Teach partnership dancing|Salsa|Swing|Competitive dance|Ballroom dance|Private dance lessons</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy an ongoing 20% off the regular price of any LESSONS - maximum discount $25.00</offerTextLong>
+    <locationname>&quot;Time-Out!&quot; Dance</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>N</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>-1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>CA</state>
+    <latitude>336660.000000</latitude>
+    <zipcode>92660</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;Time-Out!&quot; Dance</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>4220 Scott Dr.</address>
+    <amenities></amenities>
+    <minPageNumber>9.000000</minPageNumber>
+    <longitude>-1178670.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>01408876014RED00940914EPC00500999PRD00000056</endecaKey>
+    <city>Newport Beach</city>
+    <offerSetSeq>2</offerSetSeq>
+    <value>UP TO $25.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>20% Off Lessons</offerTextShort>
+    <dollarvalue>25.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>FV</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Events &amp; Attractions</category>
+    <subcategory>Sporting Events</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>4220 SCOTT DR</physicalAddress>
+    <physicalCity>NEWPORT BEACH</physicalCity>
+    <physicalState>CA</physicalState>
+    <physicalDayPhone>(949)813-1102</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>92660</physicalZipCode>
+    <physicalZipCode4>1921</physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="01408874014RED00940914EPC00497999PRD00000058">
+    <createdDate>2006-05-01</createdDate>
+    <phone>(949)813-1102</phone>
+    <rcAssociation></rcAssociation>
+    <rating>46</rating>
+    <validQualifier>Reservations required; New Customers only; Not valid with any other discounts or promotions</validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>014OFR00700232</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>01404398</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/014/9/8/01404398.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>014RED00940914</redemptionLocation>
+    <industrySegment>Lessons(glf, tennis, ski, etc)</industrySegment>
+    <industry>Sports</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Teach partnership dancing|Salsa|Swing|Competitive dance|Ballroom dance|Private dance lessons</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy any 2 LESSONS at 50% off the regular price</offerTextLong>
+    <locationname>&quot;Time-Out!&quot; Dance</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>N</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>CA</state>
+    <latitude>336660.000000</latitude>
+    <zipcode>92660</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>&quot;Time-Out!&quot; Dance</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>4220 Scott Dr.</address>
+    <amenities></amenities>
+    <minPageNumber>-46.000000</minPageNumber>
+    <longitude>-1178670.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>01408874014RED00940914EPC00497999PRD00000058</endecaKey>
+    <city>Newport Beach</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>UP TO $100.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>50% Off Discount</offerTextShort>
+    <dollarvalue>100.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Events &amp; Attractions</category>
+    <subcategory>Sporting Events</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>4220 SCOTT DR</physicalAddress>
+    <physicalCity>NEWPORT BEACH</physicalCity>
+    <physicalState>CA</physicalState>
+    <physicalDayPhone>(949)813-1102</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>92660</physicalZipCode>
+    <physicalZipCode4>1921</physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="00412548004RED01603526EPC00497999PRD00000058">
+    <createdDate>2012-10-06</createdDate>
+    <phone>(904)247-6525</phone>
+    <rcAssociation></rcAssociation>
+    <rating>14</rating>
+    <validQualifier></validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>004OFR00938790</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>00404661</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/004/6/1/00404661.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>004RED01603526</redemptionLocation>
+    <industrySegment>Salon Services</industrySegment>
+    <industry>Services</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy></stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy 10% off of ANY SALON SERVICE</offerTextLong>
+    <locationname>#1 Nails</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>FL</state>
+    <latitude>303562.510000</latitude>
+    <zipcode>32233</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>#1 Nails</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>701-25 Mayport Crossing Blvd.</address>
+    <amenities></amenities>
+    <minPageNumber>-14.000000</minPageNumber>
+    <longitude>-814123.430000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>00412548004RED01603526EPC00497999PRD00000058</endecaKey>
+    <city>Atlantic Beach</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>10% OFF</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Value</offerTextShort>
+    <dollarvalue>3.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Health &amp; Beauty</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>701-25 Mayport Crossing Blvd.</physicalAddress>
+    <physicalCity>Atlantic Beach</physicalCity>
+    <physicalState>FL</physicalState>
+    <physicalDayPhone>(904)247-6525</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>32233</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="00412550004RED01603526EPC00500999PRD00000056">
+    <createdDate>2012-10-06</createdDate>
+    <phone>(904)247-6525</phone>
+    <rcAssociation></rcAssociation>
+    <rating>12</rating>
+    <validQualifier></validQualifier>
+    <redemption>SHOW</redemption>
+    <foodType></foodType>
+    <offer>004OFR00938791</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>00404661</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/004/6/1/00404661.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>004RED01603526</redemptionLocation>
+    <industrySegment>Salon Services</industrySegment>
+    <industry>Services</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy></stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy an ongoing 10% off ANY SALON SERVICE</offerTextLong>
+    <locationname>#1 Nails</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>-1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>FL</state>
+    <latitude>303562.510000</latitude>
+    <zipcode>32233</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>#1 Nails</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>701-25 Mayport Crossing Blvd.</address>
+    <amenities></amenities>
+    <minPageNumber>-12.000000</minPageNumber>
+    <longitude>-814123.430000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>00412550004RED01603526EPC00500999PRD00000056</endecaKey>
+    <city>Atlantic Beach</city>
+    <offerSetSeq>2</offerSetSeq>
+    <value>10% OFF</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>10% Off Discount</offerTextShort>
+    <dollarvalue>0.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>FV</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Health &amp; Beauty</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>701-25 Mayport Crossing Blvd.</physicalAddress>
+    <physicalCity>Atlantic Beach</physicalCity>
+    <physicalState>FL</physicalState>
+    <physicalDayPhone>(904)247-6525</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>32233</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="04513165045RED01484880EPC00500999PRD00000056">
+    <createdDate>2011-10-27</createdDate>
+    <phone>(813)264-1263</phone>
+    <rcAssociation></rcAssociation>
+    <rating>11</rating>
+    <validQualifier></validQualifier>
+    <redemption>SHOW</redemption>
+    <foodType></foodType>
+    <offer>045OFR00893988</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>04505514</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/045/1/4/04505514.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>045RED01484880</redemptionLocation>
+    <industrySegment>Convenience Store</industrySegment>
+    <industry>Retail</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy></stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy an ongoing 10% off the regular price of any PURCHASE (sale items excluded)</offerTextLong>
+    <locationname>$1 $tore</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>-1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>FL</state>
+    <latitude>279581.110000</latitude>
+    <zipcode>33613</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>$1 $tore</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>1483 N Florida Ave</address>
+    <amenities></amenities>
+    <minPageNumber>-11.000000</minPageNumber>
+    <longitude>-824593.270000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>04513165045RED01484880EPC00500999PRD00000056</endecaKey>
+    <city>Tampa</city>
+    <offerSetSeq>2</offerSetSeq>
+    <value>10% OFF</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>10% Off Discount</offerTextShort>
+    <dollarvalue>10.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>FV</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Retail</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>1483 N Florida Ave</physicalAddress>
+    <physicalCity>Tampa</physicalCity>
+    <physicalState>FL</physicalState>
+    <physicalDayPhone>(813)264-1263</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>33613</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="04513162045RED01484880EPC00497999PRD00000058">
+    <createdDate>2011-10-27</createdDate>
+    <phone>(813)264-1263</phone>
+    <rcAssociation></rcAssociation>
+    <rating>26</rating>
+    <validQualifier></validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>045OFR00893987</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>04505514</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/045/1/4/04505514.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>045RED01484880</redemptionLocation>
+    <industrySegment>Convenience Store</industrySegment>
+    <industry>Retail</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy></stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>20% off your total purchase</offerTextLong>
+    <locationname>$1 $tore</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>FL</state>
+    <latitude>279581.110000</latitude>
+    <zipcode>33613</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>$1 $tore</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>1483 N Florida Ave</address>
+    <amenities></amenities>
+    <minPageNumber>-26.000000</minPageNumber>
+    <longitude>-824593.270000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>04513162045RED01484880EPC00497999PRD00000058</endecaKey>
+    <city>Tampa</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>UP TO $25.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Any Service</offerTextShort>
+    <dollarvalue>25.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Retail</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>1483 N Florida Ave</physicalAddress>
+    <physicalCity>Tampa</physicalCity>
+    <physicalState>FL</physicalState>
+    <physicalDayPhone>(813)264-1263</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>33613</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="00126829001RED01583173EPC00497999PRD00000058">
+    <createdDate>2012-05-24</createdDate>
+    <phone>(586)446-7878</phone>
+    <rcAssociation></rcAssociation>
+    <rating>22</rating>
+    <validQualifier>Specials excluded; Not valid with any other discounts or promotions</validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>001OFR00927629</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>00108355</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/001/5/5/00108355.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>001RED01583173</redemptionLocation>
+    <industrySegment>Deli</industrySegment>
+    <industry>Quick Service(Ind. &amp; Chain)</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Check us out at www.5crunch.com!</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy one complimentary 6 INCH HOAGIE when a second 6 INCH HOAGIE of equal or greater value is purchased with one beverage</offerTextLong>
+    <locationname>$5 Crunch</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>MI</state>
+    <latitude>425683.120000</latitude>
+    <zipcode>48312</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>$5 Crunch</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>37012 Van Dyke</address>
+    <amenities></amenities>
+    <minPageNumber>-22.000000</minPageNumber>
+    <longitude>-830294.130000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url>http://www.5crunch.com</url>
+    <trackingCode></trackingCode>
+    <endecaKey>00126829001RED01583173EPC00497999PRD00000058</endecaKey>
+    <city>Sterling Heights</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>UP TO $5.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Offer</offerTextShort>
+    <dollarvalue>5.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Dining</category>
+    <subcategory>Informal &amp; Carryout</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>37012 Van Dyke</physicalAddress>
+    <physicalCity>Sterling Heights</physicalCity>
+    <physicalState>MI</physicalState>
+    <physicalDayPhone>(586)446-7878</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>48312</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="00126831001RED01583172EPC00500999PRD00000056">
+    <createdDate>2012-05-24</createdDate>
+    <phone>(248)399-5355</phone>
+    <rcAssociation></rcAssociation>
+    <rating>22</rating>
+    <validQualifier></validQualifier>
+    <redemption>SHOW</redemption>
+    <foodType></foodType>
+    <offer>001OFR00927630</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>00108355</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/001/5/5/00108355.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>001RED01583172</redemptionLocation>
+    <industrySegment>Deli</industrySegment>
+    <industry>Quick Service(Ind. &amp; Chain)</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Check us out at www.5crunch.com!</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy an ongoing 10% off the total bill (tax, tip &amp; alcoholic beverages excluded)</offerTextLong>
+    <locationname>$5 Crunch</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>-1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>MI</state>
+    <latitude>425071.250000</latitude>
+    <zipcode>48071</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>$5 Crunch</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>29151 Dequindre</address>
+    <amenities></amenities>
+    <minPageNumber>-22.000000</minPageNumber>
+    <longitude>-830858.870000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url>http://www.5crunch.com</url>
+    <trackingCode></trackingCode>
+    <endecaKey>00126831001RED01583172EPC00500999PRD00000056</endecaKey>
+    <city>Madison Heights</city>
+    <offerSetSeq>2</offerSetSeq>
+    <value>10% OFF</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>10% Off Discount</offerTextShort>
+    <dollarvalue>5.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>FV</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Dining</category>
+    <subcategory>Informal &amp; Carryout</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>29151 Dequindre</physicalAddress>
+    <physicalCity>Madison Heights</physicalCity>
+    <physicalState>MI</physicalState>
+    <physicalDayPhone>(248)399-5355</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>48071</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="00126829001RED01583172EPC00497999PRD00000058">
+    <createdDate>2012-05-24</createdDate>
+    <phone>(248)399-5355</phone>
+    <rcAssociation></rcAssociation>
+    <rating>22</rating>
+    <validQualifier>Specials excluded; Not valid with any other discounts or promotions</validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>001OFR00927629</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>00108355</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/001/5/5/00108355.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>001RED01583172</redemptionLocation>
+    <industrySegment>Deli</industrySegment>
+    <industry>Quick Service(Ind. &amp; Chain)</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Check us out at www.5crunch.com!</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy one complimentary 6 INCH HOAGIE when a second 6 INCH HOAGIE of equal or greater value is purchased with one beverage</offerTextLong>
+    <locationname>$5 Crunch</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>MI</state>
+    <latitude>425071.250000</latitude>
+    <zipcode>48071</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>$5 Crunch</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>29151 Dequindre</address>
+    <amenities></amenities>
+    <minPageNumber>-22.000000</minPageNumber>
+    <longitude>-830858.870000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url>http://www.5crunch.com</url>
+    <trackingCode></trackingCode>
+    <endecaKey>00126829001RED01583172EPC00497999PRD00000058</endecaKey>
+    <city>Madison Heights</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>UP TO $5.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Offer</offerTextShort>
+    <dollarvalue>5.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Dining</category>
+    <subcategory>Informal &amp; Carryout</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>29151 Dequindre</physicalAddress>
+    <physicalCity>Madison Heights</physicalCity>
+    <physicalState>MI</physicalState>
+    <physicalDayPhone>(248)399-5355</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>48071</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="00126831001RED01583173EPC00500999PRD00000056">
+    <createdDate>2012-05-24</createdDate>
+    <phone>(586)446-7878</phone>
+    <rcAssociation></rcAssociation>
+    <rating>22</rating>
+    <validQualifier></validQualifier>
+    <redemption>SHOW</redemption>
+    <foodType></foodType>
+    <offer>001OFR00927630</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>00108355</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/001/5/5/00108355.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>001RED01583173</redemptionLocation>
+    <industrySegment>Deli</industrySegment>
+    <industry>Quick Service(Ind. &amp; Chain)</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Check us out at www.5crunch.com!</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy an ongoing 10% off the total bill (tax, tip &amp; alcoholic beverages excluded)</offerTextLong>
+    <locationname>$5 Crunch</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>-1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>MI</state>
+    <latitude>425683.120000</latitude>
+    <zipcode>48312</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>$5 Crunch</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>37012 Van Dyke</address>
+    <amenities></amenities>
+    <minPageNumber>-22.000000</minPageNumber>
+    <longitude>-830294.130000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url>http://www.5crunch.com</url>
+    <trackingCode></trackingCode>
+    <endecaKey>00126831001RED01583173EPC00500999PRD00000056</endecaKey>
+    <city>Sterling Heights</city>
+    <offerSetSeq>2</offerSetSeq>
+    <value>10% OFF</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>10% Off Discount</offerTextShort>
+    <dollarvalue>5.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>FV</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Dining</category>
+    <subcategory>Informal &amp; Carryout</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>37012 Van Dyke</physicalAddress>
+    <physicalCity>Sterling Heights</physicalCity>
+    <physicalState>MI</physicalState>
+    <physicalDayPhone>(586)446-7878</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>48312</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+  </offer_detail>
+  <offer_detail id="08405998084RED01298710EPC00497999PRD00000058">
+    <createdDate>2012-02-16</createdDate>
+    <phone>(941)924-4858</phone>
+    <rcAssociation></rcAssociation>
+    <rating>76</rating>
+    <validQualifier>Offer may be used multiple times no limit; Code # 9286</validQualifier>
+    <redemption>PRINT</redemption>
+    <foodType></foodType>
+    <offer>084OFR00904483</offer>
+    <countryabbreviation>USA</countryabbreviation>
+    <logo>08402566</logo>
+    <logoUrl>http://media.entertainment.com/images/exhibits/printable/084/6/6/08402566.gif</logoUrl>
+    <midAchStatus>ACT</midAchStatus>
+    <rlUrl></rlUrl>
+    <redemptionLocation>084RED01298710</redemptionLocation>
+    <industrySegment>Car Wash</industrySegment>
+    <industry>Services</industry>
+    <bookingUrl></bookingUrl>
+    <photo></photo>
+    <menu></menu>
+    <stubCopy>Code:9286|Basic Car wash $5.00|Premium Wash and Dry $8.00|Ultimate Car Wash $10.00 Includes TRIPLE FOAM , CLEAR COAT POLISH,TEFLON SEALER, WHEEL BRITE, TIRE SHINE &amp; MORE.|Free vacuums with all washes|DINGS OR DENTS? INSURANCE CLAIMS?|VISIT KIM&apos;S AUTO BODY RIGHT NEXT DOOR FOR YOUR FREE ESTIMATE!|Call 941 924-4858</stubCopy>
+    <ticketmasterUrl></ticketmasterUrl>
+    <isFvEdition></isFvEdition>
+    <offerTextLong>Enjoy $2.00 off the ULTIMATE CAR WASH - maximum discount $2.00</offerTextLong>
+    <locationname>$5.00 Car Wash</locationname>
+    <hotelsPhotoExhibit></hotelsPhotoExhibit>
+    <isFvOffer></isFvOffer>
+    <isMobile>M</isMobile>
+    <freqTime>Annual</freqTime>
+    <freqValue>1</freqValue>
+    <ispaidad>0</ispaidad>
+    <state>FL</state>
+    <latitude>272693.000000</latitude>
+    <zipcode>34233</zipcode>
+    <xedition>999EDI00011749</xedition>
+    <dbaSortname>$5.00 Car Wash</dbaSortname>
+    <folio></folio>
+    <bookingCode></bookingCode>
+    <address>4249 Clark Rd.</address>
+    <amenities></amenities>
+    <minPageNumber>-76.000000</minPageNumber>
+    <longitude>-824836.000000</longitude>
+    <averageCost>5</averageCost>
+    <offerQualifier></offerQualifier>
+    <url></url>
+    <trackingCode></trackingCode>
+    <endecaKey>08405998084RED01298710EPC00497999PRD00000058</endecaKey>
+    <city>Sarasota</city>
+    <offerSetSeq>1</offerSetSeq>
+    <value>$2.00 VALUE</value>
+    <validLine>valid anytime</validLine>
+    <expireDate>2014-12-31</expireDate>
+    <rcUnitType></rcUnitType>
+    <offerTextShort>Special Offer</offerTextShort>
+    <dollarvalue>10.000000</dollarvalue>
+    <tollFreePhone></tollFreePhone>
+    <country>United States of America</country>
+    <offerType>BOGO</offerType>
+    <xeditionCode></xeditionCode>
+    <category>Shopping</category>
+    <subcategory>Automotive</subcategory>
+    <cuisineType></cuisineType>
+    <physicalAddress>4249 Clark Rd.</physicalAddress>
+    <physicalCity>Sarasota</physicalCity>
+    <physicalState>FL</physicalState>
+    <physicalDayPhone>(941)924-4858</physicalDayPhone>
+    <physicalFaxPhone></physicalFaxPhone>
+    <physicalZipCode>34233</physicalZipCode>
+    <physicalZipCode4></physicalZipCode4>
+    <isLocalSearch>0</isLocalSearch>
+    </offer_detail>
+     -->
+</entertainment:offerReport>
