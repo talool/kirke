@@ -117,7 +117,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>MerchantJobManager</mainClass>
+                            <mainClass>com.talool.kirke.xml.merchant.MerchantJobManager</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
