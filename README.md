@@ -1,4 +1,4 @@
-kirke
+Kirke
 =====
 
 Kirke, the Greek Goddess of Transformation, will help you import data into Talool 
@@ -7,10 +7,12 @@ Kirke, the Greek Goddess of Transformation, will help you import data into Taloo
 Usage
 -----------
 This is an executable JAR package. To run it, use the following command (sample args - change them as needed):
+
 ....
 java -jar kirke.jar /xml/EntertainmentTest.xml /xsl/EntertainmentTest.xml 32
 ....
-| arg[]    | Description |
+
+| Arg    | Description |
 |:---------|:-------------|
 | 0        | The path to the 3rd party XML file you want to transform.  Can be a resource file or a URL.
 | 1        | The path to the XSL file that will transform the 3rd party XML.  This files should be stored in /xsl.
