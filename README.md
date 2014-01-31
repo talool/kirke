@@ -8,9 +8,9 @@ Usage
 -----------
 This is an executable JAR package. To run it, use the following command (sample args - change them as needed):
 
-....
+````
 java -jar kirke.jar /xml/EntertainmentTest.xml /xsl/EntertainmentTest.xml 32
-....
+````
 
 | Arg    | Description |
 |:---------|:-------------|
