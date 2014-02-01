@@ -1,17 +1,16 @@
 Kirke
 =====
 
-Kirke, the Greek Goddess of Transformation, will help you import data into Talool 
+Kirke, the Greek Goddess of Transformation, will help you import data into Talool.  
+
+Pronounced *kir KEE*.  
+
+Read about her [backstory from the Odyssey.](http://messagenetcommresearch.com/myths/bios/circe.html)
 
 
 Usage
 -----------
-This is an executable JAR package. To run it:
-- Build it
-````
-mvn clean install
-````
-- Run it from the target directory with the following command (sample args - change them as needed):
+This is an executable JAR package. Run it from the target directory with the following command (sample args - change them as needed):
 ````
 java -jar kirke.jar /xml/EntertainmentTest.xml /xsl/EntertainmentTest.xsl 32
 ````

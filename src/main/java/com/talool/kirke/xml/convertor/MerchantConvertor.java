@@ -29,7 +29,7 @@ public class MerchantConvertor extends NodeConvertor {
 	private static final String TagsTag = "Tags";
 	private static final String LocationsTag = "Locations";
 	private static final String DealsTag = "Deals";
-	private static final String DealOfferTitle = "Talool Import Book 4";
+	private static final String DealOfferTitle = "Talool Import Book";
 	
 	private List<Merchant> existingMerchants;
 	private MerchantAccount merchantAccount;
@@ -57,10 +57,9 @@ public class MerchantConvertor extends NodeConvertor {
 			// get the injest offer or create a new one
 			dealOffer = null;
 			List<DealOffer> offers = ServiceUtils.get().getService().getDealOffersByMerchantId(merchantAccount.getMerchant().getId());
-			// TODO create a new deal offer type for imported data
 			for (DealOffer offer:offers)
 			{
-				if (offer.getTitle().equals(DealOfferTitle))
+				if (offer.getTitle().equals(DealOfferTitle) && offer.getType() == DealType.KIRKE_BOOK)
 				{
 					dealOffer = offer;
 					break;
@@ -71,8 +70,9 @@ public class MerchantConvertor extends NodeConvertor {
 				dealOffer = ServiceUtils.get().getFactory().newDealOffer(merchantAccount.getMerchant(), merchantAccount);
 				dealOffer.setTitle(DealOfferTitle);
 				dealOffer.setActive(false);
-				dealOffer.setDealType(DealType.PAID_BOOK);
+				dealOffer.setDealType(DealType.KIRKE_BOOK);
 				dealOffer.setPrice(1000.0f);
+				dealOffer.setSummary("This book stores deals that were imported into Talool.  You can't sell this book, but you can move its deals into other books you'd like to sell.");
 				ServiceUtils.get().getService().save(dealOffer);
 			}
 		}

@@ -3,6 +3,7 @@ package com.talool.kirke.xml.merchant;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
+import java.net.URL;
 
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
@@ -28,8 +29,6 @@ public class MerchantJob {
 
 	public void execute(String endPointUrl, String xslFilePath, String merchantAccountIdString, String namespace)
 	{
-		log.debug("getting merchants from "+endPointUrl);
-		log.debug("transforming xml with "+xslFilePath);
 		 
 		StringWriter taloolXmlWriter = new StringWriter();
 		      
@@ -51,8 +50,19 @@ public class MerchantJob {
 			}
 			
 			// Load the XML source
-			// TODO try URL if file fails
-			InputStream xmlIn = this.getClass().getResourceAsStream(endPointUrl);
+			InputStream xmlIn;
+			if (endPointUrl.toLowerCase().startsWith("http"))
+			{
+				// it's a URL
+				URL url = new URL( endPointUrl ); 
+		        xmlIn = url.openStream();
+			}
+			else
+			{
+				// it's a resource file
+				xmlIn = this.getClass().getResourceAsStream(endPointUrl);
+			}
+			
 			
 			// Transform the 3rd party XML to Talool XML
 			StreamResult result = new StreamResult(taloolXmlWriter);
