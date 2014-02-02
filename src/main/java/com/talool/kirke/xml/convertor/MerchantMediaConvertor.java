@@ -15,6 +15,8 @@ import org.w3c.dom.NodeList;
 import com.talool.core.MediaType;
 import com.talool.core.MerchantAccount;
 import com.talool.core.MerchantMedia;
+import com.talool.core.SearchOptions;
+import com.talool.core.service.ServiceException;
 import com.talool.image.upload.FileManager;
 import com.talool.image.upload.FileNameUtils;
 import com.talool.kirke.ServiceUtils;
@@ -25,7 +27,9 @@ public class MerchantMediaConvertor extends NodeConvertor {
 	private static final FileManager fileManager = new FileManager(ServiceConfig.get().getUploadDir());
 	private static final Logger log = Logger.getLogger(MerchantMediaConvertor.class);
 	
-	static public MerchantMedia convert(Node image, UUID merchantId, MerchantAccount merchantAccount) {
+	static public MerchantMedia convert(Node image, UUID merchantId, MerchantAccount merchantAccount, List<MerchantMedia> existingMedia) 
+	{
+		MerchantMedia media = null;
 		String mediaUrl = getNodeAttr("url", image);
 		String mediaTypeString = getNodeAttr("type", image);
 		MediaType mediaType;
@@ -42,8 +46,29 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		try
 		{
 			URL url = new URL(mediaUrl);
-			File imageFile = fileManager.process(url, mediaType, merchantId);
-			taloolMediaUrl = FileNameUtils.getImageUrl(imageFile, merchantId);
+			
+			// TODO what if the media is really big?  Do a HEAD request for the size.
+			// with the file size and the url, we should be able to find existing media without downloading the image
+
+			// save it to the baseFolder
+			fileManager.save(url);
+			File savedImage = FileNameUtils.getFile(url);
+
+			// check for existing media
+			media = FileNameUtils.getExistingMedia(existingMedia, savedImage, url);
+			if (media==null)
+			{
+				File imageFile = fileManager.process(savedImage, url, mediaType, merchantId);
+				taloolMediaUrl = FileNameUtils.getImageUrl(imageFile, merchantId);
+				System.out.println("Created media with url: "+taloolMediaUrl);
+				media = ServiceUtils.get().getFactory().newMedia(merchantId, taloolMediaUrl, mediaType);
+			}
+			else
+			{
+				System.out.println("Found existing media for url: "+mediaUrl);
+				// delete the save file, cuz we already have it
+				fileManager.delete(savedImage.getName());
+			}
 		}
 		catch (MalformedURLException mue)
 		{
@@ -54,22 +79,29 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			log.error("Failed to process image for "+mediaUrl, ioe);
 		}
 		
-		// TODO how do we prevent the storage of duplicate images?
-		// I could choose not to randomize the image name... compare the filename in the url to the filenames for the other media for this merchant...
-		// I could delete any other media of this type for the merchant... 
-		// TODO what if the media is really big?  should the service check the size and delete the originals for anything too big?
-		// big files will really slow down the downloads.  should we abort the script if there is a huge file?  
-		// or just output download times, so we can monitor the job's performance
-		MerchantMedia media = ServiceUtils.get().getFactory().newMedia(merchantId, taloolMediaUrl, mediaType);
 		return media;
 	}
 
 	static public List<MerchantMedia> convert(NodeList nodes, UUID merchantId, MerchantAccount merchantAccount) {
 		List<MerchantMedia> list = new ArrayList<MerchantMedia>();
+		
+		// load the existing media for the merchant
+		List<MerchantMedia> existingMedia  = new ArrayList<MerchantMedia>();
+		try
+		{
+			SearchOptions searchOptions = new SearchOptions.Builder().maxResults(100).page(0).sortProperty("merchantMedia.mediaUrl")
+					.ascending(true).build();
+			existingMedia = ServiceUtils.get().getService().getMerchantMedias(merchantId, MediaType.values(), searchOptions);
+		}
+		catch (ServiceException se)
+		{
+			log.error("Failed to get existing media for merchant: "+merchantId, se);
+		}
+		
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node image = nodes.item(i);
-			MerchantMedia media = convert(image,merchantId,merchantAccount);
+			MerchantMedia media = convert(image,merchantId,merchantAccount, existingMedia);
 			list.add(media);
 	    }
 		return list;

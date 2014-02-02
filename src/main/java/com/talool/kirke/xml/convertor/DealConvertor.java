@@ -15,8 +15,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import com.talool.core.Deal;
+import com.talool.core.MediaType;
 import com.talool.core.MerchantAccount;
 import com.talool.core.MerchantMedia;
+import com.talool.core.SearchOptions;
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
 import com.talool.kirke.ServiceUtils;
@@ -31,7 +33,7 @@ public class DealConvertor extends NodeConvertor {
 	private static final String ImageTag = "Image";
 	private static final String TagsTag = "Tags";
 	
-	static private Deal convert(Node dealNode, UUID merchantId, MerchantAccount merchantAccount, List<Deal> existingDeals) 
+	static private Deal convert(Node dealNode, UUID merchantId, MerchantAccount merchantAccount, List<Deal> existingDeals, List<MerchantMedia> existingMedia) 
 	{
 		NodeList dealData = dealNode.getChildNodes();
 		
@@ -74,7 +76,7 @@ public class DealConvertor extends NodeConvertor {
 		Node image = getNode(ImageTag,dealData);
 		if (image != null)
 		{
-			MerchantMedia media = MerchantMediaConvertor.convert(image, merchantId,merchantAccount);
+			MerchantMedia media = MerchantMediaConvertor.convert(image, merchantId,merchantAccount, existingMedia);
 			deal.setImage(media);
 		}
 		
@@ -117,12 +119,26 @@ public class DealConvertor extends NodeConvertor {
 			log.error("Failed to load existing deals for merchant: "+merchantId, se);
 		}
 		
+		// load the existing media for the merchant
+		List<MerchantMedia> existingMedia  = new ArrayList<MerchantMedia>();
+		try
+		{
+			SearchOptions searchOptions = new SearchOptions.Builder().maxResults(100).page(0).sortProperty("merchantMedia.mediaUrl")
+					.ascending(true).build();
+			MediaType[] mediaTypes = new MediaType[]{MediaType.DEAL_IMAGE};
+			existingMedia = ServiceUtils.get().getService().getMerchantMedias(merchantId, mediaTypes, searchOptions);
+		}
+		catch (ServiceException se)
+		{
+			log.error("Failed to get existing media for merchant: "+merchantId, se);
+		}
+		
 		// convert the deals
 		List<Deal> list = new ArrayList<Deal>();
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node dealNode = nodes.item(i);
-			Deal deal = convert(dealNode, merchantId, merchantAccount, existingDeals);
+			Deal deal = convert(dealNode, merchantId, merchantAccount, existingDeals, existingMedia);
 			list.add(deal);
 	    }
 		return list;
