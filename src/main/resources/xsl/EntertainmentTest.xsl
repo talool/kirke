@@ -7,7 +7,7 @@
 				<xsl:variable name="taloolCategoryName">
 					<xsl:choose>
 						<xsl:when test="category = 'Dining'">Food</xsl:when>
-						<xsl:when test="category = 'Shopping'">Shopping</xsl:when>
+						<xsl:when test="category = 'Shopping'">Shopping Services</xsl:when>
 						<xsl:when test="category = 'Events &amp; Attractions'">Fun</xsl:when>
 						<xsl:otherwise>Food</xsl:otherwise>
 					</xsl:choose>

@@ -2,6 +2,7 @@ package com.talool.kirke.xml.convertor;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -26,6 +27,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 	
 	private static final FileManager fileManager = new FileManager(ServiceConfig.get().getUploadDir());
 	private static final Logger log = Logger.getLogger(MerchantMediaConvertor.class);
+	private static final int MAX_DOWNLOAD_FILE_SIZE_BYTES = 500000;
 	
 	static public MerchantMedia convert(Node image, UUID merchantId, MerchantAccount merchantAccount, List<MerchantMedia> existingMedia) 
 	{
@@ -47,15 +49,33 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		{
 			URL url = new URL(mediaUrl);
 			
-			// TODO what if the media is really big?  Do a HEAD request for the size.
-			// with the file size and the url, we should be able to find existing media without downloading the image
+			// check the file size before we download it.  check for dups if we get a file size for the url.
+			int fileSize = getFileSize(url);
+			if (fileSize == 0 || fileSize > MAX_DOWNLOAD_FILE_SIZE_BYTES)
+			{
+				// abort!!
+				// we could not get the head request (asumming the file isn't there) or the files was too big
+				System.out.println("Skipping conversion of media with file size of "+fileSize+" at url: "+mediaUrl);
+				return null;
+			}
+			else if (fileSize != -1)
+			{
+				// Given the fileSize and the Url we can check if we already have this image
+				media = FileNameUtils.getExistingMedia(existingMedia, fileSize, url);
+				if (media != null)
+				{
+					// abort!!  we don't return existing media
+					System.out.println("Found existing media before download for url: "+mediaUrl);
+					return null;
+				}
+			}
 
 			// save it to the baseFolder
 			fileManager.save(url);
 			File savedImage = FileNameUtils.getFile(url);
 
-			// check for existing media
-			media = FileNameUtils.getExistingMedia(existingMedia, savedImage, url);
+			// check for existing media again.  maybe we didn't know the fileSize before
+			media = FileNameUtils.getExistingMedia(existingMedia, fileSize, url);
 			if (media==null)
 			{
 				File imageFile = fileManager.process(savedImage, url, mediaType, merchantId);
@@ -65,7 +85,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			}
 			else
 			{
-				System.out.println("Found existing media for url: "+mediaUrl);
+				System.out.println("Found existing media after download for url: "+mediaUrl);
 				// delete the save file, cuz we already have it
 				fileManager.delete(savedImage.getName());
 				media = null; // don't pass it back
@@ -106,6 +126,31 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			if (media!=null) list.add(media);
 	    }
 		return list;
+	}
+	
+	/*
+	 * Does a HEAD request to get the file size of the media at a given url
+	 */
+	static private int getFileSize(URL imageUrl)
+	{
+		int fileSize = 0;
+		
+		try 
+		{
+			HttpURLConnection.setFollowRedirects(false);
+		    HttpURLConnection con = (HttpURLConnection) imageUrl.openConnection();
+		    con.setRequestMethod("HEAD");
+		    if (con.getResponseCode() == HttpURLConnection.HTTP_OK)
+		    {
+		    	fileSize = con.getContentLength();
+		    }
+		}
+		catch (Exception e) 
+		{
+		    log.error("Failed to get head response for media: "+imageUrl.getFile(), e);
+		}
+		
+		return fileSize;
 	}
 
 }
