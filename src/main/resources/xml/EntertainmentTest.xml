@@ -23,7 +23,7 @@
     <ticketmasterUrl></ticketmasterUrl>
     <isFvEdition></isFvEdition>
     <offerTextLong>Enjoy one complimentary LUNCH OR DINNER ENTREE when a second LUNCH OR DINNER ENTREE of equal or greater value &amp; 2 BEVERAGES are purchased at regular price</offerTextLong>
-    <locationname>6. !No Que No!</locationname>
+    <locationname>!No Que No!</locationname>
     <hotelsPhotoExhibit></hotelsPhotoExhibit>
     <isFvOffer></isFvOffer>
     <isMobile>M</isMobile>
@@ -71,7 +71,7 @@
     <isLocalSearch>0</isLocalSearch>
   </offer_detail>
   
-  <!-- 
+
   <offer_detail id="04605074046RED00911658EPC00500999PRD00000056">
     <createdDate>2005-08-31</createdDate>
     <phone>(413)569-0366</phone>
@@ -1279,5 +1279,5 @@
     <physicalZipCode4></physicalZipCode4>
     <isLocalSearch>0</isLocalSearch>
     </offer_detail>
-     -->
+
 </entertainment:offerReport>

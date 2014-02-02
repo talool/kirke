@@ -68,6 +68,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 				System.out.println("Found existing media for url: "+mediaUrl);
 				// delete the save file, cuz we already have it
 				fileManager.delete(savedImage.getName());
+				media = null; // don't pass it back
 			}
 		}
 		catch (MalformedURLException mue)
@@ -102,7 +103,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 	    {
 			Node image = nodes.item(i);
 			MerchantMedia media = convert(image,merchantId,merchantAccount, existingMedia);
-			list.add(media);
+			if (media!=null) list.add(media);
 	    }
 		return list;
 	}
