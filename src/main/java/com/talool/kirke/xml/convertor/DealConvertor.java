@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -41,6 +42,8 @@ public class DealConvertor extends NodeConvertor {
 		// using summary and exp date because it is unlikely that we would want to change these in our admin.
 		String dateString = getNodeAttr("expires", dealNode);
 		String dealSummary = getNodeValue(SummaryTag, dealData);
+		dealSummary = StringUtils.normalizeSpace(dealSummary);
+		dealSummary = StringUtils.capitalize(dealSummary);
 		Deal deal = getDeal(existingDeals, dealSummary, dateString);
 		
 		// new deal
@@ -58,7 +61,10 @@ public class DealConvertor extends NodeConvertor {
 			// only set this for new deals
 			// - title is safe to edit in the admin
 			// - changing summary or expDate will cause a new deal to be created on each import of this deal
-			deal.setTitle(getNodeAttr("title", dealNode)); 
+			String title = getNodeAttr("title", dealNode);
+			title = StringUtils.normalizeSpace(title);
+			title = StringUtils.capitalize(title);
+			deal.setTitle(title); 
 			deal.setSummary(dealSummary);
 			try
 			{

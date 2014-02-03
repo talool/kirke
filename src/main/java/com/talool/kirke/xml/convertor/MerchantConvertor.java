@@ -54,7 +54,7 @@ public class MerchantConvertor extends NodeConvertor {
 		
 		try
 		{
-			// get the injest offer or create a new one
+			// get the offer or create a new one
 			dealOffer = null;
 			List<DealOffer> offers = ServiceUtils.get().getService().getDealOffersByMerchantId(merchantAccount.getMerchant().getId());
 			for (DealOffer offer:offers)
@@ -96,6 +96,10 @@ public class MerchantConvertor extends NodeConvertor {
 		// look up the merchant by name and merchant account before we create a new one
 		boolean isNewMerchant = false;
 		String merchantName = getNodeAttr("name", merchantNode);
+		if (merchantName.length()>64)
+		{
+			merchantName = merchantName.substring(0, 63);
+		}
 		Merchant merchant = getMerchant(merchantName);
 				
 		if (merchant==null)
@@ -202,6 +206,13 @@ public class MerchantConvertor extends NodeConvertor {
 		try
 		{
 			category = ServiceUtils.get().getService().getCategory(cat);
+			
+			if (category==null)
+			{
+				String error = "!!!!! Category not transformed: "+cat;
+				System.out.println(error);
+				log.error(error);
+			}
 		} 
 		catch (ServiceException se)
 		{
@@ -218,6 +229,7 @@ public class MerchantConvertor extends NodeConvertor {
 	    {
 			Node merchantNode = nodes.item(i);
 			Merchant merchant = convert(merchantNode);
+			System.out.println("Saved "+merchant.getName());
 			list.add(merchant);
 	    }
 		return list;

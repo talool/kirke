@@ -3,6 +3,7 @@ package com.talool.kirke.xml.merchant;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 import javax.xml.transform.Transformer;
@@ -50,32 +51,41 @@ public class MerchantJob {
 			}
 			
 			// Load the XML source
-			InputStream xmlIn;
-			if (endPointUrl.toLowerCase().startsWith("http"))
+			InputStream xmlIn = getXML(endPointUrl);
+			if (xmlIn != null)
 			{
-				// it's a URL
-				URL url = new URL( endPointUrl ); 
-		        xmlIn = url.openStream();
+				boolean processing = true;
+				while (processing)
+				{
+					// Transform the 3rd party XML to Talool XML
+					StreamResult result = new StreamResult(taloolXmlWriter);
+					xmlTransformer.transform( new StreamSource(xmlIn), result);
+					log.debug(taloolXmlWriter.getBuffer().toString());
+					InputStream taloolXml = IOUtils.toInputStream(taloolXmlWriter.getBuffer().toString(), "UTF-8");
+					
+					DOMParser parser = new DOMParser();
+				    parser.parse(new InputSource(taloolXml));
+				    Document doc = parser.getDocument();
+				    
+				    MerchantDocHandler handler = new MerchantDocHandler();
+				    handler.process(doc, merchantAccount);
+				    if (handler.hasNextPage())
+				    {
+				    	taloolXmlWriter = new StringWriter();
+				    	endPointUrl = handler.getNextPage();
+				    	System.out.println("Next page: "+endPointUrl);
+				    	xmlIn = getXML(endPointUrl);
+				    	if (xmlIn == null) processing = false;
+				    }
+				    else
+				    {
+				    	processing = false;
+				    }
+				}
 			}
-			else
-			{
-				// it's a resource file
-				xmlIn = this.getClass().getResourceAsStream(endPointUrl);
-			}
 			
 			
-			// Transform the 3rd party XML to Talool XML
-			StreamResult result = new StreamResult(taloolXmlWriter);
-			xmlTransformer.transform( new StreamSource(xmlIn), result);
-			log.debug(taloolXmlWriter.getBuffer().toString());
-			InputStream taloolXml = IOUtils.toInputStream(taloolXmlWriter.getBuffer().toString(), "UTF-8");
 			
-			DOMParser parser = new DOMParser();
-		    parser.parse(new InputSource(taloolXml));
-		    Document doc = parser.getDocument();
-		    
-		    MerchantDocHandler handler = new MerchantDocHandler();
-		    handler.process(doc, merchantAccount);
 		}
 		catch(TransformerFactoryConfigurationError tfce)
 		{
@@ -96,5 +106,31 @@ public class MerchantJob {
 		{
 			log.error("failed to get the Merchant Account by id",se);
 		}
+	}
+	
+	private InputStream getXML(String src)
+	{
+		InputStream xmlIn = null;
+		if (src.toLowerCase().startsWith("http"))
+		{
+			// it's a URL
+			URL url;
+			try {
+				url = new URL( src );
+				xmlIn = url.openStream();
+			} catch (MalformedURLException e) {
+				log.error(e);
+			} catch (IOException ioe) {
+				log.error(ioe);
+			} 
+	        
+		}
+		else
+		{
+			// it's a resource file
+			xmlIn = this.getClass().getResourceAsStream(src);
+		}
+		
+		return xmlIn;
 	}
 }

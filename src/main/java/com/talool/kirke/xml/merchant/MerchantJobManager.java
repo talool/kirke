@@ -37,3 +37,12 @@ public class MerchantJobManager {
 	}
 
 }
+
+/**
+ * 
+ * LocalSaver url: 
+ * http://api.datasphere.com/SyndicationCoupons/SyndicationCoupons.svc/All/All/?uid=477139B4-C00F-4C3E-AEC4-C9786EDC0571&fdType=DsFormatV4CJ&pg=1
+ * LocalSaver UID: 477139B4-C00F-4C3E-AEC4-C9786EDC0571
+ * LocalSaver CJ_PID: 4155713
+ * 
+ * */

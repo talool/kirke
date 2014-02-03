@@ -51,22 +51,44 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			
 			// check the file size before we download it.  check for dups if we get a file size for the url.
 			int fileSize = getFileSize(url);
-			if (fileSize == 0 || fileSize > MAX_DOWNLOAD_FILE_SIZE_BYTES)
+			if (fileSize > MAX_DOWNLOAD_FILE_SIZE_BYTES)
 			{
-				// abort!!
-				// we could not get the head request (asumming the file isn't there) or the files was too big
-				System.out.println("Skipping conversion of media with file size of "+fileSize+" at url: "+mediaUrl);
+				// abort!!  the file was too big
+				log.debug("Skipping conversion of media with file size of "+fileSize+" at url: "+mediaUrl);
 				return null;
 			}
-			else if (fileSize != -1)
+			else if (fileSize > 0)
 			{
 				// Given the fileSize and the Url we can check if we already have this image
 				media = FileNameUtils.getExistingMedia(existingMedia, fileSize, url);
 				if (media != null)
 				{
 					// abort!!  we don't return existing media
-					System.out.println("Found existing media before download for url: "+mediaUrl);
+					log.debug("Found existing media before download for url: "+mediaUrl);
 					return null;
+				}
+			}
+			else if (fileSize == 0)
+			{
+				// LocalSaver redirects from http to https which kills the upload
+				StringBuilder sb = new StringBuilder();
+				sb.append("https://").append(url.getHost()).append(url.getFile());
+				url = new URL(sb.toString());
+				fileSize = getFileSize(url);
+				//System.out.println("Image file size was 0 for "+mediaUrl+", so tried HTTPS and got: "+fileSize);
+				if (fileSize < 1)
+				{
+					return null;
+				}
+				else
+				{
+					media = FileNameUtils.getExistingMedia(existingMedia, fileSize, url);
+					if (media != null)
+					{
+						// abort!!  we don't return existing media
+						log.debug("Found existing media before download for url: "+mediaUrl);
+						return null;
+					}
 				}
 			}
 
@@ -80,12 +102,12 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			{
 				File imageFile = fileManager.process(savedImage, url, mediaType, merchantId);
 				taloolMediaUrl = FileNameUtils.getImageUrl(imageFile, merchantId);
-				System.out.println("Created media with url: "+taloolMediaUrl);
+				log.debug("Created media with url: "+taloolMediaUrl);
 				media = ServiceUtils.get().getFactory().newMedia(merchantId, taloolMediaUrl, mediaType);
 			}
 			else
 			{
-				System.out.println("Found existing media after download for url: "+mediaUrl);
+				log.debug("Found existing media after download for url: "+mediaUrl);
 				// delete the save file, cuz we already have it
 				fileManager.delete(savedImage.getName());
 				media = null; // don't pass it back
@@ -137,7 +159,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		
 		try 
 		{
-			HttpURLConnection.setFollowRedirects(false);
+			HttpURLConnection.setFollowRedirects(true);
 		    HttpURLConnection con = (HttpURLConnection) imageUrl.openConnection();
 		    con.setRequestMethod("HEAD");
 		    if (con.getResponseCode() == HttpURLConnection.HTTP_OK)

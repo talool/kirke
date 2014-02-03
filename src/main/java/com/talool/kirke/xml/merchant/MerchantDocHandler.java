@@ -12,6 +12,8 @@ import com.talool.kirke.xml.convertor.MerchantConvertor;
 public class MerchantDocHandler implements XMLDocHandler {
 	
 	private static final String TaloolTag = "Talool";
+	
+	private String nextPage;
 
 	@Override
 	public void process(Document doc, MerchantAccount merchantAccount) {
@@ -19,9 +21,29 @@ public class MerchantDocHandler implements XMLDocHandler {
 	    Node talool = XMLUtils.getNode(TaloolTag, root);
 	    NodeList merchants = talool.getChildNodes();
 	    
+	    nextPage = XMLUtils.getNodeAttr("nextPage", talool);
+	    
 	    MerchantConvertor convertor = MerchantConvertor.get();
 		convertor.setMerchantAccount(merchantAccount);
 	    convertor.convert(merchants);
+	    
+	    StringBuilder sb = new StringBuilder();
+	    sb.append("Processing complete.  ");
+	    if (hasNextPage())
+	    {
+	    	sb.append("Ready for the next page.  ");
+	    }
+	    System.out.println(sb.toString());
+	}
+
+	@Override
+	public boolean hasNextPage() {
+		return !nextPage.isEmpty();
+	}
+
+	@Override
+	public String getNextPage() {
+		return nextPage;
 	}
 	
 }
