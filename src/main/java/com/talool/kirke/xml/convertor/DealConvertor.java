@@ -99,6 +99,16 @@ public class DealConvertor extends NodeConvertor {
 	{
 		Deal deal = null;
 		
+		// get the dateString in the right format
+		try {
+			Date d = dateFormatter.parse(dateString);
+			dateString = dateFormatter.format(d);
+		} catch (ParseException e) {
+			// invalid date
+			log.error("deal has invalid date");
+			return null;
+		}
+		
 		for (Deal existingDeal:existingDeals)
 		{
 			String existingDateString = dateFormatter.format(existingDeal.getExpires());
