@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+			targetNamespace="http://www.talool.com/Talool"  xmlns="http://www.talool.com/Talool" 
+			elementFormDefault="qualified">
+
+	<xsd:complexType name="MerchantType">
+    	<xsd:sequence>
+    		<xsd:element name="Tags" type="TagsType" maxOccurs="1" minOccurs="0"></xsd:element>
+    		<xsd:element name="Locations" type="LocationsType"></xsd:element>
+    		<xsd:element name="Deals" type="DealsType"></xsd:element>
+    	</xsd:sequence>
+    	<xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="category" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="LocationType">
+    	<xsd:sequence>
+    		<xsd:element name="Image" type="ImageType"></xsd:element>
+    	</xsd:sequence>
+    	<xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="url" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="phone" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="address1" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="address2" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="city" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="state" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="zip" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="country" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="latitude" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="longitude" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+    
+    <xsd:complexType name="DealType">
+    	<xsd:sequence>
+    		<xsd:element name="Summary" type="xsd:string"></xsd:element>
+    		<xsd:element name="Details" type="xsd:string"></xsd:element>
+    		<xsd:element name="Image" type="ImageType" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+    		<xsd:element name="Tags" type="TagsType" maxOccurs="1" minOccurs="0"></xsd:element>
+    	</xsd:sequence>
+    	<xsd:attribute name="title" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="expires" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="ImageType">
+    	<xsd:attribute name="type" type="ImageTypeEnum"></xsd:attribute>
+    	<xsd:attribute name="url" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:simpleType name="ImageTypeEnum">
+	    <xsd:restriction base="xsd:normalizedString">
+	        <xsd:enumeration value="photo"/>
+	        <xsd:enumeration value="logo"/>
+	    </xsd:restriction>
+	</xsd:simpleType>
+	
+    <xsd:complexType name="LocationsType">
+    	<xsd:sequence>
+    		<xsd:element name="Location" type="LocationType" maxOccurs="unbounded" minOccurs="1"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TagsType">
+    	<xsd:sequence>
+    		<xsd:element name="Tag" type="xsd:string" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="DealsType">
+    	<xsd:sequence>
+    		<xsd:element name="Deal" type="DealType" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="MerchantsType">
+    	<xsd:sequence>
+    		<xsd:element name="Merchant" type="MerchantType" maxOccurs="1" minOccurs="0"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:element name="Talool">
+    	<xsd:complexType>
+	    	<xsd:sequence>
+	    		<xsd:element name="Merchant" type="MerchantType" maxOccurs="unbounded" minOccurs="1"></xsd:element>
+	    	</xsd:sequence>
+	    	<xsd:attribute name="nextPage" type="xsd:string"></xsd:attribute>
+	    </xsd:complexType>
+    </xsd:element>
+    
+</xsd:schema>

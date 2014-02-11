@@ -4,7 +4,7 @@
 	<xsl:output method='xml' indent='no'/>
 	
 	<xsl:template match="/DataSphereFeed">
-		<Talool nextPage="{NextPage}">
+		<Talool nextPage="{NextPage}" xmlns="http://www.talool.com/Talool">
 			<xsl:apply-templates select="Records"/>
 		</Talool>
 	</xsl:template>

@@ -6,12 +6,17 @@ import java.io.StringWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import javax.xml.XMLConstants;
 import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.TransformerFactoryConfigurationError;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
@@ -27,42 +32,63 @@ import com.talool.kirke.ServiceUtils;
 public class MerchantJob {
 
 	private static final Logger log = Logger.getLogger(MerchantJob.class);
+	
+	private Transformer transformer;
+	private Validator validator;
+	private MerchantAccount merchantAccount;
+	private String xmlPath;
+	private boolean validateXml;
+	
 
-	public void execute(String endPointUrl, String xslFilePath, String merchantAccountIdString, String namespace)
-	{
-		 
-		StringWriter taloolXmlWriter = new StringWriter();
-		      
+	public MerchantJob(String xmlPath, String xslFilePath, String merchantAccountIdString, String namespace) {
+		super();
+		
+		this.xmlPath = xmlPath;
+		this.validateXml = true;
+		
 		try 
 		{
 			
 			Long merchantAccountId = Long.parseLong(merchantAccountIdString);
-			MerchantAccount merchantAccount = ServiceUtils.get().getService().getMerchantAccountById(merchantAccountId);
+			merchantAccount = ServiceUtils.get().getService().getMerchantAccountById(merchantAccountId);
 			
 			// Load the XSL file
 			InputStream xslIn = this.getClass().getResourceAsStream(xslFilePath);
-			Transformer xmlTransformer = TransformerFactory.newInstance().newTransformer(
-			         new StreamSource(xslIn)
-			      );
-
+			transformer = TransformerFactory.newInstance().newTransformer(new StreamSource(xslIn));
 			if (namespace != null)
 			{
-				xmlTransformer.setParameter("namespance", namespace);
+				transformer.setParameter("namespance", namespace);
 			}
 			
+			// Load the XSD
+			SchemaFactory schemaFactory = SchemaFactory .newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+			InputStream xsdIn = this.getClass().getResourceAsStream("/XML/Talool.xsd");
+			Schema schema = schemaFactory.newSchema(new StreamSource(xsdIn));
+			validator = schema.newValidator();
+		}
+		catch (ServiceException se) {
+			log.error("failed to get the Merchant Account by id",se);
+		} catch (SAXException e) {
+			log.error("Failed to create transformer",e);
+		} catch (TransformerConfigurationException e) {
+			log.error("Failed to setup transformation",e);
+		} catch (TransformerFactoryConfigurationError e) {
+			log.error("Failed to setup transformation",e);
+		}
+		
+	}
+
+	public void execute()
+	{
+		try 
+		{
 			// Load the XML source
-			InputStream xmlIn = getXML(endPointUrl);
-			if (xmlIn != null)
+			InputStream taloolXml = getTransformedXml();
+			if (taloolXml != null)
 			{
 				boolean processing = true;
 				while (processing)
 				{
-					// Transform the 3rd party XML to Talool XML
-					StreamResult result = new StreamResult(taloolXmlWriter);
-					xmlTransformer.transform( new StreamSource(xmlIn), result);
-					log.debug(taloolXmlWriter.getBuffer().toString());
-					InputStream taloolXml = IOUtils.toInputStream(taloolXmlWriter.getBuffer().toString(), "UTF-8");
-					
 					DOMParser parser = new DOMParser();
 				    parser.parse(new InputSource(taloolXml));
 				    Document doc = parser.getDocument();
@@ -71,11 +97,10 @@ public class MerchantJob {
 				    handler.process(doc, merchantAccount);
 				    if (handler.hasNextPage())
 				    {
-				    	taloolXmlWriter = new StringWriter();
-				    	endPointUrl = handler.getNextPage();
-				    	System.out.println("Next page: "+endPointUrl);
-				    	xmlIn = getXML(endPointUrl);
-				    	if (xmlIn == null) processing = false;
+				    	xmlPath = handler.getNextPage();
+				    	System.out.println("Next page: "+xmlPath);
+				    	taloolXml = getTransformedXml();
+				    	if (taloolXml == null) processing = false;
 				    }
 				    else
 				    {
@@ -83,13 +108,6 @@ public class MerchantJob {
 				    }
 				}
 			}
-			
-			
-			
-		}
-		catch(TransformerFactoryConfigurationError tfce)
-		{
-			log.error("Failed to setup transformation",tfce);
 		}
 		catch(TransformerException te)
 		{
@@ -102,10 +120,7 @@ public class MerchantJob {
 		catch (IOException ioe) {
 			log.error("Failed to convert talool xml to input stream or input source.",ioe);
 		} 
-		catch (ServiceException se) 
-		{
-			log.error("failed to get the Merchant Account by id",se);
-		}
+		
 	}
 	
 	private InputStream getXML(String src)
@@ -132,5 +147,34 @@ public class MerchantJob {
 		}
 		
 		return xmlIn;
+	}
+	
+	private InputStream getTransformedXml() throws TransformerException, IOException
+	{
+		StringWriter taloolXmlWriter = new StringWriter();
+		InputStream xmlIn = getXML(xmlPath);
+		StreamResult result = new StreamResult(taloolXmlWriter);
+		transformer.transform( new StreamSource(xmlIn), result);
+		
+		InputStream xmlOut = null;
+		if (validateXml && validate(IOUtils.toInputStream(taloolXmlWriter.getBuffer().toString(), "UTF-8")))
+		{
+			xmlOut = IOUtils.toInputStream(taloolXmlWriter.getBuffer().toString(), "UTF-8");
+		}
+		return xmlOut;
+	}
+	
+	public boolean validate(InputStream xml)
+	{
+		try 
+		{
+			validator.validate(new StreamSource(xml));
+			return true;
+		} 
+		catch (Exception e) 
+		{
+			log.error("XSD Validation failed", e);
+			return false;
+		}
 	}
 }

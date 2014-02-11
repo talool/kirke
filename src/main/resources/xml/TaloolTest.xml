@@ -13,9 +13,6 @@
                 <Image type="photo" url=""/>
             </Location>
         </Locations>
-        <Accounts>
-            <Account></Account>
-        </Accounts>
         <Merchants>
             <Merchant></Merchant>
         </Merchants>

@@ -5,7 +5,7 @@ public class MerchantJobManager {
 
 	public static void main(String[] args) {
 
-		MerchantJob job = new MerchantJob();
+		
 		if (args.length >= 3)
 		{
 			String namespace = null;
@@ -17,7 +17,8 @@ public class MerchantJobManager {
 			System.out.println("====  Created By Merchant Account Id: "+args[2]);
 			System.out.println("====  Namespace: "+namespace);
 			System.out.println("==========================================================================");
-			job.execute(args[0], args[1], args[2], namespace);
+			MerchantJob job = new MerchantJob(args[0], args[1], args[2], namespace);
+			job.execute();
 			System.out.println("====  MERCHANT JOB COMPLETE  =============================================");
 		}
 		else
