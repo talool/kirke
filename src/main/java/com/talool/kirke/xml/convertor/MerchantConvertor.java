@@ -141,7 +141,15 @@ public class MerchantConvertor extends NodeConvertor {
 			List<MerchantLocation> locations = MerchantLocationConvertor.convert(locationsNode.getChildNodes(), merchantId, merchantAccount);
 			for (MerchantLocation loc : locations)
 			{
+				// check for an existing loc with this id
+				dropLocation(merchant, loc);
 				merchant.addLocation(loc);
+			}
+			if (merchant.getLocations().size() == 0)
+			{
+				log.error("Skipping merchant because there were no locations converted: "+merchant.getName());
+				// consider deleting the merchant to clean it up
+				return null;
 			}
 			
 			// persist the merchant, this time with locations
@@ -182,6 +190,18 @@ public class MerchantConvertor extends NodeConvertor {
 		}
 		
 		return merchant;
+	}
+	
+	private void dropLocation(Merchant merchant, MerchantLocation loc)
+	{
+		for (MerchantLocation location:merchant.getLocations())
+		{
+			if (location.getId().equals(loc.getId()))
+			{
+				merchant.getLocations().remove(location);
+				break;
+			}
+		}
 	}
 	
 	private Merchant getMerchant(String name)
@@ -229,8 +249,12 @@ public class MerchantConvertor extends NodeConvertor {
 	    {
 			Node merchantNode = nodes.item(i);
 			Merchant merchant = convert(merchantNode);
-			System.out.println("Saved "+merchant.getName());
-			list.add(merchant);
+			if (merchant != null) 
+			{
+				System.out.println("Saved "+merchant.getName());
+				list.add(merchant);
+			}
+			
 	    }
 		return list;
 		

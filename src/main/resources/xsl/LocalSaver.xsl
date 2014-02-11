@@ -73,8 +73,14 @@
 						 or current() = 'Real Estate'
 						 or current() = 'Pets &amp; Animals'
 						 or current() = 'Retail Shopping'
-						 or current() = 'Home &amp; Garden'">Shopping Services</xsl:when>
-			<xsl:when test="current() = 'Events &amp; Attractions'">Fun</xsl:when>
+						 or current() = 'Business Services'
+						 or current() = 'Home &amp; Garden'
+						 or current() = 'Travel &amp; Lodging'
+						 or current() = 'Education'">Shopping Services</xsl:when>
+			<xsl:when test="current() = 'Events &amp; Attractions'
+						 or current() = 'Recreation'
+						 or current() = 'Entertainment &amp; Arts'
+						 or current() = 'Community'">Fun</xsl:when>
 			<xsl:otherwise><xsl:value-of select="current()"/></xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>

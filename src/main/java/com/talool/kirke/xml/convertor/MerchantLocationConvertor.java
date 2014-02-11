@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -14,6 +15,12 @@ import com.talool.core.MerchantLocation;
 import com.talool.core.MerchantMedia;
 import com.talool.core.service.ServiceException;
 import com.talool.kirke.ServiceUtils;
+import com.talool.service.ErrorCode;
+import com.talool.utils.HttpUtils;
+import com.vividsolutions.jts.geom.Coordinate;
+import com.vividsolutions.jts.geom.GeometryFactory;
+import com.vividsolutions.jts.geom.Point;
+import com.vividsolutions.jts.geom.PrecisionModel;
 
 public class MerchantLocationConvertor extends NodeConvertor {
 	
@@ -57,7 +64,13 @@ public class MerchantLocationConvertor extends NodeConvertor {
 		mloc.setPhone(getNodeAttr("phone", location));
 		mloc.setWebsiteUrl(getNodeAttr("url", location));
 		
-		//List<MerchantMedia> images = loadImages(location, merchantId);
+
+		// Get the geo.  Try not to hammer Google.
+		Point geo = createGeometry(getNodeAttr("latitude",location), getNodeAttr("longitude", location));
+		if (geo == null) geo = getGeometry(mloc); 	// if we can't create it, look it up with Google
+		if (geo == null) return null; 				// if Google can't find it, bail
+		mloc.setGeometry(geo);
+		
 		List<MerchantMedia> images = MerchantMediaConvertor.convert(location.getChildNodes(), merchantId, merchantAccount);
 		for (MerchantMedia image:images)
 		{
@@ -71,22 +84,7 @@ public class MerchantLocationConvertor extends NodeConvertor {
 			}
 		}
 		
-		// we'll only return new locations
-		if (isNewLocation)
-		{
-			return mloc;
-		}
-		else
-		{
-			try {
-				ServiceUtils.get().getService().save(mloc);
-			}
-			catch (ServiceException se)
-			{
-				log.error("failed to save existing merchant location: "+mloc.getId(), se);
-			}
-			return null;
-		}
+		return mloc;
 	}
 
 	static public List<MerchantLocation> convert(NodeList nodes, UUID merchantId, MerchantAccount merchantAccount) {
@@ -111,6 +109,54 @@ public class MerchantLocationConvertor extends NodeConvertor {
 			}
 	    }
 		return locations;
+	}
+	
+	static private Point createGeometry(String lat, String lng)
+	{
+		if (StringUtils.isEmpty(lat) || StringUtils.isEmpty(lng)) return null;
+		
+		Point point = null;
+		try
+		{
+			Double latitude = Double.parseDouble(lat);
+			Double longitude = Double.parseDouble(lng);
+			
+			final GeometryFactory factory = new GeometryFactory(
+					new PrecisionModel(PrecisionModel.FLOATING), 4326);
+			
+			point = factory.createPoint(new Coordinate(longitude, latitude));
+		}
+		catch (Exception e)
+		{
+			log.debug("failed to create geometry", e);
+		}
+		
+		return point;
+	}
+	
+	static private Point getGeometry(MerchantLocation mloc)
+	{
+		Point point = null;
+		try
+		{
+			// hit Google
+			point = HttpUtils.getGeometry(mloc);
+			
+		}
+		catch(ServiceException se)
+		{
+			log.error("failed to get geo for new merchant location: "+HttpUtils.buildAddress(mloc), se);
+			if (se.getErrorCode().equals(ErrorCode.GEOCODER_OVER_QUERY_LIMIT))
+			{
+				log.error("ABORT: "+se.getErrorCode().getMessage());
+				System.exit(0);
+			}
+		}
+		catch(Exception e)
+		{
+			log.error("failed to get geo for new merchant location: "+HttpUtils.buildAddress(mloc), e);
+		}
+		return point;
 	}
 
 

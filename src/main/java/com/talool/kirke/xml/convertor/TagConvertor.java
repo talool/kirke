@@ -46,6 +46,8 @@ public class TagConvertor extends NodeConvertor {
 		Tag tag = getTag(tagString);
 		if (tag==null)
 		{
+			if (tagString.length() > 32) return tag; // crazy long tag.  skip it.
+			
 			tag = ServiceUtils.get().getFactory().newTag(tagString);
 			try
 			{
@@ -67,7 +69,7 @@ public class TagConvertor extends NodeConvertor {
 	    {
 			Node tagNode = nodes.item(i);
 			Tag tag = convert(tagNode);
-			list.add(tag);
+			if (tag != null) list.add(tag);
 	    }
 		return list;
 	}

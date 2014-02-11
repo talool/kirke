@@ -91,6 +91,12 @@ public class MerchantMediaConvertor extends NodeConvertor {
 					}
 				}
 			}
+			else if (fileSize < 0)
+			{
+				// abort! it wasn't a png or jpg
+				log.error("Skipping unsupported media in url: "+mediaUrl);
+				return null;
+			}
 
 			// save it to the baseFolder
 			fileManager.save(url);
@@ -164,7 +170,18 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		    con.setRequestMethod("HEAD");
 		    if (con.getResponseCode() == HttpURLConnection.HTTP_OK)
 		    {
-		    	fileSize = con.getContentLength();
+		    	
+		    	String fileType = con.getContentType();
+		    	if (fileType.equalsIgnoreCase("image/png") || 
+		    		fileType.equalsIgnoreCase("image/jpg") || 
+		    		fileType.equalsIgnoreCase("image/jpeg"))
+		    	{
+		    		fileSize = con.getContentLength();
+		    	}
+		    	else
+		    	{
+		    		fileSize = -1;
+		    	}
 		    }
 		}
 		catch (Exception e) 

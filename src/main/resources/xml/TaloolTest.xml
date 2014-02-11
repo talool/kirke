@@ -8,7 +8,7 @@
             <Tag>tag</Tag>
         </Tags>
         <Locations>
-            <Location name="name" url="" phone="" address1="" address2="" city="" state="" zip="" country="" latitue="" longitude="">
+            <Location name="name" url="" phone="" address1="" address2="" city="" state="" zip="" country="" latitude="" longitude="">
                 <Image type="logo" url=""/>
                 <Image type="photo" url=""/>
             </Location>
