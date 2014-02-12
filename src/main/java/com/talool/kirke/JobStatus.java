@@ -8,11 +8,13 @@ public class JobStatus {
 	private int merchantCount;
 	private int dealCount;
 	private int pageCount;
+	private int tagCount;
 	private List<String> categoriesMissed;
 	private List<String> merchantsSkipped;
 	private List<String> dealsSkipped;
 	private List<String> locationsSkipped;
 	private List<String> mediaSkipped;
+	private List<String> tagsSkipped;
 	
 	private StringBuilder setup;
 	
@@ -26,11 +28,13 @@ public class JobStatus {
 		merchantCount=0;
 		dealCount=0;
 		pageCount=0;
+		tagCount = 0;
 		categoriesMissed = new ArrayList<String>();
 		merchantsSkipped = new ArrayList<String>();
 		dealsSkipped = new ArrayList<String>();
 		locationsSkipped = new ArrayList<String>();
 		mediaSkipped = new ArrayList<String>();
+		tagsSkipped = new ArrayList<String>();
 		setup = new StringBuilder();
 		hitException = false;
 		hitMaxPage = false;
@@ -53,6 +57,11 @@ public class JobStatus {
 	public void addDeal()
 	{
 		dealCount++;
+	}
+	
+	public void addTag()
+	{
+		tagCount++;
 	}
 	
 	public void addPage()
@@ -88,6 +97,11 @@ public class JobStatus {
 	public void skippedMedia(String o)
 	{
 		mediaSkipped.add(o);
+	}
+	
+	public void skippedTag(String o)
+	{
+		tagsSkipped.add(o);
 	}
 	
 	public void setFailed()
@@ -144,11 +158,13 @@ public class JobStatus {
 		  .append("Locations skipped:   ").append(locationsSkipped.size()).append("\n")
 		  .append("Deals converted:     ").append(dealCount).append("\n")
 		  .append("Deals skipped:       ").append(dealsSkipped.size()).append("\n")
-		  .append("Media skipped:       ").append(mediaSkipped.size()).append("\n");
+		  .append("Media skipped:       ").append(mediaSkipped.size()).append("\n")
+		  .append("Tags converted:      ").append(tagCount).append("\n")
+		  .append("Tags skipped:        ").append(tagsSkipped.size()).append("\n");
 		
 		if (!categoriesMissed.isEmpty())
 		{
-			sb.append("====  MISSED CATEGORIES  ==================================\n");
+			sb.append("\n====  MISSED CATEGORIES  ================================================\n");
 			for (String c:categoriesMissed)
 			{
 				sb.append(c).append("\n");
@@ -157,7 +173,7 @@ public class JobStatus {
 		
 		if (!merchantsSkipped.isEmpty())
 		{
-			sb.append("====  SKIPPED MERCHANTS  ==================================\n");
+			sb.append("\n====  SKIPPED MERCHANTS  ================================================\n");
 			for (String s:merchantsSkipped)
 			{
 				sb.append(s).append("\n");
@@ -166,7 +182,7 @@ public class JobStatus {
 		
 		if (!locationsSkipped.isEmpty())
 		{
-			sb.append("====  SKIPPED LOCATIONS  ===============================\n");
+			sb.append("\n====  SKIPPED LOCATIONS  ================================================\n");
 			for (String s:locationsSkipped)
 			{
 				sb.append(s).append("\n");
@@ -175,7 +191,7 @@ public class JobStatus {
 		
 		if (!dealsSkipped.isEmpty())
 		{
-			sb.append("====  SKIPPED DEALS  ================================\n");
+			sb.append("\n====  SKIPPED DEALS  ====================================================\n");
 			for (String s:dealsSkipped)
 			{
 				sb.append(s).append("\n");
@@ -184,14 +200,23 @@ public class JobStatus {
 		
 		if (!mediaSkipped.isEmpty())
 		{
-			sb.append("====  SKIPPED MEDIA  ================================\n");
+			sb.append("\n====  SKIPPED MEDIA  ====================================================\n");
 			for (String s:mediaSkipped)
 			{
 				sb.append(s).append("\n");
 			}
 		}
 		
-		sb.append("====  SUMMARY COMPLETE  ===================================\n\n");
+		if (!tagsSkipped.isEmpty())
+		{
+			sb.append("\n====  SKIPPED TAGS  =====================================================\n");
+			for (String s:tagsSkipped)
+			{
+				sb.append(s).append("\n");
+			}
+		}
+		
+		sb.append("\n====  SUMMARY COMPLETE  =================================================\n\n");
 		
 		return sb.toString();
 	}

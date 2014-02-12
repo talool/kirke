@@ -9,6 +9,7 @@ import org.w3c.dom.NodeList;
 
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
+import com.talool.kirke.JobStatus;
 import com.talool.kirke.KirkeErrorCode;
 import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
@@ -59,6 +60,7 @@ public class TagConvertor extends NodeConvertor {
 			{
 				ServiceUtils.get().getService().save(tag);
 				this.tags.add(tag);
+				JobStatus.get().addTag();
 			}
 			catch (ServiceException se)
 			{
@@ -82,7 +84,13 @@ public class TagConvertor extends NodeConvertor {
 			}
 			catch(KirkeException e)
 			{
-				// TODO update job status
+				StringBuilder sb = new StringBuilder();
+				sb.append("Failed to add tag: ")
+				  .append(getNodeValue(tagNode))
+				  .append(" because ")
+				  .append(e.getMessage());
+				
+				JobStatus.get().skippedTag(sb.toString());
 			}
 			
 	    }

@@ -52,6 +52,8 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		{
 			URL url = new URL(mediaUrl);
 			
+			// TODO refactor to remove repetitive logic
+			
 			// check the file size before we download it.  check for dups if we get a file size for the url.
 			int fileSize = getFileSize(url);
 			if (fileSize > MAX_DOWNLOAD_FILE_SIZE_BYTES)
@@ -79,9 +81,14 @@ public class MerchantMediaConvertor extends NodeConvertor {
 				url = new URL(sb.toString());
 				fileSize = getFileSize(url);
 				//System.out.println("Image file size was 0 for "+mediaUrl+", so tried HTTPS and got: "+fileSize);
-				if (fileSize < 1)
+				if (fileSize == 0)
 				{
 					throw new KirkeException(KirkeErrorCode.MEDIA_NOT_FOUND_ERROR, mediaUrl);
+				}
+				else if (fileSize < 0)
+				{
+					// abort! it wasn't a png or jpg
+					throw new KirkeException(KirkeErrorCode.MEDIA_TYPE_ERROR, mediaUrl);
 				}
 				else
 				{
@@ -162,16 +169,15 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			}
 			catch (KirkeException e)
 			{
-				if (e.getErrorCode().equals(KirkeErrorCode.MEDIA_EXISTS_ERROR))
+				if (!e.getErrorCode().equals(KirkeErrorCode.MEDIA_EXISTS_ERROR))
 				{
-					// TODO should this be an error?
+					StringBuilder sb = new StringBuilder();
+					sb.append("Merchant id: ")
+					  .append(merchantId)
+					  .append(" media skipped because: ")
+					  .append(e.getMessage());
+					JobStatus.get().skippedMedia(sb.toString());
 				}
-				StringBuilder sb = new StringBuilder();
-				sb.append("Merchant id: ")
-				  .append(merchantId)
-				  .append(" media skipped because: ")
-				  .append(e.getMessage());
-				JobStatus.get().skippedMedia(sb.toString());
 			}
 	    }
 		return list;
