@@ -27,6 +27,9 @@ import org.xml.sax.SAXException;
 
 import com.talool.core.MerchantAccount;
 import com.talool.core.service.ServiceException;
+import com.talool.kirke.JobStatus;
+import com.talool.kirke.KirkeErrorCode;
+import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
 
 public class MerchantJob {
@@ -38,9 +41,11 @@ public class MerchantJob {
 	private MerchantAccount merchantAccount;
 	private String xmlPath;
 	private boolean validateXml;
+	private int maxPages = 2;
 	
 
-	public MerchantJob(String xmlPath, String xslFilePath, String merchantAccountIdString, String namespace) {
+	public MerchantJob(String xmlPath, String xslFilePath, String merchantAccountIdString, String namespace) throws KirkeException
+	{
 		super();
 		
 		this.xmlPath = xmlPath;
@@ -68,17 +73,21 @@ public class MerchantJob {
 		}
 		catch (ServiceException se) {
 			log.error("failed to get the Merchant Account by id",se);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, se);
 		} catch (SAXException e) {
 			log.error("Failed to create transformer",e);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, e);
 		} catch (TransformerConfigurationException e) {
 			log.error("Failed to setup transformation",e);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, e);
 		} catch (TransformerFactoryConfigurationError e) {
 			log.error("Failed to setup transformation",e);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, e);
 		}
 		
 	}
 
-	public void execute()
+	public void execute() throws KirkeException
 	{
 		try 
 		{
@@ -95,12 +104,23 @@ public class MerchantJob {
 				    
 				    MerchantDocHandler handler = new MerchantDocHandler();
 				    handler.process(doc, merchantAccount);
+				    
 				    if (handler.hasNextPage())
 				    {
-				    	xmlPath = handler.getNextPage();
-				    	System.out.println("Next page: "+xmlPath);
-				    	taloolXml = getTransformedXml();
-				    	if (taloolXml == null) processing = false;
+				    	if (JobStatus.get().getPageCount() < maxPages)
+				    	{
+					    	xmlPath = handler.getNextPage();
+	
+					    	JobStatus.get().println("Next page: "+xmlPath);
+					    	
+					    	taloolXml = getTransformedXml();
+					    	if (taloolXml == null) processing = false;
+				    	}
+				    	else
+				    	{
+				    		JobStatus.get().setHitMaxPage();
+				    		processing = false;
+				    	}
 				    }
 				    else
 				    {
@@ -112,13 +132,16 @@ public class MerchantJob {
 		catch(TransformerException te)
 		{
 			log.error("XML transformation failed",te);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, te);
 		}
 		catch(SAXException se)
 		{
 			log.error("DOM Parser failed",se);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, se);
 		}
 		catch (IOException ioe) {
 			log.error("Failed to convert talool xml to input stream or input source.",ioe);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, ioe);
 		} 
 		
 	}

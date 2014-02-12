@@ -22,6 +22,9 @@ import com.talool.core.MerchantMedia;
 import com.talool.core.SearchOptions;
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
+import com.talool.kirke.JobStatus;
+import com.talool.kirke.KirkeErrorCode;
+import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
 
 public class DealConvertor extends NodeConvertor {
@@ -34,7 +37,7 @@ public class DealConvertor extends NodeConvertor {
 	private static final String ImageTag = "Image";
 	private static final String TagsTag = "Tags";
 	
-	static private Deal convert(Node dealNode, UUID merchantId, MerchantAccount merchantAccount, List<Deal> existingDeals, List<MerchantMedia> existingMedia) 
+	static private Deal convert(Node dealNode, UUID merchantId, MerchantAccount merchantAccount, List<Deal> existingDeals, List<MerchantMedia> existingMedia) throws KirkeException 
 	{
 		NodeList dealData = dealNode.getChildNodes();
 		
@@ -56,6 +59,7 @@ public class DealConvertor extends NodeConvertor {
 			catch (Exception e)
 			{
 				log.error("Ran into trouble creating a new deal for merchant id: "+ merchantId, e);
+				throw new KirkeException(KirkeErrorCode.DEAL_ERROR, e);
 			}
 			
 			// only set this for new deals
@@ -74,6 +78,7 @@ public class DealConvertor extends NodeConvertor {
 			catch (ParseException pe)
 			{
 				log.error("Failed to parse expiration date for deal: "+ deal.getTitle(), pe);
+				throw new KirkeException(KirkeErrorCode.DEAL_ERROR, pe);
 			}
 		}
 		
@@ -154,8 +159,25 @@ public class DealConvertor extends NodeConvertor {
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node dealNode = nodes.item(i);
-			Deal deal = convert(dealNode, merchantId, merchantAccount, existingDeals, existingMedia);
-			list.add(deal);
+			try 
+			{
+				Deal deal = convert(dealNode, merchantId, merchantAccount, existingDeals, existingMedia);
+				list.add(deal);
+			} 
+			catch (KirkeException e) 
+			{
+				// record that we skipped this deal
+				NodeList dealData = dealNode.getChildNodes();
+				String dealSummary = getNodeValue(SummaryTag, dealData);
+				StringBuilder sb = new StringBuilder();
+				sb.append(dealSummary)
+				  .append("for merchantId ")
+				  .append(merchantId)
+				  .append(" because ")
+				  .append(e.getMessage());
+				JobStatus.get().skippedDeal(sb.toString());
+			}
+			
 	    }
 		return list;
 	}

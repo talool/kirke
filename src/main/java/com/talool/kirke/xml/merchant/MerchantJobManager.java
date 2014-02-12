@@ -1,43 +1,55 @@
 package com.talool.kirke.xml.merchant;
 
+import org.apache.log4j.Logger;
+
+import com.talool.kirke.JobStatus;
+import com.talool.kirke.KirkeException;
+
 
 public class MerchantJobManager {
 
+	private static final Logger log = Logger.getLogger(MerchantJobManager.class);
+	
 	public static void main(String[] args) {
 
-		
 		if (args.length >= 3)
 		{
 			String namespace = null;
 			if (args.length ==  4) namespace = args[3];
+
+			debug(JobStatus.get().getSetupSummary(args[0], args[1], args[2], namespace));
 			
-			System.out.println("====  MERCHANT JOB STARTING  =============================================");
-			System.out.println("====  3rd Party XML: "+args[0]);
-			System.out.println("====  3rd Party XSL: "+args[1]);
-			System.out.println("====  Created By Merchant Account Id: "+args[2]);
-			System.out.println("====  Namespace: "+namespace);
-			System.out.println("==========================================================================");
-			MerchantJob job = new MerchantJob(args[0], args[1], args[2], namespace);
-			job.execute();
-			System.out.println("====  MERCHANT JOB COMPLETE  =============================================");
+			try 
+			{
+				MerchantJob job = new MerchantJob(args[0], args[1], args[2], namespace);
+				job.execute();
+			} 
+			catch (KirkeException e) 
+			{
+				log.error("Merchant Job Failed.", e);
+				JobStatus.get().setFailed();
+			}
+			
+			debug(JobStatus.get().getJobSummary());
+			
 		}
 		else
 		{
-			System.out.println("====  MERCHANT JOB ABORTING  =============================================");
-			System.out.println("You must provide the following arguments:");
-			System.out.println(" * A resource path or URL for the 3rd Party XML");
-			System.out.println(" * A resource path to the 3rd Party XSL");
-			System.out.println(" * Created By Merchant Account Id");
-			System.out.println(" ");
-			System.out.println("You may also provide the following argument:");
-			System.out.println(" * Namespace for the 3rd Party XML");
-			System.out.println("====  MERCHANT JOB COMPLETE  =============================================");
+			debug(JobStatus.get().getUsageMessage());
 		}
 		
 		System.exit(1);
 	}
+	
+	private static void debug(String s)
+	{
+		log.debug(s);
+		JobStatus.get().print(s);
+	}
 
 }
+
+
 
 /**
  * 

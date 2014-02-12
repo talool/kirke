@@ -5,6 +5,8 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import com.talool.core.MerchantAccount;
+import com.talool.kirke.JobStatus;
+import com.talool.kirke.KirkeException;
 import com.talool.kirke.xml.XMLDocHandler;
 import com.talool.kirke.xml.XMLUtils;
 import com.talool.kirke.xml.convertor.MerchantConvertor;
@@ -16,7 +18,8 @@ public class MerchantDocHandler implements XMLDocHandler {
 	private String nextPage;
 
 	@Override
-	public void process(Document doc, MerchantAccount merchantAccount) {
+	public void process(Document doc, MerchantAccount merchantAccount) throws KirkeException 
+	{
 		NodeList root = doc.getChildNodes();
 	    Node talool = XMLUtils.getNode(TaloolTag, root);
 	    NodeList merchants = talool.getChildNodes();
@@ -33,7 +36,9 @@ public class MerchantDocHandler implements XMLDocHandler {
 	    {
 	    	sb.append("Ready for the next page.  ");
 	    }
-	    System.out.println(sb.toString());
+	    
+	    JobStatus.get().println(sb.toString());
+	    JobStatus.get().addPage();
 	}
 
 	@Override

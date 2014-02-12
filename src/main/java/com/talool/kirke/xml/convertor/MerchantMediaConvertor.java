@@ -20,6 +20,9 @@ import com.talool.core.SearchOptions;
 import com.talool.core.service.ServiceException;
 import com.talool.image.upload.FileManager;
 import com.talool.image.upload.FileNameUtils;
+import com.talool.kirke.JobStatus;
+import com.talool.kirke.KirkeErrorCode;
+import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
 import com.talool.service.ServiceConfig;
 
@@ -29,7 +32,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 	private static final Logger log = Logger.getLogger(MerchantMediaConvertor.class);
 	private static final int MAX_DOWNLOAD_FILE_SIZE_BYTES = 500000;
 	
-	static public MerchantMedia convert(Node image, UUID merchantId, MerchantAccount merchantAccount, List<MerchantMedia> existingMedia) 
+	static public MerchantMedia convert(Node image, UUID merchantId, MerchantAccount merchantAccount, List<MerchantMedia> existingMedia) throws KirkeException 
 	{
 		MerchantMedia media = null;
 		String mediaUrl = getNodeAttr("url", image);
@@ -55,7 +58,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			{
 				// abort!!  the file was too big
 				log.debug("Skipping conversion of media with file size of "+fileSize+" at url: "+mediaUrl);
-				return null;
+				throw new KirkeException(KirkeErrorCode.MEDIA_TOO_BIG_ERROR, "file size: "+fileSize);
 			}
 			else if (fileSize > 0)
 			{
@@ -65,7 +68,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 				{
 					// abort!!  we don't return existing media
 					log.debug("Found existing media before download for url: "+mediaUrl);
-					return null;
+					throw new KirkeException(KirkeErrorCode.MEDIA_EXISTS_ERROR, mediaUrl);
 				}
 			}
 			else if (fileSize == 0)
@@ -78,7 +81,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 				//System.out.println("Image file size was 0 for "+mediaUrl+", so tried HTTPS and got: "+fileSize);
 				if (fileSize < 1)
 				{
-					return null;
+					throw new KirkeException(KirkeErrorCode.MEDIA_NOT_FOUND_ERROR, mediaUrl);
 				}
 				else
 				{
@@ -87,7 +90,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 					{
 						// abort!!  we don't return existing media
 						log.debug("Found existing media before download for url: "+mediaUrl);
-						return null;
+						throw new KirkeException(KirkeErrorCode.MEDIA_EXISTS_ERROR, mediaUrl);
 					}
 				}
 			}
@@ -95,7 +98,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			{
 				// abort! it wasn't a png or jpg
 				log.error("Skipping unsupported media in url: "+mediaUrl);
-				return null;
+				throw new KirkeException(KirkeErrorCode.MEDIA_TYPE_ERROR, mediaUrl);
 			}
 
 			// save it to the baseFolder
@@ -116,16 +119,18 @@ public class MerchantMediaConvertor extends NodeConvertor {
 				log.debug("Found existing media after download for url: "+mediaUrl);
 				// delete the save file, cuz we already have it
 				fileManager.delete(savedImage.getName());
-				media = null; // don't pass it back
+				throw new KirkeException(KirkeErrorCode.MEDIA_EXISTS_ERROR, mediaUrl);
 			}
 		}
 		catch (MalformedURLException mue)
 		{
 			log.error("Failed to create url for "+mediaUrl, mue);
+			throw new KirkeException(KirkeErrorCode.MEDIA_ERROR, mediaUrl, mue);
 		}
 		catch (IOException ioe)
 		{
 			log.error("Failed to process image for "+mediaUrl, ioe);
+			throw new KirkeException(KirkeErrorCode.MEDIA_ERROR, mediaUrl, ioe);
 		}
 		
 		return media;
@@ -150,8 +155,24 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node image = nodes.item(i);
-			MerchantMedia media = convert(image,merchantId,merchantAccount, existingMedia);
-			if (media!=null) list.add(media);
+			try
+			{
+				MerchantMedia media = convert(image,merchantId,merchantAccount, existingMedia);
+				list.add(media);
+			}
+			catch (KirkeException e)
+			{
+				if (e.getErrorCode().equals(KirkeErrorCode.MEDIA_EXISTS_ERROR))
+				{
+					// TODO should this be an error?
+				}
+				StringBuilder sb = new StringBuilder();
+				sb.append("Merchant id: ")
+				  .append(merchantId)
+				  .append(" media skipped because: ")
+				  .append(e.getMessage());
+				JobStatus.get().skippedMedia(sb.toString());
+			}
 	    }
 		return list;
 	}

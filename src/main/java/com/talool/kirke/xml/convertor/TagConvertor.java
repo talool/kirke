@@ -9,6 +9,8 @@ import org.w3c.dom.NodeList;
 
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
+import com.talool.kirke.KirkeErrorCode;
+import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
 
 
@@ -19,7 +21,7 @@ public class TagConvertor extends NodeConvertor {
 	
 	private List<Tag> tags;
 	
-	private TagConvertor() {
+	private TagConvertor() throws KirkeException {
 		try
 		{
 			tags = ServiceUtils.get().getService().getTags();
@@ -28,10 +30,11 @@ public class TagConvertor extends NodeConvertor {
 		{
 			tags = new ArrayList<Tag>();
 			log.error("failed to load tags", se);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED, "Failed to load tags");
 		}
 	}
 	
-	static public TagConvertor get()
+	static public TagConvertor get() throws KirkeException
 	{
 		if (INSTANCE==null)
 		{
@@ -40,13 +43,16 @@ public class TagConvertor extends NodeConvertor {
 		return INSTANCE;
 	}
 	
-	public Tag convert(Node node) 
+	public Tag convert(Node node) throws KirkeException 
 	{
 		String tagString = getNodeValue(node);
 		Tag tag = getTag(tagString);
 		if (tag==null)
 		{
-			if (tagString.length() > 32) return tag; // crazy long tag.  skip it.
+			if (tagString.length() > 32) 
+			{
+				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Tag too long: "+tag);
+			}
 			
 			tag = ServiceUtils.get().getFactory().newTag(tagString);
 			try
@@ -57,6 +63,7 @@ public class TagConvertor extends NodeConvertor {
 			catch (ServiceException se)
 			{
 				log.error("Failed to save tag",se);
+				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Failed to save tag: "+tag);
 			}
 		}
 		return tag;
@@ -68,8 +75,16 @@ public class TagConvertor extends NodeConvertor {
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node tagNode = nodes.item(i);
-			Tag tag = convert(tagNode);
-			if (tag != null) list.add(tag);
+			try
+			{
+				Tag tag = convert(tagNode);
+				list.add(tag);
+			}
+			catch(KirkeException e)
+			{
+				// TODO update job status
+			}
+			
 	    }
 		return list;
 	}

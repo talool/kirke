@@ -19,6 +19,9 @@ import com.talool.core.MerchantAccount;
 import com.talool.core.MerchantLocation;
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
+import com.talool.kirke.KirkeErrorCode;
+import com.talool.kirke.JobStatus;
+import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
 
 public class MerchantConvertor extends NodeConvertor {
@@ -37,7 +40,7 @@ public class MerchantConvertor extends NodeConvertor {
 	
 	private MerchantConvertor() {}
 	
-	public void setMerchantAccount(MerchantAccount ma)
+	public void setMerchantAccount(MerchantAccount ma) throws KirkeException
 	{
 		merchantAccount = ma;
 		
@@ -78,7 +81,8 @@ public class MerchantConvertor extends NodeConvertor {
 		}
 		catch(ServiceException se)
 		{
-			log.error("failed to load merchants for mearchant account id: "+merchantAccount.getId(), se);
+			log.error("failed to get a KirkeBook for mearchant account id: "+merchantAccount.getId(), se);
+			throw new KirkeException(KirkeErrorCode.JOB_FAILED,se);
 		}
 	}
 	
@@ -91,7 +95,7 @@ public class MerchantConvertor extends NodeConvertor {
 		return INSTANCE;
 	}
 	
-	private Merchant convert(Node merchantNode)
+	private Merchant convert(Node merchantNode) throws KirkeException
 	{
 		// look up the merchant by name and merchant account before we create a new one
 		boolean isNewMerchant = false;
@@ -130,6 +134,7 @@ public class MerchantConvertor extends NodeConvertor {
 			catch(ServiceException merchSE)
 			{
 				log.error("Failed to save merchant: "+merchant.getName(), merchSE);
+				throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR, merchSE);
 			}
 		}
 		
@@ -149,7 +154,7 @@ public class MerchantConvertor extends NodeConvertor {
 			{
 				log.error("Skipping merchant because there were no locations converted: "+merchant.getName());
 				// consider deleting the merchant to clean it up
-				return null;
+				throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR);
 			}
 			
 			// persist the merchant, this time with locations
@@ -164,15 +169,12 @@ public class MerchantConvertor extends NodeConvertor {
 			catch(ServiceException merchSE)
 			{
 				log.error("Failed to save merchant with locations: "+merchant.getName(), merchSE);
+				throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR, merchSE);
 			}
 			
 			// convert the deals and put each one in our deal offer
 			Node dealsNode = getNode(DealsTag,nodes);
 			List<Deal> deals = DealConvertor.convert(dealsNode.getChildNodes(), merchantId, merchantAccount);
-			if (deals.size() > dealsNode.getChildNodes().getLength())
-			{
-				log.error("too many deals!");
-			}
 			for (Deal deal:deals)
 			{
 				try 
@@ -180,10 +182,18 @@ public class MerchantConvertor extends NodeConvertor {
 					deal.setDealOffer(dealOffer);
 					deal.setMerchant(merchant);
 					ServiceUtils.get().getService().save(deal);
+					
+					JobStatus.get().addDeal();
 				}
 				catch(ServiceException dealSE)
 				{
 					log.error("Failed to save deal: "+deal.getSummary(), dealSE);
+					StringBuilder sb = new StringBuilder();
+					sb.append(deal.getSummary())
+					  .append(" for merchant ")
+					  .append(merchantName)
+					  .append(" failed to save.");
+					JobStatus.get().skippedDeal(sb.toString());
 				}
 			}
 			
@@ -220,7 +230,7 @@ public class MerchantConvertor extends NodeConvertor {
 		return merchant;
 	}
 	
-	private Category getCategory(String cat)
+	private Category getCategory(String cat) throws KirkeException
 	{
 		Category category = null;
 		try
@@ -229,30 +239,50 @@ public class MerchantConvertor extends NodeConvertor {
 			
 			if (category==null)
 			{
-				String error = "!!!!! Category not transformed: "+cat;
-				System.out.println(error);
-				log.error(error);
+				JobStatus.get().missedCategory(cat);
+				throw new KirkeException(KirkeErrorCode.CATEGORY_ERROR);
 			}
 		} 
 		catch (ServiceException se)
 		{
 			log.error("Failed to look up category", se);
+			throw new KirkeException(KirkeErrorCode.CATEGORY_ERROR,se);
 		}
 		return category;
 	}
 	
-	public List<Merchant> convert(NodeList nodes) {
+	public List<Merchant> convert(NodeList nodes) throws KirkeException 
+	{
 				
 		// convert the merchants
 		List<Merchant> list = new ArrayList<Merchant>();
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node merchantNode = nodes.item(i);
-			Merchant merchant = convert(merchantNode);
-			if (merchant != null) 
+			try 
 			{
-				System.out.println("Saved "+merchant.getName());
+				Merchant merchant = convert(merchantNode);
 				list.add(merchant);
+				
+				JobStatus.get().addMerchant();
+				JobStatus.get().println("Saved "+merchant.getName());
+			} 
+			catch (KirkeException e) 
+			{
+				if (e.getErrorCode().equals(KirkeErrorCode.JOB_FAILED))
+				{
+					throw e;
+				}
+				else
+				{
+					String merchantName = getNodeAttr("name", merchantNode);
+					
+					StringBuilder sb = new StringBuilder();
+					sb.append(merchantName)
+					  .append(" skipped because ")
+					  .append(e.getMessage());
+					JobStatus.get().skippedMerchant(sb.toString());
+				}
 			}
 			
 	    }
