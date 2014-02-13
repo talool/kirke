@@ -3,8 +3,12 @@ package com.talool.kirke;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 public class JobStatus {
 
+	private static final Logger log = Logger.getLogger(JobStatus.class);
+	
 	private int merchantCount;
 	private int dealCount;
 	private int pageCount;
@@ -35,7 +39,7 @@ public class JobStatus {
 		locationsSkipped = new ArrayList<String>();
 		mediaSkipped = new ArrayList<String>();
 		tagsSkipped = new ArrayList<String>();
-		setup = new StringBuilder();
+		setup = new StringBuilder("\n\n");
 		hitException = false;
 		hitMaxPage = false;
 	}
@@ -76,32 +80,50 @@ public class JobStatus {
 	
 	public void missedCategory(String cat)
 	{
-		categoriesMissed.add(cat);
+		if (!categoriesMissed.contains(cat))
+		{
+			categoriesMissed.add(cat);
+		}
 	}
 	
 	public void skippedMerchant(String o)
 	{
-		merchantsSkipped.add(o);
+		if (!merchantsSkipped.contains(o))
+		{
+			merchantsSkipped.add(o);
+		}
 	}
 	
 	public void skippedDeal(String o)
 	{
-		dealsSkipped.add(o);
+		if (!dealsSkipped.contains(o))
+		{
+			dealsSkipped.add(o);
+		}
 	}
 	
 	public void skippedLocation(String o)
 	{
-		locationsSkipped.add(o);
+		if (!locationsSkipped.contains(o))
+		{
+			locationsSkipped.add(o);
+		}
 	}
 	
 	public void skippedMedia(String o)
 	{
-		mediaSkipped.add(o);
+		if (!mediaSkipped.contains(o))
+		{
+			mediaSkipped.add(o);
+		}
 	}
 	
 	public void skippedTag(String o)
 	{
-		tagsSkipped.add(o);
+		if (!tagsSkipped.contains(o))
+		{
+			tagsSkipped.add(o);
+		}
 	}
 	
 	public void setFailed()
@@ -116,12 +138,12 @@ public class JobStatus {
 	
 	public void println(String s)
 	{
-		System.out.println(s);
+		log.info(s);
 	}
 	
 	public void print(String s)
 	{
-		System.out.print(s);
+		log.info(s);
 	}
 	
 	public String getSetupSummary(String xmlPath, String xslFilePath, String merchantAccountIdString, String namespace)
@@ -223,7 +245,7 @@ public class JobStatus {
 	
 	public String getUsageMessage()
 	{
-		StringBuilder sb = new StringBuilder();
+		StringBuilder sb = new StringBuilder("\n\n");
 		sb.append("====  MERCHANT JOB ABORTING  =============================================\n");
 		sb.append("You must provide the following arguments:\n");
 		sb.append(" * A resource path or URL for the 3rd Party XML\n");

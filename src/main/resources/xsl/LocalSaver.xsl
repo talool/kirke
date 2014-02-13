@@ -45,7 +45,7 @@
 	
 	<xsl:template match="Business">
 		<Location name="" 
-			      url=""
+			      url="{../Url}"
 			      phone="{Phonenumber}"
 				  address1="{Location/StreetLine1}" 
 				  address2="{Location/StreetLine2}" 

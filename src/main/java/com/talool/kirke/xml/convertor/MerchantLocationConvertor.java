@@ -32,7 +32,17 @@ public class MerchantLocationConvertor extends NodeConvertor {
 	static private MerchantLocation convert(Node location, UUID merchantId, MerchantAccount merchantAccount, List<MerchantLocation> existingLocations) throws KirkeException 
 	{
 		String address1 = getNodeAttr("address1", location);
+		if (address1.length() > 64)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus address: "+address1);
+		}
+		
 		String zip = getNodeAttr("zip", location);
+		if (zip.length() > 64)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus zip: "+zip);
+		}
+		
 		MerchantLocation mloc = null;
 		
 		for (MerchantLocation existingLocation:existingLocations)
@@ -56,13 +66,55 @@ public class MerchantLocationConvertor extends NodeConvertor {
 		}
 		
 		// add or update data
-		mloc.setAddress2(getNodeAttr("address2", location));
-		mloc.setCity(getNodeAttr("city", location));
-		mloc.setStateProvinceCounty(getNodeAttr("state", location));
-		mloc.setCountry(getNodeAttr("country", location));
-		mloc.setLocationName(getNodeAttr("name", location));
-		mloc.setPhone(getNodeAttr("phone", location));
-		mloc.setWebsiteUrl(getNodeAttr("url", location));
+		String add2 = getNodeAttr("address2", location);
+		if (add2.length() > 64)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus address 2: "+add2);
+		}
+		mloc.setAddress2(add2);
+		
+		String city = getNodeAttr("city", location);
+		if (city.length() > 64)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus city: "+city);
+		}
+		mloc.setCity(city);
+		
+		String state = getNodeAttr("state", location);
+		if (state.length() > 64)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus state: "+state);
+		}
+		mloc.setStateProvinceCounty(state);
+		
+		String country = getNodeAttr("country", location);
+		if (country.length() > 4)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus country: "+country);
+		}
+		mloc.setCountry(country);
+		
+		String name = getNodeAttr("name", location);
+		if (name.length() > 64)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus name: "+name);
+		}
+		mloc.setLocationName(name);
+		
+		String phone = getNodeAttr("phone", location);
+		if (phone.length() > 48)
+		{
+			throw new KirkeException(KirkeErrorCode.LOCATION_ERROR, "bogus phone: "+phone);
+		}
+		mloc.setPhone(phone);
+		
+		String url = getNodeAttr("url", location);
+		if (url.length() > 128)
+		{
+			// TODO we need to increase the length of this field
+			url = url.substring(0,127);
+		}
+		mloc.setWebsiteUrl(url);
 		
 
 		// Get the geo.  Try not to hammer Google.
@@ -168,6 +220,7 @@ public class MerchantLocationConvertor extends NodeConvertor {
 				log.error("ABORT: "+se.getErrorCode().getMessage());
 				throw new KirkeException(KirkeErrorCode.JOB_FAILED,se);
 			}
+			throw new KirkeException(KirkeErrorCode.GEO_ERROR,se);
 		}
 		catch(Exception e)
 		{

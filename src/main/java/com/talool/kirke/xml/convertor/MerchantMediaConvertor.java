@@ -103,7 +103,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			}
 			else if (fileSize < 0)
 			{
-				// abort! it wasn't a png or jpg
+				// abort! it wasn't a png or jpg or gif
 				log.error("Skipping unsupported media in url: "+mediaUrl);
 				throw new KirkeException(KirkeErrorCode.MEDIA_TYPE_ERROR, mediaUrl);
 			}
@@ -200,6 +200,7 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		    	
 		    	String fileType = con.getContentType();
 		    	if (fileType.equalsIgnoreCase("image/png") || 
+		    	    fileType.equalsIgnoreCase("image/gif") || // not sure i like this... stupid gifs
 		    		fileType.equalsIgnoreCase("image/jpg") || 
 		    		fileType.equalsIgnoreCase("image/jpeg"))
 		    	{

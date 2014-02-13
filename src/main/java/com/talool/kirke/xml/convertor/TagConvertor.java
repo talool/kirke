@@ -52,7 +52,8 @@ public class TagConvertor extends NodeConvertor {
 		{
 			if (tagString.length() > 32) 
 			{
-				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Tag too long: "+tag);
+				log.error("Tag too long: "+tag);
+				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Tag too long: "+tagString);
 			}
 			
 			tag = ServiceUtils.get().getFactory().newTag(tagString);

@@ -84,9 +84,9 @@
 				</prop>
 				<prop key="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory
 				</prop>
-				<prop key="hibernate.format_sql">${hibernate.format.sql}</prop>
+				<prop key="hibernate.format_sql">false</prop>
 				<prop key="hibernate.use_sql_comments">false</prop>
-				<prop key="hibernate.show_sql">${hibernate.show.sql}</prop>
+				<prop key="hibernate.show_sql">false</prop>
 				<!-- -->
 			
 

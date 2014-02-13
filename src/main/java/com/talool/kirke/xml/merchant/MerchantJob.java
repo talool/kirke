@@ -41,7 +41,7 @@ public class MerchantJob {
 	private MerchantAccount merchantAccount;
 	private String xmlPath;
 	private boolean validateXml;
-	private int maxPages = 2;
+	private int maxPages = 300;
 	
 
 	public MerchantJob(String xmlPath, String xslFilePath, String merchantAccountIdString, String namespace) throws KirkeException
@@ -67,7 +67,7 @@ public class MerchantJob {
 			
 			// Load the XSD
 			SchemaFactory schemaFactory = SchemaFactory .newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
-			InputStream xsdIn = this.getClass().getResourceAsStream("/XML/Talool.xsd");
+			InputStream xsdIn = this.getClass().getResourceAsStream("/xml/Talool.xsd");
 			Schema schema = schemaFactory.newSchema(new StreamSource(xsdIn));
 			validator = schema.newValidator();
 		}

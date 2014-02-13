@@ -17,7 +17,7 @@ public class MerchantJobManager {
 			String namespace = null;
 			if (args.length ==  4) namespace = args[3];
 
-			debug(JobStatus.get().getSetupSummary(args[0], args[1], args[2], namespace));
+			JobStatus.get().print(JobStatus.get().getSetupSummary(args[0], args[1], args[2], namespace));
 			
 			try 
 			{
@@ -30,21 +30,15 @@ public class MerchantJobManager {
 				JobStatus.get().setFailed();
 			}
 			
-			debug(JobStatus.get().getJobSummary());
+			JobStatus.get().print(JobStatus.get().getJobSummary());
 			
 		}
 		else
 		{
-			debug(JobStatus.get().getUsageMessage());
+			JobStatus.get().print(JobStatus.get().getUsageMessage());
 		}
 		
 		System.exit(1);
-	}
-	
-	private static void debug(String s)
-	{
-		log.debug(s);
-		JobStatus.get().print(s);
 	}
 
 }
@@ -58,4 +52,5 @@ public class MerchantJobManager {
  * LocalSaver UID: 477139B4-C00F-4C3E-AEC4-C9786EDC0571
  * LocalSaver CJ_PID: 4155713
  * 
+ * java -jar kirke.jar http://api.datasphere.com/SyndicationCoupons/SyndicationCoupons.svc/All/All/?uid=477139B4-C00F-4C3E-AEC4-C9786EDC0571\&fdType=DsFormatV4CJ\&pg=1 /xsl/LocalSaver.xsl 37
  * */

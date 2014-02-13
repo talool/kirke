@@ -17,7 +17,7 @@ public enum KirkeErrorCode
 	MEDIA_TOO_BIG_ERROR(107, "Media was too large."),
 	MEDIA_EXISTS_ERROR(108, "Media already exists for this merchant."),
 	MEDIA_NOT_FOUND_ERROR(109, "Media not found at url provided in 3rd party xml."),
-	MEDIA_TYPE_ERROR(110, "Media was not of type PNG or JPG.");
+	MEDIA_TYPE_ERROR(110, "Media was not of type PNG or JPG or GIF.");
 	
 
 	private final int code;

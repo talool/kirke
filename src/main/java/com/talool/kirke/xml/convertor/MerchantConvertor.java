@@ -120,9 +120,17 @@ public class MerchantConvertor extends NodeConvertor {
 		
 		// convert the merchant tags
 		Node tagsNode = getNode(TagsTag,nodes);
-		List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes());
-		Set<Tag> tags = new HashSet<Tag>(tagList);
-		merchant.setTags(tags);
+		try
+		{
+			List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes());
+			Set<Tag> tags = new HashSet<Tag>(tagList);
+			merchant.setTags(tags);
+		}
+		catch (KirkeException e)
+		{
+			// TODO decide if we want to continue or fail the merchant
+		}
+		
 		
 		// persist the merchant so we get a UUID
 		if (isNewMerchant)
@@ -143,18 +151,26 @@ public class MerchantConvertor extends NodeConvertor {
 		{
 			// convert the locations
 			Node locationsNode = getNode(LocationsTag,nodes);
-			List<MerchantLocation> locations = MerchantLocationConvertor.convert(locationsNode.getChildNodes(), merchantId, merchantAccount);
-			for (MerchantLocation loc : locations)
+			try
 			{
-				// check for an existing loc with this id
-				dropLocation(merchant, loc);
-				merchant.addLocation(loc);
+				List<MerchantLocation> locations = MerchantLocationConvertor.convert(locationsNode.getChildNodes(), merchantId, merchantAccount);
+				for (MerchantLocation loc : locations)
+				{
+					// check for an existing loc with this id
+					dropLocation(merchant, loc);
+					merchant.addLocation(loc);
+				}
 			}
+			catch (KirkeException e)
+			{
+				log.error("Failed to convert location for: "+merchant.getName() + " because " + e.getMessage());
+			}
+			
 			if (merchant.getLocations().size() == 0)
 			{
 				log.error("Skipping merchant because there were no locations converted: "+merchant.getName());
 				// consider deleting the merchant to clean it up
-				throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR);
+				throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR, "No locations converted");
 			}
 			
 			// persist the merchant, this time with locations
