@@ -80,10 +80,7 @@
 			
 				<prop key="hibernate.cache.use_structured_entries">true</prop>
 				<prop key="hibernate.cache.use_second_level_cache">false</prop>
-				<prop key="hibernate.cache.use_query_cache">true</prop>
-				<prop key="hibernate.cache.region.factory_class">net.sf.ehcache.hibernate.EhCacheRegionFactory</prop>
-				<prop key="hibernate.cache.provider_class">net.sf.ehcache.hibernate.EhCacheProvider"</prop>
-				<prop key="hibernate.cache.provider_configuration_file_resource_path">ehcache.xml</prop>
+				<prop key="hibernate.cache.use_query_cache">false</prop>
 			</props>
 		</property>
 

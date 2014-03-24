@@ -19,6 +19,7 @@
 		<property name="locations">
 			<list>
 				<value>file:/etc/talool/service.properties</value>
+				<value>file:/etc/talool/kirke.properties</value>
 			</list>
 		</property>
 	</bean>
@@ -27,5 +28,7 @@
 		factory-method="createInstance">
 		<constructor-arg value="/etc/talool/service.properties" />
 	</bean>
+	
+	
 	
 </beans>
