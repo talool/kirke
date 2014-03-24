@@ -12,11 +12,13 @@
             http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
             http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
 
-
+<!-- 
+10.14.2.38 is dev-db1
+ -->
 
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.SingleConnectionDataSource">
 		<property name="driverClassName" value="org.postgresql.Driver" />
-	    <property name="url" value="jdbc:postgresql://dev-db1:5432/talool" />
+	    <property name="url" value="jdbc:postgresql://10.14.2.38:5432/talool" />
 	    <property name="username" value="talool" />
 	    <property name="password" value="talool" />
 	    <property name="suppressClose" value="true" />

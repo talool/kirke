@@ -138,12 +138,12 @@ public class JobStatus {
 	
 	public void println(String s)
 	{
-		log.info(s);
+		log.error(s);
 	}
 	
 	public void print(String s)
 	{
-		log.info(s);
+		log.error(s);
 	}
 	
 	public String getSetupSummary(String xmlPath, String xslFilePath, String merchantAccountIdString, String namespace)

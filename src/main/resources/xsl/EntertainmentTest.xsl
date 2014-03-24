@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:entertainment="http://www.entertainment.com">
 	<xsl:output method='xml' indent='no'/>
 	<xsl:template match="/">
-		<Talool>
+		<Talool xmlns="http://www.talool.com/Talool">
 			<xsl:for-each select="/entertainment:offerReport/offer_detail">
 				<xsl:variable name="taloolCategoryName">
 					<xsl:choose>
@@ -12,7 +12,7 @@
 						<xsl:otherwise>Food</xsl:otherwise>
 					</xsl:choose>
 				</xsl:variable>
-				<Merchant name="{locationname}" category="{$taloolCategoryName}">
+				<Merchant name="{locationname}" category="{$taloolCategoryName}" fundraiser="false">
 					<Tags>
 						<xsl:if test="subcategory != ''">
 							<Tag><xsl:value-of select="subcategory"/></Tag>
@@ -42,7 +42,7 @@
 						</Location>
 					</Locations>
 					<Deals>
-						<Deal title="{offerTextShort}" expires="{expireDate}">
+						<Deal title="{offerTextShort}" expires="{expireDate}" rating="{rating}" value="{dollarvalue}">
 							<Summary><xsl:value-of select="offerTextLong"/></Summary>
 	                		<Details><xsl:value-of select="offerQualifier"/></Details>
 	                		<xsl:if test="photo != ''"> 

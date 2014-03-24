@@ -105,7 +105,7 @@ public class MerchantConvertor extends NodeConvertor {
 			merchantName = merchantName.substring(0, 63);
 		}
 		Merchant merchant = getMerchant(merchantName);
-				
+		
 		if (merchant==null)
 		{
 			merchant = ServiceUtils.get().getFactory().newMerchant(true);
@@ -122,7 +122,7 @@ public class MerchantConvertor extends NodeConvertor {
 		Node tagsNode = getNode(TagsTag,nodes);
 		try
 		{
-			List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes());
+			List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes(), category);
 			Set<Tag> tags = new HashSet<Tag>(tagList);
 			merchant.setTags(tags);
 		}
@@ -190,7 +190,7 @@ public class MerchantConvertor extends NodeConvertor {
 			
 			// convert the deals and put each one in our deal offer
 			Node dealsNode = getNode(DealsTag,nodes);
-			List<Deal> deals = DealConvertor.convert(dealsNode.getChildNodes(), merchantId, merchantAccount);
+			List<Deal> deals = DealConvertor.convert(dealsNode.getChildNodes(), merchant, merchantAccount);
 			for (Deal deal:deals)
 			{
 				try 

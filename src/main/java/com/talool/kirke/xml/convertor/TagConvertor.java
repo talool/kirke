@@ -2,11 +2,14 @@ package com.talool.kirke.xml.convertor;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.talool.core.Category;
+import com.talool.core.CategoryTag;
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
 import com.talool.kirke.JobStatus;
@@ -20,16 +23,15 @@ public class TagConvertor extends NodeConvertor {
 	static private TagConvertor INSTANCE;
 	private static final Logger log = Logger.getLogger(TagConvertor.class);
 	
-	private List<Tag> tags;
+	private Map<Category, List<Tag>> tags;
 	
 	private TagConvertor() throws KirkeException {
 		try
 		{
-			tags = ServiceUtils.get().getService().getTags();
+			tags = ServiceUtils.get().getService().getCategoryTags();
 		}
 		catch(ServiceException se)
 		{
-			tags = new ArrayList<Tag>();
 			log.error("failed to load tags", se);
 			throw new KirkeException(KirkeErrorCode.JOB_FAILED, "Failed to load tags");
 		}
@@ -44,10 +46,10 @@ public class TagConvertor extends NodeConvertor {
 		return INSTANCE;
 	}
 	
-	public Tag convert(Node node) throws KirkeException 
+	public Tag convert(Node node, Category category) throws KirkeException 
 	{
 		String tagString = getNodeValue(node);
-		Tag tag = getTag(tagString);
+		Tag tag = getTag(category, tagString);
 		if (tag==null)
 		{
 			if (tagString.length() > 32) 
@@ -55,12 +57,12 @@ public class TagConvertor extends NodeConvertor {
 				log.error("Tag too long: "+tag);
 				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Tag too long: "+tagString);
 			}
-			
-			tag = ServiceUtils.get().getFactory().newTag(tagString);
+
 			try
 			{
-				ServiceUtils.get().getService().save(tag);
-				this.tags.add(tag);
+				CategoryTag ct = ServiceUtils.get().getService().createCategoryTag(category.getName(), tagString);
+				tag = ct.getCategoryTag();
+				this.tags.get(category).add(tag);
 				JobStatus.get().addTag();
 			}
 			catch (ServiceException se)
@@ -68,11 +70,16 @@ public class TagConvertor extends NodeConvertor {
 				log.error("Failed to save tag",se);
 				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Failed to save tag: "+tag);
 			}
+			catch (Exception e)
+			{
+				log.error("Failed to save tag",e);
+				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Failed to save tag: "+tag);
+			}
 		}
 		return tag;
 	}
 
-	public List<Tag> convert(NodeList nodes) 
+	public List<Tag> convert(NodeList nodes, Category category) 
 	{
 		List<Tag> list = new ArrayList<Tag>();
 		for (int i=0; i<nodes.getLength(); i++)
@@ -80,7 +87,7 @@ public class TagConvertor extends NodeConvertor {
 			Node tagNode = nodes.item(i);
 			try
 			{
-				Tag tag = convert(tagNode);
+				Tag tag = convert(tagNode, category);
 				list.add(tag);
 			}
 			catch(KirkeException e)
@@ -98,12 +105,13 @@ public class TagConvertor extends NodeConvertor {
 		return list;
 	}
 	
-	private Tag getTag(String name)
+	private Tag getTag(Category cat, String tagName)
 	{
+		List<Tag> tagList = tags.get(cat);
 		Tag t = null;
-		for (Tag tag:tags)
+		for (Tag tag:tagList)
 		{
-			if (tag.getName().equalsIgnoreCase(name))
+			if (tag.getName().equalsIgnoreCase(tagName))
 			{
 				t=tag;
 				break;
