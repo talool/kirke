@@ -1,6 +1,7 @@
 package com.talool.kirke.xml.convertor;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -19,8 +20,8 @@ import com.talool.core.MerchantAccount;
 import com.talool.core.MerchantLocation;
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
-import com.talool.kirke.KirkeErrorCode;
 import com.talool.kirke.JobStatus;
+import com.talool.kirke.KirkeErrorCode;
 import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
 
@@ -75,6 +76,8 @@ public class MerchantConvertor extends NodeConvertor {
 				dealOffer.setActive(false);
 				dealOffer.setDealType(DealType.KIRKE_BOOK);
 				dealOffer.setPrice(1000.0f);
+				dealOffer.setScheduledEndDate(new Date());
+				dealOffer.setScheduledStartDate(new Date());
 				dealOffer.setSummary("This book stores deals that were imported into Talool.  You can't sell this book, but you can move its deals into other books you'd like to sell.");
 				ServiceUtils.get().getService().save(dealOffer);
 			}
