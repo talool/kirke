@@ -15,7 +15,6 @@
 	<tx:annotation-driven order="1" />
 
 	<import resource="./taloolCommon.xml" />
-  	<import resource="./taloolMailService.xml"/>
     <import resource="./dataSource.xml" />
 	<import resource="./taloolHibernateContext.xml" />
 
@@ -23,9 +22,9 @@
 	<bean id="serviceFactory" class="com.talool.service.ServiceFactory" factory-method="createInstance">
 		<constructor-arg ref="taloolServiceImpl"/>
 		<constructor-arg ref="customerServiceImpl"/>
-		<constructor-arg ref="emailServiceImpl"/>
-		<constructor-arg ref="activityServiceImpl"/>
-		<constructor-arg ref="analyticServiceImpl"/>
+		<constructor-arg> <null /></constructor-arg>
+		<constructor-arg> <null /></constructor-arg>
+		<constructor-arg> <null /></constructor-arg>
    </bean>
    
    <bean id="tagCache" class="com.talool.cache.TagCache" factory-method="createInstance">

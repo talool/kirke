@@ -34,18 +34,6 @@
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 	
-	<bean id="activityServiceImpl" class="com.talool.service.ActivityServiceImpl">
-		<property name="daoDispatcher" ref="daoDispatcher" />
-		<property name="sessionFactory" ref="sessionFactory" />
-	</bean>
-	
-	<bean id="analyticServiceImpl" class="com.talool.service.AnalyticServiceImpl">
-		<property name="daoDispatcher" ref="daoDispatcher" />
-		<property name="sessionFactory" ref="sessionFactory" />
-		<property name="taloolService" ref="taloolServiceImpl" />
-		<property name="customerService" ref="customerServiceImpl" />
-	</bean>
-	
 	<bean id="redemptionCodeStrategyImpl" class="com.talool.purchase.DealUniqueConfirmationCodeStrategyImpl">
 	 <constructor-arg value="6"/>
 	  <constructor-arg> <null /></constructor-arg>
