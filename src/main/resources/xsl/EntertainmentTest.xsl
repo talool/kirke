@@ -31,8 +31,8 @@
 								  state="{state}" 
 								  zip="{zipcode}" 
 								  country="{countryabbreviation}" 
-								  latitude="{latitude}" 
-								  longitude="{longitude}">
+								  latitude="{latitude div 10000}" 
+								  longitude="{longitude div 10000}">
 							<xsl:if test="logoUrl != ''"> 
 								<Image type="logo" url="{logoUrl}"/>
 							</xsl:if>
