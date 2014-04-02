@@ -10,7 +10,7 @@ Read about her [backstory from the Odyssey.](http://messagenetcommresearch.com/m
 
 Usage
 -----------
-This is an executable JAR package. Run it from the target directory with the following command (sample args - change them as needed):
+This is an executable JAR package. Run it as "tomcat" from a directory owned by "tomcat", so any imported images are created with the correct permissions for the admin.  Here's an example (sample args - change them as needed):
 ````
 java -jar kirke.jar /xml/EntertainmentTest.xml /xsl/EntertainmentTest.xsl 32
 ````
