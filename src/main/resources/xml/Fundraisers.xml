@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Fundraisers>
+    <Fundraiser>
+        <Name>School_1</Name>
+    </Fundraiser>
+    <Fundraiser>
+        <Name>School_2</Name>
+    </Fundraiser>
+    <Fundraiser>
+        <Name>School_3</Name>
+    </Fundraiser>
+    <Fundraiser>
+        <Name>School_4</Name>
+    </Fundraiser>
+</Fundraisers>

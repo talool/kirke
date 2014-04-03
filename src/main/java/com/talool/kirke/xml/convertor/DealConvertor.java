@@ -26,6 +26,7 @@ import com.talool.kirke.JobStatus;
 import com.talool.kirke.KirkeErrorCode;
 import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
+import com.talool.utils.KeyValue;
 
 public class DealConvertor extends NodeConvertor {
 
@@ -90,8 +91,18 @@ public class DealConvertor extends NodeConvertor {
 			MerchantMedia media = MerchantMediaConvertor.convert(image, merchant.getId(),merchantAccount, existingMedia);
 			deal.setImage(media);
 		}
-		// TODO put the rating and value in properties when we have properties on deals
 		
+		// put the rating and value in properties on the deal
+		String rating = getNodeAttr("rating", dealNode);
+		if (!StringUtils.isEmpty(rating))
+		{
+			deal.getProperties().createOrReplace(KeyValue.dealRating, rating);
+		}
+		String value = getNodeAttr("value", dealNode);
+		if (!StringUtils.isEmpty(value))
+		{
+			deal.getProperties().createOrReplace(KeyValue.dealValue, value);
+		}
 		
 		// convert the deal tags
 		Node tagsNode = getNode(TagsTag,dealData);

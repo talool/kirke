@@ -6,12 +6,13 @@
 	<xsd:complexType name="MerchantType">
     	<xsd:sequence>
     		<xsd:element name="Tags" type="TagsType" maxOccurs="1" minOccurs="0"></xsd:element>
-    		<xsd:element name="Locations" type="LocationsType"></xsd:element>
-    		<xsd:element name="Deals" type="DealsType"></xsd:element>
+    		<xsd:element name="Locations" type="LocationsType" maxOccurs="1" minOccurs="0"></xsd:element>
+    		<xsd:element name="Deals" type="DealsType" maxOccurs="1" minOccurs="0"></xsd:element>
     	</xsd:sequence>
     	<xsd:attribute name="name" type="xsd:string"></xsd:attribute>
     	<xsd:attribute name="category" type="xsd:string"></xsd:attribute>
     	<xsd:attribute name="fundraiser" type="xsd:boolean"></xsd:attribute>
+    	<xsd:attribute name="fundraiser_percentage" type="xsd:int" use="optional"></xsd:attribute>
     </xsd:complexType>
 
     <xsd:complexType name="LocationType">

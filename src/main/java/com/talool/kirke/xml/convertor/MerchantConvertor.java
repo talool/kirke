@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -24,6 +25,7 @@ import com.talool.kirke.JobStatus;
 import com.talool.kirke.KirkeErrorCode;
 import com.talool.kirke.KirkeException;
 import com.talool.kirke.ServiceUtils;
+import com.talool.utils.KeyValue;
 
 public class MerchantConvertor extends NodeConvertor {
 
@@ -119,19 +121,34 @@ public class MerchantConvertor extends NodeConvertor {
 		Category category = getCategory(getNodeAttr("category", merchantNode));
 		merchant.setCategory(category);
 		
+		String fundraiser = getNodeAttr("fundraiser", merchantNode);
+		if (!StringUtils.isEmpty(fundraiser) && StringUtils.equalsIgnoreCase(fundraiser, "true"))
+		{
+			merchant.getProperties().createOrReplace(KeyValue.fundraiser, "true");
+		}
+		
+		String percentage = getNodeAttr("fundraiser_percentage", merchantNode);
+		if (!StringUtils.isEmpty(percentage))
+		{
+			merchant.getProperties().createOrReplace(KeyValue.percentage, percentage);
+		}
+		
 		NodeList nodes = merchantNode.getChildNodes();
 		
 		// convert the merchant tags
 		Node tagsNode = getNode(TagsTag,nodes);
-		try
+		if (tagsNode != null)
 		{
-			List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes(), category);
-			Set<Tag> tags = new HashSet<Tag>(tagList);
-			merchant.setTags(tags);
-		}
-		catch (KirkeException e)
-		{
-			// TODO decide if we want to continue or fail the merchant
+			try
+			{
+				List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes(), category);
+				Set<Tag> tags = new HashSet<Tag>(tagList);
+				merchant.setTags(tags);
+			}
+			catch (KirkeException e)
+			{
+				// TODO decide if we want to continue or fail the merchant
+			}
 		}
 		
 		
@@ -154,65 +171,71 @@ public class MerchantConvertor extends NodeConvertor {
 		{
 			// convert the locations
 			Node locationsNode = getNode(LocationsTag,nodes);
-			try
+			if (locationsNode != null)
 			{
-				List<MerchantLocation> locations = MerchantLocationConvertor.convert(locationsNode.getChildNodes(), merchantId, merchantAccount);
-				for (MerchantLocation loc : locations)
+				try
 				{
-					// check for an existing loc with this id
-					dropLocation(merchant, loc);
-					merchant.addLocation(loc);
+					List<MerchantLocation> locations = MerchantLocationConvertor.convert(locationsNode.getChildNodes(), merchantId, merchantAccount);
+					for (MerchantLocation loc : locations)
+					{
+						// check for an existing loc with this id
+						dropLocation(merchant, loc);
+						merchant.addLocation(loc);
+					}
 				}
-			}
-			catch (KirkeException e)
-			{
-				log.error("Failed to convert location for: "+merchant.getName() + " because " + e.getMessage());
-			}
-			
-			if (merchant.getLocations().size() == 0)
-			{
-				log.error("Skipping merchant because there were no locations converted: "+merchant.getName());
-				// consider deleting the merchant to clean it up
-				throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR, "No locations converted");
-			}
-			
-			// persist the merchant, this time with locations
-			try 
-			{
-				ServiceUtils.get().getService().save(merchant);
-				if (isNewMerchant)
+				catch (KirkeException e)
 				{
-					existingMerchants.add(merchant);
+					log.error("Failed to convert location for: "+merchant.getName() + " because " + e.getMessage());
 				}
-			}
-			catch(ServiceException merchSE)
-			{
-				log.error("Failed to save merchant with locations: "+merchant.getName(), merchSE);
-				throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR, merchSE);
-			}
-			
-			// convert the deals and put each one in our deal offer
-			Node dealsNode = getNode(DealsTag,nodes);
-			List<Deal> deals = DealConvertor.convert(dealsNode.getChildNodes(), merchant, merchantAccount);
-			for (Deal deal:deals)
-			{
+				
+				if (merchant.getLocations().size() == 0)
+				{
+					log.error("Skipping merchant because there were no locations converted: "+merchant.getName());
+					// consider deleting the merchant to clean it up
+					throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR, "No locations converted");
+				}
+				
+				// persist the merchant, this time with locations
 				try 
 				{
-					deal.setDealOffer(dealOffer);
-					deal.setMerchant(merchant);
-					ServiceUtils.get().getService().save(deal);
-					
-					JobStatus.get().addDeal();
+					ServiceUtils.get().getService().save(merchant);
+					if (isNewMerchant)
+					{
+						existingMerchants.add(merchant);
+					}
 				}
-				catch(ServiceException dealSE)
+				catch(ServiceException merchSE)
 				{
-					log.error("Failed to save deal: "+deal.getSummary(), dealSE);
-					StringBuilder sb = new StringBuilder();
-					sb.append(deal.getSummary())
-					  .append(" for merchant ")
-					  .append(merchantName)
-					  .append(" failed to save.");
-					JobStatus.get().skippedDeal(sb.toString());
+					log.error("Failed to save merchant with locations: "+merchant.getName(), merchSE);
+					throw new KirkeException(KirkeErrorCode.MERCHANT_ERROR, merchSE);
+				}
+				
+				// convert the deals and put each one in our deal offer
+				Node dealsNode = getNode(DealsTag,nodes);
+				if (dealsNode != null)
+				{
+					List<Deal> deals = DealConvertor.convert(dealsNode.getChildNodes(), merchant, merchantAccount);
+					for (Deal deal:deals)
+					{
+						try 
+						{
+							deal.setDealOffer(dealOffer);
+							deal.setMerchant(merchant);
+							ServiceUtils.get().getService().save(deal);
+							
+							JobStatus.get().addDeal();
+						}
+						catch(ServiceException dealSE)
+						{
+							log.error("Failed to save deal: "+deal.getSummary(), dealSE);
+							StringBuilder sb = new StringBuilder();
+							sb.append(deal.getSummary())
+							  .append(" for merchant ")
+							  .append(merchantName)
+							  .append(" failed to save.");
+							JobStatus.get().skippedDeal(sb.toString());
+						}
+					}
 				}
 			}
 			
