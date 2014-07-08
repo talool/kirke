@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Talool nextPage="">
+    
+    <Merchant name="360 Pizzeria" category="Food">
+        <Locations>
+            <Location url="www.360pizzeria.com" phone="360-260-3605" address1="3425 SE 192nd Ave " address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF A DINNER PURCHASE OF $10 OR MORE</Summary>
+                <Details>Not including Happy Hour. Alcohol excluded. Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Abhiruchi Indian Cuisine" category="Food">
+        <Locations>
+            <Location url="" phone="360-260-1014" address1="233 NE Chkalov Dr" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
+                <Details>Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Applewood NW Cuisine" category="Food">
+        <Locations>
+            <Location url="" phone="360-882-3725" address1="2005 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Happy Hour excluded.</Details>
+            </Deal>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Happy Hour excluded.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Baja Fresh" category="Food">
+        <Locations>
+            <Location url="" phone="360-823-2252" address1="16010 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="" phone="360-823-8001" address1="7801 NE Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF ANY FULL PRICED PURCHASE OF $15 OR MORE, OR $2 OFF ANY FULL PRICED PURCHASE OF $8 OR MORE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Free Kids Meal</Title>
+                <Summary>ONE FREE KIDS MEAL WITH THE PURCHASE OF TWO FULL PRICED ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Big Al’s Sports Bar" category="Food">
+        <Locations>
+            <Location url="" phone="360-944-6118" address1="16615 SE 18th St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Blind Onion Pizza" category="Food">
+        <Locations>
+            <Location url="" phone="360-750-7490" address1="2900 East Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="" phone="360-597-4898" address1="9230 NE Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="" phone="360-213-1805" address1="6115 NE 114th" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>50% OFF</Title>
+                <Summary>50% OFF THE REGULAR PRICE OF ANY ONE PIzzA</Summary>
+                <Details>Up to $9 max</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Bone's Steak and Chop House" category="Food">
+        <Locations>
+            <Location url="www.bonessteak.com" phone="360-723-0810" address1="1207 SE Rasmussen Blvd" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Boppin’ Bo’s" category="Food">
+        <Locations>
+            <Location url="" phone="360-883-4900" address1="7809 NE Vancouver Plaza Dr. " address2="" city="Vancouver" state="" zip="98662"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE MENU ITEM GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>$5 maximum.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Brewtopia" category="Food">
+        <Locations>
+            <Location url="" phone="360-448-4100" address1="8500 NE Vancouver Mall Drive" address2="" city="Vancouver" state="" zip="98662"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $12 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Café Pacific at Chips Casino" category="Food">
+        <Locations>
+            <Location url="www.nwcasinos.com" phone="360-263-2988" address1="318 Old Pacific Hwy" address2="" city="La Center" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $13 max</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Camas Thai Cuisine" category="Food">
+        <Locations>
+            <Location url="" phone="360-833-1175" address1="450 NE Birch St " address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF ANY LUNCH OR DINNER PURCHASE OF $10 OR MORE</Summary>
+                <Details>alcohol excluded, dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Catedral Tapatia" category="Food">
+        <Locations>
+            <Location url="" phone="360-891-0055" address1="707 sE 164th St. " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE COMBINATION MEALS WITH THE PURCHASE OF TWO BEVERAGES</Summary>
+                <Details>Lunch served Mon – Fri 11AM – 3PM.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Charlies Bistro" category="Food">
+        <Locations>
+            <Location url="www.charliesbistro.com" phone="360-693-9998" address1="1220 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Duck Takes Kitchen" category="Food">
+        <Locations>
+            <Location url="www.ducktaleskitchen.com" phone="360-735-7932" address1="612 North Devine Rd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Eastland Sushi" category="Food">
+        <Locations>
+            <Location url="" phone="360-883-1858" address1="16519 SE McGillivray Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES WITH THE FULL PRICED PURCHASE OF TWO DRINKS</Summary>
+                <Details>Dine in only. Sushi excluded. Please present coupon when ordering.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="El Valle Mexican Grill" category="Food">
+        <Locations>
+            <Location url="" phone="360-891-6868" address1="6700 NE 162nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE AND TWO DRINKS, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $10 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Farrar's Bistro" category="Food">
+        <Locations>
+            <Location url="" phone="360-571-7005" address1="12514 NW 36th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH OR DINNER ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Fujis Grill and Sushi" category="Food">
+        <Locations>
+            <Location url="" phone="360-896-4899" address1="305 SE Chkalov Rd " address2="#105" city="Vancouver" state="" zip=""></Location>
+            <Location url="" phone="503-625-7849" address1="16062 SW Tualatin Sherwood Hwy " address2="" city="Sherwood" state="OR" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$12 OFF</Title>
+                <Summary>$12 OFF ANY COMBINATION DINNER WHEN A SECOND COMBINATION DINNER IS PURCHASED AT THE REGULAR PRICE</Summary>
+                <Details>Up to $12 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Ginger Pop Thai" category="Food">
+        <Locations>
+            <Location url="www.gingerpopthai.com" phone="360-699-7273" address1="2520 Columbia House Drive" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF ANY DINNER PURCHASE OF $20 OR MORE</Summary>
+                <Details>Excludes Happy Hour and $2 Tuesday Beers. Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Goldies BBQ" category="Food">
+        <Locations>
+            <Location url="www.goldiesbbq.com" phone="360-253-2836" address1="5640 NE Fourth Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF A FULL PRICED PURCHASE OF $20 OR MORE</Summary>
+                <Details>Alchohol and taxes excluded</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Grant House" category="Food">
+        <Locations>
+            <Location url="www.thegranthouse.us" phone="360-906-1101" address1="1101 Officers Row" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE DINNER ENTREE AND TWO BEVERAGES, GET ONE DINNER ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>up to $23 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Gustav's Pub &amp; Grill" category="Food">
+        <Locations>
+            <Location url="" phone="360-883-0222" address1="1705 SE 164TH" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only. Happy Hour Items and Alcohol Excluded.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Harvest" category="Food">
+        <Locations>
+            <Location url="www.camasharvest.com" phone="360-210-4037" address1="401 NE 4th Ave" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Hawaiian Style Grill " category="Food">
+        <Locations>
+            <Location url="www.hawaiianstylegrill.com" phone="360-993-5306" address1="5000 East Fourth Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$8 Off</Title>
+                <Summary>BUY ONE ENTREe AND TWO DRINKS, GET ONE OR entree OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $8 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Jerusalem Cafe" category="Food">
+        <Locations>
+            <Location url="" phone="360-891-1490" address1="516 SE Chkalov Drive" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE ENTREE AND TWO DRINKS, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>up to $9 max</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Jollie's" category="Food">
+        <Locations>
+            <Location url="" phone="360-573-3141" address1="17701 NE Union Rd" address2="" city="Ridgefield" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE OF OUR $6 OR HIGHER ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="K’Syrah" category="Food">
+        <Locations>
+            <Location url="www.ksyrahcatering.com" phone="(360) 833-9429" address1="316 NE Dallas St" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Killer Burger" category="Food">
+        <Locations>
+            <Location url="www.killerburger.net" phone="360-836-5275" address1="1525 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$1 Kids Basket</Title>
+                <Summary>$1 KIDS KILLER BURGER BASKET WITH THE PURCHASE OF ANY REGULAR KILLER BURGER BASKET</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="La Costa Azteca" category="Food">
+        <Locations>
+            <Location url="" phone="360-885-7675" address1="4708 NE Thurson Way" address2="" city="Vancouver" state="" zip="98662"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE LUNCH OR DINNER ENTREE, GET ONE LUNCH OR DINNER ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $10 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="La Solera" category="Food">
+        <Locations>
+            <Location url="www.lasolera.com" phone="360-687-4500" address1="2210 West Main St" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$6 OFF</Title>
+                <Summary>$6 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Lapellah" category="Food">
+        <Locations>
+            <Location url="www.lapellah.com" phone="360-828-7911" address1="2520 Columbia House Blvd" address2="Suite 108" city="Vancouver" state="" zip="98661"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>>$5 OFF</Title>
+                <Summary>$5 OFF ANY DINNER PURCHASE OF $10 OR MORE</Summary>
+                <Details>Not including Happy Hour. Alcohol excluded. Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Las Mesitas" category="Food">
+        <Locations>
+            <Location url="" phone="360-687-7221" address1="715 West Main St" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE ENTREE AND TWO BEVERAGES, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $10 max. Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Los 3 Garcias" category="Food">
+        <Locations>
+            <Location url="" phone="360-260-7157" address1="10412 Fourth Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE LUNCH OR DINNER ENTREE, GET ONE LUNCH OR DINNER ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $10 max</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Los Jalapenos Mexican" category="Food">
+        <Locations>
+            <Location url="" phone="360-883-6588" address1="11711 NE 99th St. " address2="" city="Vancouver" state="" zip="98682"></Location>
+            <Location url="" phone="360-335-9400" address1="1736 B St. " address2="" city="Washougal" state="" zip="98671"></Location>
+            <Location url="" phone="360-260-0607" address1="3200 SE 164th " address2="#220" city="Vancouver" state="" zip="98683"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE, GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>up to $10 maximum.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Los Potrillos" category="Food">
+        <Locations>
+            <Location url="" phone="360-838-2431" address1="1735 SE 192nd Ave" address2="Ste 101" city="Camas" state="" zip="98607"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE AND TWO DRINKS, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $6 max for lunch. Up to $7 max for dinner. Max one coupon per party.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE AND TWO DRINKS, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $6 max for lunch. Up to $7 max for dinner. Max one coupon per party.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Main Event Sports Grill" category="Food">
+        <Locations>
+            <Location url="www.MESPORTSGRILL.COM" phone="360-448-7146" address1="800 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.MESPORTSGRILL.COM" phone="360-828-8583" address1="3200 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Makoto Japanese Buffet" category="Food">
+        <Locations>
+            <Location url="" phone="" address1="1119 SE 163rd Place" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>BUY ONE ADULT LUNCH OR DINNER BUFFET AT REGULAR PRICE, AND GET $5 OFF THE SECOND ADULT LUNCH OR DINNER BUFFET</Summary>
+                <Details>Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Mill City Brew Werks" category="Food">
+        <Locations>
+            <Location url="" phone="360-210-4761" address1="339 NE Cedar St" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Mill Creek Pub" category="Food">
+        <Locations>
+            <Location url="www.millcreekpub.com" phone="360-723-5223" address1="1710 SW 9th Ave" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE Dinner ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="New King's Buffet" category="Food">
+        <Locations>
+            <Location url="" phone="360-260-7888" address1="304 SE 123rd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>25% Off</Title>
+                <Summary>25% OFF THE REGULAR PRICE OF A LUNCH OR DINNER BUFFET WITH THE PURCHASE OF A REGULAR PRICED BEVERAGE PER PERSOn</Summary>
+                <Details>One coupon is good for up to 4 people.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Oaks Grill at Camas Meadows" category="Food">
+        <Locations>
+            <Location url="" phone="360-833-2000" address1="4105 NW Camas Meadows Dr " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE, GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>up to $9 max, dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Old Town Burgers" category="Food">
+        <Locations>
+            <Location url="" phone="360-666-0522" address1="813 West Main St" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES, WITH THE PURCHASE OF TWO BEVERAGES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Outback Steakhouse" category="Food">
+        <Locations>
+            <Location url="www.outback.com" phone="360-883-0005" address1="8700 NE Vancouver Mall Dr" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Patricks Hawaiian Café" category="Food">
+        <Locations>
+            <Location url="www.hawaiiancafe.com" phone="360-885-0881" address1="316 SE 123rd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE ENTREE AND TWO DRINKS, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $8 max</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Pho Le Vietnamese" category="Food">
+        <Locations>
+            <Location url="" phone="360-892-8484" address1="2100 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Pizzicato" category="Food">
+        <Locations>
+            <Location url="www.pizzicatopizza.com" phone="360-891-2081" address1="1900 NE 162nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF ONE MEDIUM, LARGE OR GIANT PIzzA</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE LARGE OR GIANT PIzzA AT REGULAR PRICE AND GET ONE SMALL PIzzA FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Puffin Café" category="Food">
+        <Locations>
+            <Location url="www.puffincafe.com" phone="360-335-1522" address1="14 South A St" address2="" city="Washougal" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Roots" category="Food">
+        <Locations>
+            <Location url="" phone="360-260-3001" address1="1925 SE 34th St." address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF ANYDINNER PURCHASE OF $10 OR MORE</Summary>
+                <Details>Not including Happy Hour. Alcohol excluded. Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Salty’s Seafood Grill" category="Food">
+        <Locations>
+            <Location url="www.Saltys.com/Portland" phone="503-288-4444" address1="3839 NE Marine Dr." address2="" city="Portland" state="OR" zip="97211"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$10 OFF</Title>
+                <Summary>$10 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Sportsmen’s Bar and Grill" category="Food">
+        <Locations>
+            <Location url="" phone="360-887-3141" address1="121 North Main St " address2="" city="Ridgefield" state="" zip="98642"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $10 max discount</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Strada Street Food of Italy" category="Food">
+        <Locations>
+            <Location url="www.gostrada.com" phone="360-326-4364" address1="2100 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE FULL SIzE ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Talay Thai Cuisine" category="Food">
+        <Locations>
+            <Location url="www.talaythaicuisine.com" phone="360-604-0999" address1="13510 NE 84th" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="The Old Spaghetti Factory" category="Food">
+        <Locations>
+            <Location url="www.osf.com" phone="360-253-9030" address1="730 SE 160th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Free Kids Meal</Title>
+                <Summary>ONE FREE KIDS MEAL WITH THE PURCHASE OF AN ENTREE</Summary>
+                <Details>Dine in only.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE LUNCH ENTREE, GET ONE LUNCH ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $9 max. Dine In only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="The Rock Wood Fired Pizza" category="Food">
+        <Locations>
+            <Location url="www.therockwfp.com" phone="360-695-7625" address1="2420 Columbia House Blvd" address2="" city="Vancouver" state="" zip="98661"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF ONE OF OUR SIGNATURE PIzzAS</Summary>
+                <Details>Valid for Dine In or Carry Out. Excludes 9 inch pizzas. </Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Tiger Lily" category="Food">
+        <Locations>
+            <Location url="" phone="360 828-1245" address1="1109 Washington St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE dinner ENTREES</Summary>
+                <Details>Dine in only</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Tommy O’s" category="Food">
+        <Locations>
+            <Location url="www.tommyosaloha.com" phone="360-694-5107" address1="801 Washington" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details>Dine in only. Not Valid during Happy Hour.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Twilight Pizza Bistro" category="Food">
+        <Locations>
+            <Location url="www.twilightpizzabistro.com" phone="(360) 833-1919" address1="905 SE 192nd Avenue" address2="#101" city="Vancouver" state="" zip="98607"></Location>
+            <Location url="www.twilightpizzabistro.com" phone="(360) 833-1919" address1="224 NE 4th Avenue" address2="" city="Camas" state="" zip="98607"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF ANY PURCHASE OF $15 OR MORE</Summary>
+                <Details>Tax excluded</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Vinotopia" category="Food">
+        <Locations>
+            <Location url="www.cinetopiatheaters.com" phone="360-213-2800" address1="11700 SE 7th St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ENTREE, GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>up to $12 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Woody’s Tacos" category="Food">
+        <Locations>
+            <Location url="" phone="360-718-8193" address1="210 West Evergreen Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE TACO, GET ONE FISH TACO OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Yummy Mongolian Grill" category="Food">
+        <Locations>
+            <Location url="" phone="360-256-2468" address1="316 SE 123rd " address2="" city="Vancouver" state="" zip="98683"></Location>
+            <Location url="" phone="360-256-2468" address1="8513 NE Hwy 99 " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>25% Off</Title>
+                <Summary>25% OFF OF THE REGULAR PRICE OF LUNCH OR DINNER BUFFET, with the purchase of a regular priced beverage per person.</Summary>
+                <Details>Up to 4 person max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Arby’s" category="Food">
+        <Locations>
+            <Location url="www.arbys.com" phone="360-896-5154" address1="7117 NE FOURTH PLAIN BLVD" address2="" city="VANCOUVER" state="" zip=""></Location>
+            <Location url="www.arbys.com" phone="360-253-3556" address1="221 NE 104 AVENUE" address2="" city="VANCOUVER" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$1.99 Roast Beef</Title>
+                <Summary>$1.99 ROAST BEEF CLASSIC CHOICE</Summary>
+                <Details>Choose from Roast Beef Classic or Beef ‘n Cheddar Classic Sandwiches. Buy up to 6 with this coupon at participating Arby’s restaurants.  Not valid with any other offer or discount.</Details>
+            </Deal>
+            <Deal>
+                <Title>$1.99 Roast Beef</Title>
+                <Summary>$1.99 ROAST BEEF CLASSIC CHOICE</Summary>
+                <Details>Choose from Roast Beef Classic or Beef ‘n Cheddar Classic Sandwiches. Buy up to 6 with this coupon at participating Arby’s restaurants.  Not valid with any other offer or discount.</Details>
+            </Deal>
+            <Deal>
+                <Title>Three for $5</Title>
+                <Summary>ENJOY THREE CLASSIC ROAST BEEF SANDWICHES FOR ONLY $5</Summary>
+                <Details>Buy up to 6 with this coupon at participating Arby’s restaurants.  Not valid with any other offer or discount.</Details>
+            </Deal>
+            <Deal>
+                <Title>Three for $5</Title>
+                <Summary>ENJOY THREE CLASSIC ROAST BEEF SANDWICHES FOR ONLY $5</Summary>
+                <Details>Buy up to 6 with this coupon at participating Arby’s restaurants.  Not valid with any other offer or discount.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Bellagio’s" category="Food">
+        <Locations>
+            <Location url="" phone="360-567-1007" address1="322 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SLICE OF PIzzA AND DRINK, GET ONE SLICE OF PIzzA OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SLICE OF PIzzA AND DRINK, GET ONE SLICE OF PIzzA OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Black Rock Coffee Bar" category="Food">
+        <Locations>
+            <Location url="www.blackrockcoffeebar.com" phone="(503) 689-3229" address1="13721 SE Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.blackrockcoffeebar.com" phone="(503) 689-3229" address1="1801 SE 164th Ave" address2="Ste 111" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.blackrockcoffeebar.com" phone="(503) 689-3229" address1="7710 NE 5th Ave" address2="Ste 122" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE DRINK , GET ONE DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>$2 16oz drink</Title>
+                <Summary>ENJOY ANY 16 OUNCE DRINK FOR ONLY $2</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Bleu Door Bakery" category="Food">
+        <Locations>
+            <Location url="www.bleudoorbakery.com" phone="360-693-2538" address1="413 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE Cookie or ESPRESSO DRINK, GET ONE Cookie or ESPRESSO DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Brewed" category="Food">
+        <Locations>
+            <Location url="www.brewed360.com" phone="360-597-3386" address1="603 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE COFFEE OR TEA DRINK, GET ONE COFFEE OR TEA DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Bruchi’s Subs" category="Food">
+        <Locations>
+            <Location url="" phone="360-571-5383" address1="800 NE Tenney Road" address2="Suite 108" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF OF THE REGULAR PRICE OF A SANDWICH PLATTER</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>50% Off</Title>
+                <Summary>50% OFF THE REGULAR PRICE OF ANY FOOD ORDER UPON PAYMENT OF REMAINING BALANCE</Summary>
+                <Details>up to $5 maximum.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Burgerville" category="Food">
+        <Locations>
+            <Location url="www.burgerville.com" phone="360-696-0308" address1="2200 E Fourth Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-694-4971" address1="7401 E Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-944-6230" address1="8320 NE Vancouver Plaza Dr." address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-574-1981" address1="9909 NE HWY 99" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="503-467-4896" address1="7000 NE Airport Way" address2="Ste. 2200" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-892-9781" address1="10903 NE Fourth Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-573-8223" address1="13309 NE Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-254-9301" address1="11704 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-834-3289" address1="518 NE 3rd Ave" address2="" city="Camas" state="" zip=""></Location>
+            <Location url="www.burgerville.com" phone="360-687-7308" address1="217 W. Main St." address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>FREE TILLAMOOK CHEESEBURGER WITH PURCHASE OF EQUAL OR GREATER VALUE</Summary>
+                <Details>One coupon or discount per transaction. Not redeemable for cash.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>ONE FREE BREAKFAST BURRITO WITH ANY PURCHASE OF EQUAL OR GREATER VALUE</Summary>
+                <Details>All restaurants open by 6 AM. One coupon or discount per transaction. Not redeemable for cash.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>FREE REGULAR SIzE SEASONAL OREGON BERRY MILKSHAKE OR SMOOTHIE WITH EQUAL OR GREATER PURCHASE</Summary>
+                <Details>One coupon or discount per transaction. Not redeemable for cash.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>FREE REGULAR SIzE PUMPKIN OR CHOCOLATE HAzELNUT MILKSHAKE OR SMOOTHIE WITH PURCHASE OF EQUAL OR GREATER VALUE</Summary>
+                <Details>One coupon or discount per transaction. Not redeemable for cash.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Coffee Gallery" category="Food">
+        <Locations>
+            <Location url="" phone="360-980-8268" address1="8115 NE Vancouver Mall Drive " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE COFFEE DRINK, GET ONE COFFEE DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE COFFEE DRINK, GET ONE COFFEE DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Compass Coffee" category="Food">
+        <Locations>
+            <Location url="" phone="360-696-1612" address1="1304 West Main St " address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="" phone="360-696-1612" address1="8013 St Johns Rd " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE DRINK, GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Del Taco" category="Food">
+        <Locations>
+            <Location url="www.deltaco.com" phone="360-546-0707" address1="8724 Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE MENU ITEM, GET ONE MENU ITEM OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Di Tazza Gourmet Coffee" category="Food">
+        <Locations>
+            <Location url="www.ditazzagourmetcoffee.com" phone="360-210-7087" address1="2011 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Free Pastry</Title>
+                <Summary>FREE PASTRY WITH PURCHASE OF A SPECIALTY DRINK</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Domino's" category="Food">
+        <Locations>
+            <Location url="www.dominos.com" phone="(360) 254-4408" address1="6300 NE 117th St." address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.dominos.com" phone="(360) 885-3030" address1="1723 NE Andresen" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.dominos.com" phone="(360) 253-0060" address1="14415 SE Mill Plain" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY A LARGE PIzzA AT REGULAR MENU PRICE & GET A ONE TOPPING MEDIUM OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>One coupon per person. Taxes and Delivery Charges may apply.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY A LARGE PIzzA AT REGULAR MENU PRICE & GET A ONE TOPPING MEDIUM OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>One coupon per person. Taxes and Delivery Charges may apply.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Dot Donuts" category="Food">
+        <Locations>
+            <Location url="www.dotdonuts.com" phone="360-253-1910" address1="825 SE 164th Ave " address2="" city="Vancouver" state="" zip="98683"></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one dozen, get 1/2 dozen free</Title>
+                <Summary>BUY ONE DOzEN ASSORTED DONUTS AT REGULAR PRICE, GET A HALF DOzEN CLASSIC GLAzED RAISED DONUTS FOR FREe</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SINGLE SCOOP OF ICE CREAM AT REGULAR PRICE, GET ONE SINGLE SCOOP OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Dutch Bros Coffee" category="Food">
+        <Locations>
+            <Location url="www.dutchbros.com" phone="(360) 258-1880" address1="5700 NE 4th Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.dutchbros.com" phone="(360) 258-1880" address1="2610 NE 138th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.dutchbros.com" phone="(360) 258-1880" address1="10417 SE Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$1 Drink</Title>
+                <Summary>ENJOY A DUTCH BROTHERS BLUE REBEL ENERGY DRINK FOR ONLY $1</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>$2 Drink</Title>
+                <Summary>ENJOY ANY DRINK, ANY SIzE FOR ONLY $2</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE DRINK, GET ONE DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE DRINK, GET ONE DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Fatty Patty’s" category="Food">
+        <Locations>
+            <Location url="" phone="360-574-4940" address1="10501 NE Hwy 99 " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF A PURCHASE OF $10 OR MORE</Summary>
+                <Details>alcohol excluded.</Details>
+            </Deal>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF A PURCHASE OF $10 OR MORE</Summary>
+                <Details>alcohol excluded.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Gaia Java" category="Food">
+        <Locations>
+            <Location url="" phone="360-719-2360" address1="1104 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>50% OFF</Title>
+                <Summary>50% OFF OF THE REGULAR PRICE OF ANY BEVERAGE OR PASTY</Summary>
+                <Details>extra cost for any additional shots, flavors or alternative milk requests.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Garlic Jim's" category="Food">
+        <Locations>
+            <Location url="www.garlicjimspizza.com" phone="360-573-8400" address1="13317 NE 12th Ave." address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY A LARGE SPECIALTY PIzzA AT REGULAR MENU PRICE AND RECEIVE A MEDIUM ONE TOPPING PIzzA FREE</Summary>
+                <Details>Delivery or carry out. Minimum purchase of $10 required for delivery, delivery charge will apply.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY A LARGE SPECIALTY PIzzA AT REGULAR MENU PRICE AND RECEIVE A MEDIUM ONE TOPPING PIzzA FREE</Summary>
+                <Details>Delivery or carry out. Minimum purchase of $10 required for delivery, delivery charge will apply.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Godfather's Pizza" category="Food">
+        <Locations>
+            <Location url="" phone="360-256-0000" address1="2100 SE 164th Avenue" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>ENJOY A JUMBO PIzzA FOR THE PRICE OF A LARGE PIzzA</Summary>
+                <Details>Cannot be combined with any other offer.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>ENJOY A JUMBO PIzzA FOR THE PRICE OF A LARGE PIzzA</Summary>
+                <Details>Cannot be combined with any other offer.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>PURCHASE A LUNCH BUFFET AT REGULAR PRICE AND ADD SALAD FOR FREE</Summary>
+                <Details>Cannot be combined with any other offer.  Buffets cannot be shared.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>PURCHASE ANY LARGE SPECIALTY PIzzA AT REGULAR PRICE AND RECEIVE A LARGE 1 TOPPING PIzzA FREE</Summary>
+                <Details>Cannot be combined with any other offer.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Ice Cream Renaissance" category="Food">
+        <Locations>
+            <Location url="" phone="360-694-3892" address1="1925 Main St " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE MENU ITEM, GET A KID’S MENU ITEM OF EQUAL OR LESSER VALUE FOR FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ANY MENU ITEM OVER $5 AND RECEIVE A FREE 12oz COFFEE DRINK</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Jack in the Box" category="Food">
+        <Locations>
+            <Location url="www.jackinthebox.com" phone="(360) 260-2666" address1="16333 12th Street" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 885-2450" address1="7205 117th Avenue" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 891-8806" address1="7650 NE Fourth Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 335-8406" address1="3307 Evergreen Way" address2="" city="Washougal" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 576-7023" address1="13009 Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 885-3898" address1="221 D NE 104th Avenue" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 666-2281" address1="19 NW 12th Avenue" address2="" city="Battle Ground" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 636-3500" address1="1445 15th Avenue" address2="" city="Longview" state="" zip=""></Location>
+            <Location url="www.jackinthebox.com" phone="(360) 546-2050" address1="7815 NE 6th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE JUMBO JACK AT REGULAR PRICE AND GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Present this coupon when ordering. One coupon per guest, per visit.  Valid at participating Jack in Box locations in Vancouver, WA.</Details>
+            </Deal>
+            <Deal>
+                <Title>Free Tacos</Title>
+                <Summary>ENJOY TWO FREE TACOS WITH ANY PURCHASE</Summary>
+                <Details>Present this coupon when ordering. One coupon per guest, per visit.  Valid at participating Jack in Box locations in Vancouver, WA.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="La Bella Café" category="Food">
+        <Locations>
+            <Location url="www.facebook.com/LaBellasCafe" phone="(360) 695-6009" address1="2110 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>50% Off</Title>
+                <Summary>50% OFF THE REGULAR PRICE OF ONE PANINI, OR BUY ONE ESPRESSO DRINK AND GET ONE PASTRY FOR FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Latte Da Coffee House" category="Food">
+        <Locations>
+            <Location url="www.lattedacoffeehouse.com" phone="360-448-7651" address1="205 East 39th St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 Off</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE SANDWICHES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Lime Berry Frozen Yogurt" category="Food">
+        <Locations>
+            <Location url="" phone="360-723-5060" address1="11 NW 12th Ave" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE YOGURT, GET ONE YOGURT OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Little Caesars Pizza" category="Food">
+        <Locations>
+            <Location url="www.littlecaesars.com" phone="360 869-8583" address1="221G NE 104th Ave." address2="Suite 104" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.littlecaesars.com" phone="360 869-8583" address1="2010-A NE 4th Plain Road" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.littlecaesars.com" phone="360 869-8583" address1="1125 SE 163RD Place" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.littlecaesars.com" phone="360 869-8583" address1="310 NE 78th Street " address2="#105" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Free Combo</Title>
+                <Summary>FREE CRAzY COMBO WITH PURCHASE OF ANY PIzzA</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>$8.50 Meal Deal</Title>
+                <Summary>$8.50 MEAL DEAL- LARGE PEPPERONI/CHEESE PIzzA, CRAzY COMBO, AND A 2 LITER OF PEPSI</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Little Cups and Grownups" category="Food">
+        <Locations>
+            <Location url="" phone="" address1="" address2="" city="" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title></Title>
+                <Summary></Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="McDonald's" category="Food">
+        <Locations>
+            <Location url="www.mcdonalds.com" phone="(360)735-0583" address1="2110 E 4TH PLAIN BLVD" address2="" city="VANCOUVER" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ExTRA VALUE MEAL, GET SAME SANDWICH FREE</Summary>
+                <Details>excluding Dollar menu sandwich. Valid at all participating Vancouver locations.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ExTRA VALUE MEAL, GET SAME SANDWICH FREE</Summary>
+                <Details>excluding Dollar menu sandwich. Valid at all participating Vancouver locations.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ExTRAVALUE BREAKFAST MEAL, GET ONE SAME SANDWICH FREE</Summary>
+                <Details>excluding Dollar menu sandwich. Valid at all participating Vancouver locations.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE ExTRAVALUE BREAKFAST MEAL, GET ONE SAME SANDWICH FREE</Summary>
+                <Details>excluding Dollar menu sandwich. Valid at all participating Vancouver locations.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Namaste" category="Food">
+        <Locations>
+            <Location url="www.namasteindiancuisine.com" phone="360-891-5857" address1="6300A NE 117th Ave." address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES WITH THE PURCHASE OF TWO BEVERAGES</Summary>
+                <Details>alcohol excluded, dine in only.</Details>
+            </Deal>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES WITH THE PURCHASE OF TWO BEVERAGES</Summary>
+                <Details>alcohol excluded, dine in only.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="NW Bagel Deli" category="Food">
+        <Locations>
+            <Location url="" phone="360-573-1190" address1="512 NE 81st St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SANDWICH AND TWO FOUNTAIN DRINKS, GET ONE SANDWICH OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="NYC Pizzeria" category="Food">
+        <Locations>
+            <Location url="www.nycpizzeria-van.com" phone="360-882-7670" address1="700 SE Chkalov Drive " address2="Suite #1" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE LARGE OR GIANT PIzzA, GET ONE MEDIUM ONE TOPPING PIzzA OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE LARGE OR GIANT PIzzA, GET ONE MEDIUM ONE TOPPING PIzzA OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE LARGE OR GIANT PIzzA, GET ONE MEDIUM ONE TOPPING PIzzA OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE GYRO AND TWO MEDIUM DRINKS, GET ONE GYRO OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Old Town Battle Grounds" category="Food">
+        <Locations>
+            <Location url="" phone="360-666-2441" address1="316 East Main St" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>50% Off</Title>
+                <Summary>50% OFF THE REGULAR PRICE OF ONE SPECIALTRY DRINK</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Pacific NW Best Fish Co" category="Food">
+        <Locations>
+            <Location url="" phone="" address1="" address2="" city="" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title></Title>
+                <Summary></Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Pizza Schmizza" category="Food">
+        <Locations>
+            <Location url="www.facebook.com/SchmizzaSC" phone="360-571-4064" address1="910 NE Tenney Rd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$6 OFF</Title>
+                <Summary>$6 OFF THE REGULAR PRICE OF ANY CLASSIC 18 INCH PIzzA</Summary>
+                <Details>minimum purchase of $15 required for local delivery.</Details>
+            </Deal>
+            <Deal>
+                <Title>$6 OFF</Title>
+                <Summary>$6 OFF THE REGULAR PRICE OF ANY CLASSIC 18 INCH PIzzA</Summary>
+                <Details>minimum purchase of $15 required for local delivery.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Quiznos Subs" category="Food">
+        <Locations>
+            <Location url="www.quiznos.com" phone="360-687-0166" address1="11 NW 12th Ave" address2="suite 104" city="Battle Ground" state="" zip=""></Location>
+            <Location url="www.quiznos.com" phone="360-567-2444" address1="910 Tenney Rd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.quiznos.com" phone="360-546-5396" address1="1217 NE 99th ST" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SANDWICH, CHIPS AND DRINK, GET ONE SANDWICH OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $5 max.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SANDWICH, CHIPS AND DRINK, GET ONE SANDWICH OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $5 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Savona Coffee House" category="Food">
+        <Locations>
+            <Location url="" phone="360-695-0678" address1="1898 SE Columbia River Dr " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE COFFEE DRINK, GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE COFFEE DRINK, GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Shari's" category="Food">
+        <Locations>
+            <Location url="www.sharis.com" phone="253-859-5774" address1="24525 Russell Rd" address2="" city="Kent" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE BREAKFAST ENTREE AND TWO BEVERAGES, AND RECEIVE ONE BREAKFAST ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $9 max. Valid at all Vancouver and Portland area locations.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE Lunch ENTREE AND TWO BEVERAGES, AND RECEIVE ONE Lunch ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $9 max. Valid at all Vancouver and Portland area locations.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE BREAKFAST ENTREE AND TWO BEVERAGES, AND RECEIVE ONE BREAKFAST ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $9 max. Valid at all Vancouver and Portland area locations.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE Lunch ENTREE AND TWO BEVERAGES, AND RECEIVE ONE Lunch ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $9 max. Valid at all Vancouver and Portland area locations.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Squeeze and Grind" category="Food">
+        <Locations>
+            <Location url="" phone="360-833-2404" address1="537 NE Cedar St" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE 20 OUNCE SMOOTHIE, GET ONE 12 OUNCE SMOOTHIE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY ONE 20 OUNCE COFFEE DRINK, GET ONE 12 OUNCE COFFEE DRINK OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Steamers and Screamers" category="Food">
+        <Locations>
+            <Location url="www.steamersandscreamers.com" phone="360-597-4521" address1="8400 NE Van Mall Loop" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE 16 Oz DRINK, GET ONE KIDS DRINK FREE!</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE AdMISSION, GET ONE AdMISSION OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Taco Del Mar" category="Food">
+        <Locations>
+            <Location url="" phone="360-574-6375" address1="8902 NE 5th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE MENU ITEM, GET ONE MENU ITEM OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $5 max.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE MENU ITEM, GET ONE MENU ITEM OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $5 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Thatcher's Coffee" category="Food">
+        <Locations>
+            <Location url="www.thatcherscoffee.net" phone="360-258-0571" address1="104 Grand Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.thatcherscoffee.net" phone="360-258-0571" address1="901 C St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>50% Off</Title>
+                <Summary>50% OFF THE REGULAR PRICE OF ONE MEDIUM BEVERAGE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="The Igloo" category="Food">
+        <Locations>
+            <Location url="" phone="360-690-0803" address1="3128 East Evergreen Blvd " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE COMBO MEAL, GET ONE DELUxE BURGER OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $5 max discount.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE COMBO MEAL, GET ONE DELUxE BURGER OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Up to $5 max discount.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Torque Coffee" category="Food">
+        <Locations>
+            <Location url="www.torquecoffeeroasters.com" phone="971-200-5252" address1="501 Columbia St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE PASTRY, GET ONE COFFEE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>25% to charity</Title>
+                <Summary>25% OF YOUR PURCHASE WILL GO TO A LOCAL CHARITY</Summary>
+                <Details>excludes hard goods.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Tropical Smoothie Café" category="Food">
+        <Locations>
+            <Location url="www.tropicalsmoothie.com" phone="360-817-1800" address1="1905 SE 192nd Ave." address2="#113" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SMOOTHIE, GET ONE SMOOTHIE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE SMOOTHIE, GET ONE SMOOTHIE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Yogurt Shack" category="Food">
+        <Locations>
+            <Location url="www.yogurtshacks.com" phone="360-326-4975" address1="104 South Grand Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE YOGURT, GET ONE YOGURT OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Yogurt Time" category="Food">
+        <Locations>
+            <Location url="" phone="360-906-1000" address1="1813 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUY ONE YOGURT, GET ONE YOGURT OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Bella Vita Boutique" category="Shopping Services">
+        <Locations>
+            <Location url="www.facebook.com/shop.bellavitaboutique" phone="360-844-5847" address1="407 NE 4th Ave" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$20 Off</Title>
+                <Summary>$10 OFF ThE REGULAR PRICE OF ANy PURChASE OF $50 OR MORE, OR $20 OFF ThE REGULAR PRICE OF ANy PURChASE OF $100 OR MORE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Canine Utopia" category="Shopping Services">
+        <Locations>
+            <Location url="www.k9utopia.com" phone="360-737-7881" address1="2309 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF A FULL PRICED PURChASE OF $25 OR MORE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Chuck's Produce" category="Shopping Services">
+        <Locations>
+            <Location url="www.chucksproduce.com" phone="360-597-2700" address1="13215 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.chucksproduce.com" phone="360-597-2700" address1="2302 NE 117th St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$10 OFF</Title>
+                <Summary>$10 OFF ANy FULL PRICED GROCERy PURChASE OF $50 OR MORE</Summary>
+                <Details>Gift items not included. Limit one coupon per person.</Details>
+            </Deal>
+            <Deal>
+                <Title>$10 OFF</Title>
+                <Summary>$10 OFF ANy FULL PRICED GROCERy PURChASE OF $50 OR MORE</Summary>
+                <Details>Gift items not included. Limit one coupon per person.</Details>
+            </Deal>
+            <Deal>
+                <Title>$10 OFF</Title>
+                <Summary>$10 OFF ANy FULL PRICED GROCERy PURChASE OF $50 OR MORE</Summary>
+                <Details>Gift items not included. Limit one coupon per person.</Details>
+            </Deal>
+            <Deal>
+                <Title>50% Off</Title>
+                <Summary>50% OFF ThE REGULAR PRICE OF ANy DELI-MADE SANDWICh</Summary>
+                <Details>Valid for one sandwich per coupon per person.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Dejàvu Consignment " category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-253-9053" address1="16111 SE McGillivary Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>25% Off</Title>
+                <Summary>25% OFF OF ThE REGULAR PRICE OF ANy ITEM</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Denim and Frills" category="Shopping Services">
+        <Locations>
+            <Location url="www.denimandfrills.com" phone="360-571-9014" address1="10501 NE hWy 99 " address2="ST 17" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.denimandfrills.com" phone="360-844-5163" address1="905 SE 192nd Ave " address2="ST 107" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% Off</Title>
+                <Summary>20% OFF ThE REGULAR (NON SALE) PRICE OF ANy PURChASE</Summary>
+                <Details>Up to $20 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Game Play" category="Shopping Services">
+        <Locations>
+            <Location url="www.gameplayrus.com" phone="360-882-6883" address1="11205 NE 28th St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% OFF</Title>
+                <Summary>20% OFF ThE REGULAR PRICE OF ANy USED GAME PURChASE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Kazoodles Toys" category="Shopping Services">
+        <Locations>
+            <Location url="www.kazoodlestoys.com" phone="360-823-0123" address1="13503 SE Mill Plain Blvd. " address2="#B-3" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% Off</Title>
+                <Summary>20% OFF OF ThE REGULAR PRICE OF ANy PURChASE</Summary>
+                <Details>Up to $25 max. Not valid on Girl Scout or Lego items.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Kumon of Vancouver" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-576-0777" address1="9901 NE 7th Ave" address2="B-112" city="Vancouver" state="" zip=""></Location>
+            <Location url="" phone="360-521-6284" address1="14930 SE Mill Plain Blvd" address2="Suite 105" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$25 OFF</Title>
+                <Summary>$25 OFF ENROLLMENT</Summary>
+                <Details>NEW STUDENTS ONLy. Limit one coupon per family.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Lil Dudes N Divas" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-696-4717" address1="1815 Main St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% OFF</Title>
+                <Summary>20% OFF ThE REGULAR PRICE OF ANy PURChASE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="New Seasons Market" category="Shopping Services">
+        <Locations>
+            <Location url="www.newseasonsmarket.com" phone="(360) 760-5005" address1="2100 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$10 OFF</Title>
+                <Summary>$10 OFF yOUR PURChASE OF $50 OR MORE</Summary>
+                <Details>PLU: 57925.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>PURChASE ONE BUILD-yOUR-OWN hOT WOK FROM OUR DELI AND GET ONE FREE OF EqUAL OR LESSER VALUE</Summary>
+                <Details>PLU: 57969.</Details>
+            </Deal>
+            <Deal>
+                <Title>Free Milk</Title>
+                <Summary>FREE hALF GALLON NEW SEASONS MARKET ORGANIC MILK WITh A PURChASE OF $10 OR MORE</Summary>
+                <Details>PLU: 57930.</Details>
+            </Deal>
+            <Deal>
+                <Title>Free Tote</Title>
+                <Summary>FREE NEW SEASONS MARKET REUSABLE TOTE WITh ANy PURChASE</Summary>
+                <Details>PLU: 57928.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="NW Ambush Extreme Sports" category="Shopping Services">
+        <Locations>
+            <Location url="www.nwambush.com" phone="360-666-0029" address1="711 East Main St" address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$10 OFF</Title>
+                <Summary>$10 OFF A FULL PRICED PURChASE OF $50 OR MORE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Pacific NW Best Fish Co" category="Shopping Services">
+        <Locations>
+            <Location url="www.pacificnwbest.com" phone="(360) 887-4268" address1="24415 Northeast 10th Avenue" address2="" city="Ridgefield" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF ANy FULL-PRICED PURChASE OF $50 OR MORE</Summary>
+                <Details>Gift cards and Shipping excluded. Not valid with alcohol purchases.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Pipsqueak Resale Consignment" category="Shopping Services">
+        <Locations>
+            <Location url="www.pipsqeakresale.com" phone="360-896-7411" address1="16111 SE McGillivary Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.pipsqeakresale.com" phone="360-253-2772" address1="14602 NE Fourth Plain" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% Off</Title>
+                <Summary>20% OFF ThE REGULAR PRICE OF ANy PURChASE</Summary>
+                <Details>Up to $15 max.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Play it Again Sports" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-260-9440" address1="8101 NE Parkway Dr. " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF A PURChASE OF $25 OR MORE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Rons Automotive" category="Shopping Services">
+        <Locations>
+            <Location url="www.ronsautomotive.com" phone="360-253-6000" address1="16211 SE 1st St" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.ronsautomotive.com" phone="360-574-2233" address1="7818 NE 30th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.ronsautomotive.com" phone="360-823-1043" address1="7818 NE 30th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$20 OFF</Title>
+                <Summary>$20 OFF ANy REGULAR PRICED SERVICE OVER $50</Summary>
+                <Details>Must be Presented at the time of Vehicle Drop off.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Whole Foods Market" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-253-4082" address1="815 SE 160th Ave " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$10 OFF</Title>
+                <Summary>$10 OFF ANy FINAL GROCERy PURChASE OF $50 OR MORE</Summary>
+                <Details>Only valid at Vancouver, Washington location.  “FGP” is determined at cash register after all manufacturer and electronic checkout coupons and exclusions have been presented and deducted from your grand total.  Excludes purchases of alcohol, US postage stamps, gift cards or certificates, special event tickets, sales tax.  Coupon is void if lost, stolen, mechanically reproduced, altered, duplicated, forged, mutilated, damaged or otherwise illegible. Coupon is not refundable or redeemable for cash, and no coupon may be redeemed after 9/01/2014.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Athena Day Spa" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-573-4813" address1="2702 NE 78th St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$15 OFF</Title>
+                <Summary>ENJOY $15 OFF ANY FULL-PrICED SErVICE OF $60 Or MOrE</Summary>
+                <Details>Discount is for new clients or for current clients to try a new service. Can only be used one time.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Barre 3" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-314-6769" address1="16415 SE 15th" address2="St # 108" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title></Title>
+                <Summary>20% OFF OF ANY rEGULArLY PrICED CLASS PACKAGES</Summary>
+                <Details>FFEr DOESN’T APPLY TO MONTHLY MEMBErSHIPS. ONLY ONE OFFEr PEr CUSTOMEr/CLIENT.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Beyond Bliss Day Spa" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-750-1887" address1="1711 Broadway" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% OFF</Title>
+                <Summary>20% OFF THE rEGULAr PrICE OF ANY SPA TrEATMENT</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Bikram Hot Yoga" category="Shopping Services">
+        <Locations>
+            <Location url="www.vancouverbikramyoga.com" phone="360-254-9642" address1="1801 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.vancouverbikramyoga.com" phone="360-254-9642" address1="616 NE 81st St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>10% OFF</Title>
+                <Summary>10% OFF ANY FULL- PrICED PACKAGES</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Bloom Organics" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-834-1886" address1="417 NE Birch St" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% OFF</Title>
+                <Summary>20% OFF THE rEGULAr PrICE OF ANY SErVICE</Summary>
+                <Details>Excluding waxing. Gift certificate payments excluded.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Curves" category="Shopping Services">
+        <Locations>
+            <Location url="www.curves.com" phone="360-256-0205" address1="2702 NE 114th Avenue" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.curves.com" phone="360-896-5332" address1="1901 NE 162nd Avenue" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.curves.com" phone="360-254-5777" address1="11700 NE 95th" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.curves.com" phone="360-667-0600" address1="813 W. Main Street" address2="" city="Battle Ground" state="" zip=""></Location>
+            <Location url="www.curves.com" phone="360-906-8746" address1="5911 NE Saint Johns Road" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>PUrCHASE ONE MONTH, GET ONE MONTH FrEE</Summary>
+                <Details>Valid at Participating Curves. New members only. Join today and we will waive your service fee. $0 service fee offered with 12 month EFT.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Fancy Nails" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-253-2171" address1="3000 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF ANY SErVICE OF $25 Or MOrE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Glo Beauty Lounge" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-210-5478" address1="1877 Main St" address2="" city="Washougal" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>20% OFF</Title>
+                <Summary>20% OFF THE rEGULAr PrICE OF ANY SINGLE SKIN CArE, WAxING Or NAIL SErVICE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Great Clips" category="Shopping Services">
+        <Locations>
+            <Location url="www.greatclips.com" phone="(360) 896-0157" address1="322 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.greatclips.com" phone="(360) 696-1979" address1="7220 NE Highway 99" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.greatclips.com" phone="(360) 546-2535" address1="14300 NE 20th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.greatclips.com" phone="(360) 896-2099" address1="221A NE 104th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.greatclips.com" phone="(360) 253-3002" address1="13510 NE 84th St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$3 OFF</Title>
+                <Summary>$3 OFF OF THE rEGULAr PrICE OF ONE HAIrCUT</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Lil Snippers" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-953-8524" address1="3000 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$3 OFF</Title>
+                <Summary>$3 OFF THE rEGULAr PrICE OF ONE HAIrCUT</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Madison Nails" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-253-4481" address1="16020 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF THE rEGULAr PrICE OF ANY SErVICE OF $25 Or MOrE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Sharkeys Cuts for Kids" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-949-7638" address1="16020 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$3 Off</Title>
+                <Summary>$3 OFF OF THE rEGULAr PrICE OF A HAIrCUT, Or ENJOY $100 OFF THE rEGULAr PrICE OF A GLAMOUr PArTY</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Ship Shape Tanning" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-944-1974" address1="316 SE 123rd Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one get one free</Title>
+                <Summary>BUY 1 MONTH OF rEGULAr PrICED TANNING AND/Or rED LIGHT COLLAGEN THErAPY GET 1 MONTH OF EqUAL Or LESSEr VALUE FrEE.</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Sport Clips" category="Shopping Services">
+        <Locations>
+            <Location url="www.sportclips.com" phone="360-882-8832" address1="9171 SE Mill Plain" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.sportclips.com" phone="360-882-3305" address1="310 NE 78th Street" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Free Haircut</Title>
+                <Summary>FrEE MVP HAIrCUT SErVICE FOr NEW CLIENTS</Summary>
+                <Details>Includes haircut, 2 steamed towels and relaxing scalp massage. Valid ID required. For NEW clients only. Valid only at Vancouver, WA locations. regular price: $23 men, $20 boys (10 and under). Coupon code: 2443.</Details>
+            </Deal>
+            <Deal>
+                <Title>$15 Haircut</Title>
+                <Summary>$15 STUDENT TrIPLE PLAY HAIrCUT SErVICE</Summary>
+                <Details>Includes haircut, steamed towel and relaxing scalp massage. For students only. Elementary thru college. Valid anytime. Valid only at Vancouver, WA locations. regular price Triple Play Service: $20 men, $17 boys (10 and under). Coupon code: 2446.</Details>
+            </Deal>
+            <Deal>
+                <Title>$10 Haircut</Title>
+                <Summary>$10 NEW CLIENT MVP HAIrCUT SErVICE</Summary>
+                <Details>Includes haircut, 2 steamed towels and relaxing scalp massage. Valid ID required. For NEW clients only. Valid only at Vancouver, WA locations. regular price MVP Service: $23 men, $20 boys (10 and under). Coupon code: 2445.</Details>
+            </Deal>
+            <Deal>
+                <Title>$3 OFF</Title>
+                <Summary>$3 OFF HAIrCUT SErVICE (MVP, TrIPLE PLAY or VArSITY)</Summary>
+                <Details>valid for new or returning clients. coupon code 2475.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Supercuts" category="Shopping Services">
+        <Locations>
+            <Location url="www.supercuts.com" phone="360-891-4869" address1="16420 SE McGillvary Blvd. " address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.supercuts.com" phone="360-944-4415" address1="13215 SE Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.supercuts.com" phone="360-687-3100" address1="11 NW 12th Ave." address2="" city="Battle Ground," state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$2 OFF</Title>
+                <Summary>$2 OFF THE rEGULAr PrICE OF A $15.95 ADULT HAIrCUT</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Tans and Company" category="Shopping Services">
+        <Locations>
+            <Location url="" phone="360-574-8267" address1="616 NE 81st Street " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Save $23</Title>
+                <Summary>ENJOY 5 VIP TANS AND 1 ELITE TAN FOr ONLY $30</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Battle Ground Cinema" category="Fun">
+        <Locations>
+            <Location url="www.BattleGroundCinema.com" phone="360-666-7200" address1="1700 SW 9th Avenue " address2="" city="Battle Ground" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$2 Off</Title>
+                <Summary>$2 OFF AN AdULT AdMISSION OF $8 OR ABOVE</Summary>
+                <Details></Details>
+            </Deal>
+            <Deal>
+                <Title>$2 Off</Title>
+                <Summary>$2 OFF AN AdULT AdMISSION OF $8 OR ABOVE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Big Al's Bowling" category="Fun">
+        <Locations>
+            <Location url="" phone="360-944-6118" address1="16615 SE 18th St " address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE GAME OF BOWLING ANd GET ONE GAME OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Maximum of one game per guest. Shoes not included.</Details>
+            </Deal>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF OF hOURLy LANE RENTAL IN OUR SLIdER LANES</Summary>
+                <Details>ne coupon per lane rental.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Camas Meadows Golf" category="Fun">
+        <Locations>
+            <Location url="www.camasmeadows.com" phone="360-833-2000" address1="4105 NW Camas Meadows drive " address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF OF ThE REGULAR PRICE OF ONE ROUNd OF GOLF</Summary>
+                <Details>Not to be combined with other discounts or promotions</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Cedars at Salmon Creek" category="Fun">
+        <Locations>
+            <Location url="www.golfcedars.com" phone="360-687-4233" address1="15001 NE 181st St" address2="" city="Brush Prairie" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$5 OFF</Title>
+                <Summary>$5 OFF OF ThE REGULAR PRICE OF ONE ROUNd OF GOLF</Summary>
+                <Details>Not to be combined with other discounts or promotions</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Firstenburg Comm Center" category="Fun">
+        <Locations>
+            <Location url="www.cityofvancouver.us/fcc" phone="360-487-7001" address1="700 NE 136th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE dROP IN AdMISSION, GET ONE dROP IN AdMISSION OF EQUAL OR LESSER VALUE FREE.</Summary>
+                <Details>Free visit must be used at the time of redemption for another person. Only applies to swim, climb, gym, fitness center and some fitness class drop-ins.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="G6 Airpark" category="Fun">
+        <Locations>
+            <Location url="www.g6airpark.com" phone="360-828-1444" address1="2200 NE Andresson Rd" address2="Ste. J " city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE hOUR AdMISSION, GET ThE NExT CONSECUTIVE hOUR AdMISSION FREE</Summary>
+                <Details>not valid on holidays, School Closure days.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Kids Club Fun and Fitness" category="Fun">
+        <Locations>
+            <Location url="www.kidsclub4fun.com" phone="360-546-5437" address1="13914 NW 3rd Ct." address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE JUNGLE AdMISSION GET ONE FREE</Summary>
+                <Details>One coupon per family/group. Valid for 1 discount only.</Details>
+            </Deal>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE FRIdAy FUN NIGhT OR KIdS NIGhT OUT AdMISSION, GET ONE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Lacamas Jazzercise" category="Fun">
+        <Locations>
+            <Location url="www.jazzercise.com" phone="360-980-0022" address1="2950 NW 38th Ave" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy oNE MONTh MEMBERShIP, GET ONE MONTh MEMBERShIP OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Lacamas Swim and Sport" category="Fun">
+        <Locations>
+            <Location url="www.lacamassport.com" phone="360-834-8506" address1="2950 NW 38th Ave" address2="" city="Camas" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>50% OFF</Title>
+                <Summary>50% OFF OF BEGINNING/GROUP SWIM LESSONS, OR 50% OFF OF ThE REGULAR PRICE OF PUBLIC SWIM FEE</Summary>
+                <Details>up to 2 people max)</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Mt View Ice Arena" category="Fun">
+        <Locations>
+            <Location url="" phone="360-896-8700" address1="14313 SE Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>One Free Admission</Title>
+                <Summary>BUy ONE PUBLIC AdMISSION SESSION, GET ONE PUBLIC AdMISSION SESSION OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Skate rentals excluded. Not valid New years Eve.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="OMSI" category="Fun">
+        <Locations>
+            <Location url="www.OMSI.edu" phone="503-797-4000" address1="1945 SE Water Ave" address2="" city="Portland" state="OR" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$2 Off</Title>
+                <Summary>$2 OFF ThE REGULAR PRICE OF ONE MUSEUM AdMISSION</Summary>
+                <Details>Exchange at OMSI Ticket Desk for $2 off museum admission. Limit ONE coupon per person. Offer valid for walk-up redemption only; ticket cannot be purchased for a future date.. Subject to availability. Not valid for other OMSI attractions. May not be used for phone or online orders or combined with other offers or discounts or promotion. Subject to Rules of Use. CODE:PAYBACK</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Pine Crest Golf Course" category="Fun">
+        <Locations>
+            <Location url="WWW.PINECRESTGC.NET" phone="360-573-2051" address1="2415 NW 143rd St" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE ROUNd OF GOLF AT ThE REGULAR PRICE, GET ONE OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details>Minimum two golfers per coupon. Not to be combined with other discounts or promotions.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Regal Entertainment Group " category="Fun">
+        <Locations>
+            <Location url="www.regmovies.com" phone="360-735-1223" address1="801 C Street" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.regmovies.com" phone="360-571-0984" address1="9010 NE Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.regmovies.com" phone="360-253-7769" address1="7800 N.E. Fourth Plain" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.regmovies.com" phone="360-882-5458" address1="1101 SE 160th Ave" address2="" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>$2 Off Adult Movie Ticket</Title>
+                <Summary>$2 OFF ANy FULL PRICEd AdULT AdMISSION OF $8 ANd ABOVE</Summary>
+                <Details>Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included. VALId AT ALL VANCOUVER/CLARK COUNTy REGAL ENTERTAINMENT GROUP ThEATRES (Except Regal Vancouver Plaza 10). This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash.</Details>
+            </Deal>
+            <Deal>
+                <Title>$2 Off Adult Movie Ticket</Title>
+                <Summary>$2 OFF ANy FULL PRICEd AdULT AdMISSION OF $8 ANd ABOVE</Summary>
+                <Details>Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included. VALId AT ALL VANCOUVER/CLARK COUNTy REGAL ENTERTAINMENT GROUP ThEATRES (Except Regal Vancouver Plaza 10). This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash.</Details>
+            </Deal>
+            <Deal>
+                <Title>$2 Off Adult Movie Ticket</Title>
+                <Summary>$2 OFF ANy FULL PRICEd AdULT AdMISSION OF $8 ANd ABOVE</Summary>
+                <Details>Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included. VALId AT ALL VANCOUVER/CLARK COUNTy REGAL ENTERTAINMENT GROUP ThEATRES (Except Regal Vancouver Plaza 10). This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash.</Details>
+            </Deal>
+            <Deal>
+                <Title>$2 Off Adult Movie Ticket</Title>
+                <Summary>$2 OFF ANy FULL PRICEd AdULT AdMISSION OF $8 ANd ABOVE</Summary>
+                <Details>Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included. VALId AT ALL VANCOUVER/CLARK COUNTy REGAL ENTERTAINMENT GROUP ThEATRES (Except Regal Vancouver Plaza 10). This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Timberline Ski Area" category="Fun">
+        <Locations>
+            <Location url="www.timberlinelodge.com" phone="503-272-3311" address1="27500 W Leg Rd" address2="" city="Timberline Lodge" state="OR" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy 1 AdULT NIGhT LIFT TICKET, GET ANOThER NIGhT LIFT TICKET FOR FREE</Summary>
+                <Details>Valid any night Timberline is open for night skiing. Check timberlinelodge.com for schedule. Free ticket must be used same night. Not valid with any other promotion or discount.</Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+    <Merchant name="Vancouver Volcanoes" category="Fun">
+        <Locations>
+            <Location url="www.vancouvervolcanoes.com" phone="360-719-7163" address1="609 Main St. " address2="Suite 100" city="Vancouver" state="" zip=""></Location>
+        </Locations>
+        <Deals>
+            <Deal>
+                <Title>Buy one, get one free</Title>
+                <Summary>BUy ONE TICKET, GET ONE TICKET OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Details></Details>
+            </Deal>
+        </Deals>
+    </Merchant>
+</Talool>
