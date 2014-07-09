@@ -84,7 +84,10 @@ public class DealConvertor extends NodeConvertor {
 		}
 		
 		// this stuff always gets updated
-		deal.setDetails(getNodeValue(DetailsTag, dealData));
+		String details = getNodeValue(DetailsTag, dealData);
+		details = StringUtils.normalizeSpace(details);
+		details = StringUtils.capitalize(details);
+		deal.setDetails(details);
 		Node image = getNode(ImageTag,dealData);
 		if (image != null)
 		{

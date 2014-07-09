@@ -76,6 +76,9 @@ public class TagConvertor extends NodeConvertor {
 				throw new KirkeException(KirkeErrorCode.TAG_ERROR, "Failed to save tag: "+tag);
 			}
 		}
+		
+		MerchantMediaConvertor.loadStockMedia(tag);
+		
 		return tag;
 	}
 

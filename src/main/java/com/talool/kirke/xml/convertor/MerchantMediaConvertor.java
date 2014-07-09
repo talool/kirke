@@ -6,7 +6,11 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 
 import org.apache.log4j.Logger;
@@ -17,6 +21,7 @@ import com.talool.core.MediaType;
 import com.talool.core.MerchantAccount;
 import com.talool.core.MerchantMedia;
 import com.talool.core.SearchOptions;
+import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
 import com.talool.image.upload.FileManager;
 import com.talool.image.upload.FileNameUtils;
@@ -31,6 +36,8 @@ public class MerchantMediaConvertor extends NodeConvertor {
 	private static final FileManager fileManager = new FileManager(ServiceConfig.get().getUploadDir());
 	private static final Logger log = Logger.getLogger(MerchantMediaConvertor.class);
 	private static final int MAX_DOWNLOAD_FILE_SIZE_BYTES = 500000;
+	
+	private static Map<String,List<MerchantMedia>> stockMediaMap = new HashMap<String, List<MerchantMedia>>();
 	
 	static public MerchantMedia convert(Node image, UUID merchantId, MerchantAccount merchantAccount, List<MerchantMedia> existingMedia) throws KirkeException 
 	{
@@ -218,6 +225,48 @@ public class MerchantMediaConvertor extends NodeConvertor {
 		}
 		
 		return fileSize;
+	}
+	
+	public static void loadStockMedia(Tag tag)
+	{
+		if (stockMediaMap.containsKey(tag.getName()))
+		{
+			return;
+		}
+		try
+		{
+			Set<Tag> tags = new HashSet<Tag>();
+			tags.add(tag);
+			List<MerchantMedia> media = ServiceUtils.get().getService().getStockMedias(ServiceUtils.get().getTaloolId(), tags, null);
+			stockMediaMap.put(tag.getName(), media);
+		}
+		catch (ServiceException se)
+		{
+			log.error("Failed to get stock media for tags: "+tag.getName(), se);
+		}
+	}
+	
+	public static MerchantMedia getStockMedia(Set<Tag> tags)
+	{
+		MerchantMedia media = null;
+		for (Tag tag:tags)
+		{
+			List<MerchantMedia> mList = stockMediaMap.get(tag.getName());
+			if (mList!=null && !mList.isEmpty())
+			{
+				Double rdm = Math.floor(Math.random()*(mList.size()-1));
+				int i = rdm.intValue();
+				if (i > mList.size() || i < 0)
+				{
+					// oops
+					i = 0;
+					log.error("Failed to pick a random number for stock media selection");
+				}
+				media = mList.get(i);
+				break;
+			}
+		}
+		return media;
 	}
 
 }

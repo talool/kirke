@@ -19,6 +19,7 @@ import com.talool.core.DealType;
 import com.talool.core.Merchant;
 import com.talool.core.MerchantAccount;
 import com.talool.core.MerchantLocation;
+import com.talool.core.MerchantMedia;
 import com.talool.core.Tag;
 import com.talool.core.service.ServiceException;
 import com.talool.kirke.JobStatus;
@@ -178,6 +179,16 @@ public class MerchantConvertor extends NodeConvertor {
 					List<MerchantLocation> locations = MerchantLocationConvertor.convert(locationsNode.getChildNodes(), merchantId, merchantAccount);
 					for (MerchantLocation loc : locations)
 					{
+						// check for an image on the location
+						if (loc.getMerchantImage() == null)
+						{
+							MerchantMedia media = MerchantMediaConvertor.getStockMedia(merchant.getTags());
+							if (media != null)
+							{
+								loc.setMerchantImage(media);
+							}
+						}
+						
 						// check for an existing loc with this id
 						dropLocation(merchant, loc);
 						merchant.addLocation(loc);

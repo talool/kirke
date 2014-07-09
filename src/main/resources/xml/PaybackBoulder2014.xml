@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Talool nextPage="">
     
-    <Merchant name="Aji" category="Food">
+    <Merchant tag="foo"  name="Aji" category="Food">
         <Locations>
             <Location url="www.ajirestaurant.com" phone="303-442-3464" address1="1601 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -9,11 +9,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Thai Shi House" category="Food">
+    <Merchant tag=""  name="Thai Shi House" category="Food">
         <Locations>
             <Location url="www.thaishihouse.com" phone="303-444-3133" address1="3033 28th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -25,7 +25,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Taj Mahal III" category="Food">
+    <Merchant tag=""  name="Taj Mahal III" category="Food">
         <Locations>
             <Location url="" phone="303-926-0999" address1="1075 South Boulder Rd" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -37,7 +37,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="NaRaYa" category="Food">
+    <Merchant tag=""  name="NaRaYa" category="Food">
         <Locations>
             <Location url="www.narayathaisushi.com" phone="303-447-9718" address1="1575 Folsom St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -45,11 +45,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Nepal Cuisine" category="Food">
+    <Merchant tag=""  name="Nepal Cuisine" category="Food">
         <Locations>
             <Location url="" phone="303-554-5828" address1="4720 Table Mesa Drive" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -57,11 +57,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER BUFFETS</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="The Huckleberry" category="Food">
+    <Merchant tag=""  name="The Huckleberry" category="Food">
         <Locations>
             <Location url="www.thehuckleberry.com" phone="303-666-8020" address1="700 Main St" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -69,11 +69,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Two Dog Diner" category="Food">
+    <Merchant tag=""  name="Two Dog Diner" category="Food">
         <Locations>
             <Location url="www.twodogdiner.com" phone="303-772-2DOG" address1="645 Tenacity Drive" address2="" city="Longmont" state="" zip="80504"></Location>
         </Locations>
@@ -85,7 +85,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Tibet's Restaurant &amp; Bar" category="Food">
+    <Merchant tag=""  name="Tibet's Restaurant &amp; Bar" category="Food">
         <Locations>
             <Location url="www.tibetsrestaurant.com" phone="303-665-2557" address1="321 McCaslin Blvd" address2="Suite A" city="Louisville" state="" zip="80027"></Location>
         </Locations>
@@ -93,11 +93,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Foolish Craig's" category="Food">
+    <Merchant tag=""  name="Foolish Craig's" category="Food">
         <Locations>
             <Location url="www.foolishcraigs.com" phone="303-247-9383" address1="1611 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -109,7 +109,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Anthony's Pizza &amp; Pasta" category="Food">
+    <Merchant tag=""  name="Anthony's Pizza &amp; Pasta" category="Food">
         <Locations>
             <Location url="www.anthonyspizzaandpasta.com" phone="303-485-5555" address1="2321 Clover Basin Drive" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -121,7 +121,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Los Tapatios" category="Food">
+    <Merchant tag=""  name="Los Tapatios" category="Food">
         <Locations>
             <Location url="" phone="303-664-1435" address1="1005 South Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -129,11 +129,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Buddha Cafe" category="Food">
+    <Merchant tag=""  name="Buddha Cafe" category="Food">
         <Locations>
             <Location url="" phone="720-565-0506" address1="2719 Iris Ave" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -141,11 +141,11 @@
             <Deal>
                 <Title></Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Casa Alvarez" category="Food">
+    <Merchant tag=""  name="Casa Alvarez" category="Food">
         <Locations>
             <Location url="www.casaalvarezcolorado.com" phone="303-546-0630" address1="3161 Walnut St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -153,11 +153,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="The Sink" category="Food">
+    <Merchant tag=""  name="The Sink" category="Food">
         <Locations>
             <Location url="www.thesink.com" phone="303-444-7465" address1="1165 13th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -174,7 +174,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Old Santa Fe Mexican Grille" category="Food">
+    <Merchant tag=""  name="Old Santa Fe Mexican Grille" category="Food">
         <Locations>
             <Location url="" phone="720-890-8456" address1="994 Dillon Rd" address2="" city="Louisville" state="" zip="80027"></Location>
         </Locations>
@@ -186,7 +186,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Aloy" category="Food">
+    <Merchant tag=""  name="Aloy" category="Food">
         <Locations>
             <Location url="www.chythaicuisine.com" phone="303-440-2903" address1="2720 Canyon Blvd" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -194,11 +194,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Leaf" category="Food">
+    <Merchant tag=""  name="Leaf" category="Food">
         <Locations>
             <Location url="www.leafvegetarianrestaurant.com" phone="303-442-1485" address1="2010 16th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -206,11 +206,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Restaurant 5480" category="Food">
+    <Merchant tag=""  name="Restaurant 5480" category="Food">
         <Locations>
             <Location url="www.restaurant4580.com" phone="303-448-1500" address1="4580 Broadway" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -222,7 +222,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lui's" category="Food">
+    <Merchant tag=""  name="Lui's" category="Food">
         <Locations>
             <Location url="" phone="303-828-2282" address1="89 South Briggs St" address2="" city="Erie" state="" zip=""></Location>
         </Locations>
@@ -230,11 +230,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="The Garden Gate Cafe" category="Food">
+    <Merchant tag=""  name="The Garden Gate Cafe" category="Food">
         <Locations>
             <Location url="www.thegardengatecafe.com" phone="303-652-8595" address1="7960 Niwot Rd" address2="" city="Niwot" state="" zip=""></Location>
         </Locations>
@@ -242,11 +242,11 @@
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE BREAKFAST OR LUNCH ENTREE, GET ONE BREAKFAST OR LUNCH ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $8 max. Dine in Only</Details>
+                <Details>Up to $8 max. Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Moongate Asian Bistro" category="Food">
+    <Merchant tag=""  name="Moongate Asian Bistro" category="Food">
         <Locations>
             <Location url="www.moongateasianbistro.com" phone="720-406-8888" address1="1628 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -254,11 +254,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="The Blue Parrot" category="Food">
+    <Merchant tag=""  name="The Blue Parrot" category="Food">
         <Locations>
             <Location url="" phone="303-666-0677" address1="640 Main St" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -266,11 +266,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Parkway Sports Grille" category="Food">
+    <Merchant tag=""  name="Parkway Sports Grille" category="Food">
         <Locations>
             <Location url="www.parkwaysportsgrille.com" phone="303-828-3329" address1="615 Mitchell Way" address2="" city="Erie" state="" zip=""></Location>
         </Locations>
@@ -278,11 +278,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pinocchios" category="Food">
+    <Merchant tag=""  name="Pinocchios" category="Food">
         <Locations>
             <Location url="www.incredibleitalian.com" phone="303 651-7828" address1="210 Ken Pratt Blvd" address2="" city="Longmont" state="CO" zip=""></Location>
             <Location url="www.incredibleitalian.com" phone="303 664-1234" address1="211 North Public Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
@@ -301,7 +301,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Murphy's" category="Food">
+    <Merchant tag=""  name="Murphy's" category="Food">
         <Locations>
             <Location url="www.murphysboulder.com" phone="303-494-7626" address1="657 S. Broadway" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="www.murphysboulder.com" phone="303-449-4473" address1="2731 Iris Ave" address2="" city="Boulder" state="" zip=""></Location>
@@ -310,16 +310,16 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE Dinner ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Si Senior!" category="Food">
+    <Merchant tag=""  name="Si Senior!" category="Food">
         <Locations>
             <Location url="www.sisenorrealmexicanfood.com" phone="720-890-1765" address1="1389 Forest Park Circle" address2="" city="Lafayette" state="" zip=""></Location>
             <Location url="www.sisenorrealmexicanfood.com" phone="720-890-9765" address1="3120 Village Vista Dr" address2="" city="Erie" state="" zip=""></Location>
@@ -328,11 +328,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Spice China" category="Food">
+    <Merchant tag=""  name="Spice China" category="Food">
         <Locations>
             <Location url="www.spicechina.com" phone="720-890-0999" address1="269 McCaslin Blvd" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -340,11 +340,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Outback Steakhouse">
+    <Merchant tag=""  name="Outback Steakhouse">
         <Locations>
             <Location url="www.outback.com" phone="303-684-8149" address1="1315 Dry Creek Drive" address2="" city="Longmont" state="" zip="80503"></Location>
             <Location url="www.outback.com" phone="303-661-9855" address1="988 Dillon Rd" address2="" city="Louisville" state="" zip="80027"></Location>
@@ -353,13 +353,11 @@
             <Deal>
                 <Title>$5 Off</Title>
                 <Summary>$5 OFF WITH THE PURCHASE OF TWO ENTREES</Summary>
-                <Details>Valid at these Outback Steakhouse locations only with the purchase of two entrees. Present this certificate as you are seated.
-Coupon may not be combined with any other offer, discount or promotion.
-Not valid on holidays, and subject to rules of Use.</Details>
+                <Details>Valid at these Outback Steakhouse locations only with the purchase of two entrees. Present this certificate as you are seated.  Coupon may not be combined with any other offer, discount or promotion.  Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Via Toscana" category="Food">
+    <Merchant tag=""  name="Via Toscana" category="Food">
         <Locations>
             <Location url="www.viatoscana.com" phone="303-604-6960" address1="356 McCaslin Blvd" address2="" city="Louisville" state="" zip="80027"></Location>
         </Locations>
@@ -371,7 +369,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ragazzi Italian Grill" category="Food">
+    <Merchant tag=""  name="Ragazzi Italian Grill" category="Food">
         <Locations>
             <Location url="www.ragazzigrill.com" phone="303-651-2828" address1="135 Francis St" address2="" city="LSonegemolonct" state="" zip=""></Location>
         </Locations>
@@ -379,16 +377,16 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE LUNCH ENTREE, GET ONE LUNCH ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $10 max. Dine in Only</Details>
+                <Details>Up to $10 max. Dine in Only.</Details>
             </Deal>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE Dinner ENTREE, GET ONE Dinner ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $10 max. Dine in Only</Details>
+                <Details>Up to $10 max. Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Cantina Laredo" category="Food">
+    <Merchant tag=""  name="Cantina Laredo" category="Food">
         <Locations>
             <Location url="www.cantinalaredo.com" phone="303-444-2260" address1="1680 29th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -400,7 +398,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Walnut Brewery" category="Food">
+    <Merchant tag=""  name="Walnut Brewery" category="Food">
         <Locations>
             <Location url="www.walnutbrewery.com" phone="303-447-1345" address1="1123 Walnut St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -408,11 +406,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Parrott's Sports Grille" category="Food">
+    <Merchant tag=""  name="Parrott's Sports Grille" category="Food">
         <Locations>
             <Location url="www.parrottsgrille.com" phone="303-774-0700" address1="6050 Firestone Blvd" address2="" city="Firestone" state="" zip=""></Location>
         </Locations>
@@ -420,11 +418,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Martini's Bistro" category="Food">
+    <Merchant tag=""  name="Martini's Bistro" category="Food">
         <Locations>
             <Location url="" phone="303-651-2772" address1="543 Terry St" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -436,7 +434,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Boulder Dushanbe Teahouse" category="Food">
+    <Merchant tag=""  name="Boulder Dushanbe Teahouse" category="Food">
         <Locations>
             <Location url="www.boulderteahouse.com" phone="303-442-4993" address1="1770 13th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -444,16 +442,16 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE Dinner ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Colterra" category="Food">
+    <Merchant tag=""  name="Colterra" category="Food">
         <Locations>
             <Location url="www.colterra.com" phone="303-652-0777" address1="210 Franklin St" address2="" city="Niwot" state="" zip=""></Location>
         </Locations>
@@ -465,7 +463,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Rincon Del Sol" category="Food">
+    <Merchant tag=""  name="Rincon Del Sol" category="Food">
         <Locations>
             <Location url="" phone="303-442-0541" address1="2350 Arapahoe Rd" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -473,11 +471,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pete's Place" category="Food">
+    <Merchant tag=""  name="Pete's Place" category="Food">
         <Locations>
             <Location url="www.petesplace-papafranks.com" phone="303-833-2818" address1="201 5th St" address2="" city="Frederick" state="" zip=""></Location>
         </Locations>
@@ -485,11 +483,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Tortugas" category="Food">
+    <Merchant tag=""  name="Tortugas" category="Food">
         <Locations>
             <Location url="" phone="303-772-6954" address1="218 Coffman St" address2="" city="Longmont" state="" zip="80501"></Location>
         </Locations>
@@ -497,11 +495,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lazy Dog Sports Bar &amp; Grill" category="Food">
+    <Merchant tag=""  name="Lazy Dog Sports Bar &amp; Grill" category="Food">
         <Locations>
             <Location url="www.thelazydog.com" phone="303-440-3355" address1="1346 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="www.thelazydog.com" phone="303-664-5299" address1="3100 Village Vista Dr" address2="" city="Erie" state="" zip=""></Location>
@@ -519,7 +517,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Zucca" category="Food">
+    <Merchant tag=""  name="Zucca" category="Food">
         <Locations>
             <Location url="www.zuccalouisville.com" phone="303-666-6649" address1="808 Main St" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -527,11 +525,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Walnut Cafe" category="Food">
+    <Merchant tag=""  name="Walnut Cafe" category="Food">
         <Locations>
             <Location url="www.walnutcafe.com" phone="" address1="2770 Arapahoe" address2="Suite. 116" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -543,7 +541,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pump House Brewery" category="Food">
+    <Merchant tag=""  name="Pump House Brewery" category="Food">
         <Locations>
             <Location url="www.pumphousebrewery.com" phone="303-702-0881" address1="540 Main St" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -551,16 +549,16 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 Off</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
             <Deal>
                 <Title>$5 Off</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE Dinner ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Hacienda Calisco" category="Food">
+    <Merchant tag=""  name="Hacienda Calisco" category="Food">
         <Locations>
             <Location url="www.haciendajaliscofirestone.com" phone="303-684-9133" address1="6160 Firestone Blvd" address2="" city="Firestone" state="" zip=""></Location>
         </Locations>
@@ -568,11 +566,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pepper Jack's" category="Food">
+    <Merchant tag=""  name="Pepper Jack's" category="Food">
         <Locations>
             <Location url="" phone="303-833-4361" address1="3768 Hwy 52" address2="" city="Frederick" state="" zip=""></Location>
         </Locations>
@@ -584,7 +582,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Rio Grande" category="Food">
+    <Merchant tag=""  name="Rio Grande" category="Food">
         <Locations>
             <Location url="" phone="303-444-3690" address1="1101 Walnut St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -592,16 +590,16 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 Off</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
             <Deal>
                 <Title>$5 Off</Title>
                 <Summary>$5 OFF OF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Millers Grill" category="Food">
+    <Merchant tag=""  name="Millers Grill" category="Food">
         <Locations>
             <Location url="" phone="720-746-9649" address1="103 South Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -609,11 +607,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE ENTREE, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="La Revolucion" category="Food">
+    <Merchant tag=""  name="La Revolucion" category="Food">
         <Locations>
             <Location url="" phone="303-926-3998" address1="701 Main St" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -621,11 +619,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Delvickio's" category="Food">
+    <Merchant tag=""  name="Delvickio's" category="Food">
         <Locations>
             <Location url="www.delvickios.com" phone="303-494-6000" address1="1631 Coalton Rd" address2="" city="Superior" state="CO" zip=""></Location>
         </Locations>
@@ -633,11 +631,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title></Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in Only</Details>
+                <Details>Dine in Only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Rock Creek Sports Grill" category="Food">
+    <Merchant tag=""  name="Rock Creek Sports Grill" category="Food">
         <Locations>
             <Location url="www.rockcreeksportsgrill.com" phone="303-499-2111" address1="1627 Coalton Rd" address2="" city="Superior" state="CO" zip=""></Location>
         </Locations>
@@ -649,7 +647,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Taco" category="Food">
+    <Merchant tag=""  name="Taco" category="Food">
         <Locations>
             <Location url="www.tacocolorado.com" phone="303-443-9468" address1="1175 Walnut St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
@@ -661,7 +659,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Rex" category="Food">
+    <Merchant tag=""  name="Rex" category="Food">
         <Locations>
             <Location url="www.louisvillerex.com" phone="303-666-6224" address1="817 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
@@ -673,7 +671,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ricco's Burritos" category="Food">
+    <Merchant tag=""  name="Ricco's Burritos" category="Food">
         <Locations>
             <Location url="www.riccosburritos.com" phone="720-542-8375" address1="318 S. McCaslin Blvd" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -685,7 +683,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="JuJu's Bakery &amp; Cafe" category="Food">
+    <Merchant tag=""  name="JuJu's Bakery &amp; Cafe" category="Food">
         <Locations>
             <Location url="www.jujusbakeryandcafe.com" phone="303-515-7126" address1="1619 Coalton Rd" address2="" city="Superior" state="" zip=""></Location>
         </Locations>
@@ -702,7 +700,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Good Measure" category="Food">
+    <Merchant tag=""  name="Good Measure" category="Food">
         <Locations>
             <Location url="" phone="303-284-3445" address1="1075 E. South Boulder Rd" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -719,7 +717,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Madison's Cheese Press" category="Food">
+    <Merchant tag=""  name="Madison's Cheese Press" category="Food">
         <Locations>
             <Location url="www.madisonscheesepress.com" phone="303-530-1560" address1="6562 Lookout Road" address2="" city="Boulder" state="" zip="80301"></Location>
         </Locations>
@@ -736,7 +734,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Paul's Coffee &amp; Tea" category="Food">
+    <Merchant tag=""  name="Paul's Coffee &amp; Tea" category="Food">
         <Locations>
             <Location url="www.paulscoffeeandtea.com" phone="720-259-1723" address1="956 West Cherry" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -752,7 +750,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
                 <Details></Details>
             </Deal>
         </Deals>
-    </Merchant><Merchant name="Aspen Leaf Frozen Yogurt" category="Food">
+    </Merchant><Merchant tag=""  name="Aspen Leaf Frozen Yogurt" category="Food">
         <Locations>
             <Location url="" phone="720-432-2591" address1="637 A S Broadway" address2="" city="Boulder" state="" zip="80305"></Location>
             <Location url="" phone="720-432-2591" address1="6562 Lookout Rd" address2="" city="Boulder" state="" zip=""></Location>
@@ -765,7 +763,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Spooners Frozen Yogurt" category="Food">
+    <Merchant tag=""  name="Spooners Frozen Yogurt" category="Food">
         <Locations>
             <Location url="www.spoonersfroyo.com" phone="303-440-7066" address1="1805 29th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -777,7 +775,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ripple" category="Food">
+    <Merchant tag=""  name="Ripple" category="Food">
         <Locations>
             <Location url="www.rippleyogurt.com" phone="303-444-0690" address1="1682 30th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -789,7 +787,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bean &amp; Berry" category="Food">
+    <Merchant tag=""  name="Bean &amp; Berry" category="Food">
         <Locations>
             <Location url="www.thebeanandberry.com" phone="720-328-6890" address1="305 McCaslin Blvd" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -800,7 +798,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
                 <Details></Details>
             </Deal>
         </Deals>
-    </Merchant><Merchant name="Morning Glory" category="Food">
+    </Merchant><Merchant tag=""  name="Morning Glory" category="Food">
         <Locations>
             <Location url="" phone="303-604-6351" address1="1377 Forest Park Circle" address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -812,7 +810,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Mod Market" category="Food">
+    <Merchant tag=""  name="Mod Market" category="Food">
         <Locations>
             <Location url="www.modmarket.com" phone="303-440-0476" address1="1600 28th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -824,7 +822,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Red Frog Coffee" category="Food">
+    <Merchant tag=""  name="Red Frog Coffee" category="Food">
         <Locations>
             <Location url="www.redfrogcoffee.com" phone="303-772-7209" address1="15 ken Pratt Blvd" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -841,7 +839,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="La Vita Bella Coffee Etc" category="Food">
+    <Merchant tag=""  name="La Vita Bella Coffee Etc" category="Food">
         <Locations>
             <Location url="" phone="720-204-6298" address1="475 Main St" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -852,7 +850,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
                 <Details></Details>
             </Deal>
         </Deals>
-    </Merchant><Merchant name="Larkburger" category="Food">
+    </Merchant><Merchant tag=""  name="Larkburger" category="Food">
         <Locations>
             <Location url="www.larkburger.com" phone="303-444-1487" address1="2525 Arapahoe Rd" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="www.larkburger.com" phone="720-452-2410" address1="4660 West 121st Avenue" address2="Unit 1" city="Broomfield" state="" zip=""></Location>
@@ -865,7 +863,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ziggi's Premium Coffee" category="Food">
+    <Merchant tag=""  name="Ziggi's Premium Coffee" category="Food">
         <Locations>
             <Location url="" phone="303-682-5120" address1="400 Main Street" address2="" city="Longmont" state="" zip=""></Location>
             <Location url="" phone="303-682-5120" address1="1729 Hover Street" address2="" city="Longmont" state="" zip=""></Location>
@@ -875,11 +873,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Buy one, get one half off</Title>
                 <Summary>BUY ONE ESPRESSO DRINk OR SMOOTHIE, GET ONE EsPRESSO DRINk OF SMOOTHIE FOR HALF OFF</Summary>
-                <Details>Not to be combined with Punch Card</Details>
+                <Details>Not to be combined with Punch Card.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Eats &amp; Sweets" category="Food">
+    <Merchant tag=""  name="Eats &amp; Sweets" category="Food">
         <Locations>
             <Location url="www.eatsandsweets.com" phone="303-665-3287" address1="401 South Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -891,7 +889,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bittersweet Cafe" category="Food">
+    <Merchant tag=""  name="Bittersweet Cafe" category="Food">
         <Locations>
             <Location url="www.bittersweetcafes.com" phone="303-317-5522" address1="820 Main St" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -903,7 +901,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Menchie's Frozen Yogurt" category="Food">
+    <Merchant tag=""  name="Menchie's Frozen Yogurt" category="Food">
         <Locations>
             <Location url="www.menchies.com" phone="720-890-9500" address1="535 W. South Boulder Rd" address2="" city="Lafayette" state="" zip=""></Location>
             <Location url="www.menchies.com" phone="303-375-1101" address1="8302 E. Northfield Blvd" address2="" city="Denver" state="" zip=""></Location>
@@ -922,7 +920,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Daylight Donuts" category="Food">
+    <Merchant tag=""  name="Daylight Donuts" category="Food">
         <Locations>
             <Location url="" phone="303-833-2009" address1="821 Carbondale Drive" address2="" city="Dacono" state="" zip=""></Location>
         </Locations>
@@ -934,7 +932,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Papa Murphy's" category="Food">
+    <Merchant tag=""  name="Papa Murphy's" category="Food">
         <Locations>
             <Location url="" phone="720-890-8967" address1="3331 Arapahoe Rd" address2="" city="Erie" state="" zip=""></Location>
             <Location url="" phone="303-440-5300" address1="3325 28th St" address2="" city="Boulder" state="" zip=""></Location>
@@ -949,7 +947,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Perky Coffee" category="Food">
+    <Merchant tag=""  name="Perky Coffee" category="Food">
         <Locations>
             <Location url="www.perkyslongmont.com" phone="303-776-6711" address1="1515 Main St" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -957,11 +955,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE MENU ITEM, GET ONE MENU ITEM OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $5 max</Details>
+                <Details>Up to $5 max.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Red Rock Coffeehouse" category="Food">
+    <Merchant tag=""  name="Red Rock Coffeehouse" category="Food">
         <Locations>
             <Location url="" phone="303-443-1975" address1="3325 28th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -973,7 +971,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Cannon Mine Coffee" category="Food">
+    <Merchant tag=""  name="Cannon Mine Coffee" category="Food">
         <Locations>
             <Location url="www.cannonmine.com" phone="303-665-0625" address1="210 S. Public Rd." address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -985,7 +983,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="MoJo Coffeehouse" category="Food">
+    <Merchant tag=""  name="MoJo Coffeehouse" category="Food">
         <Locations>
             <Location url="" phone="303-665-9026" address1="211 North Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -1002,7 +1000,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="McDonald's" category="Food">
+    <Merchant tag=""  name="McDonald's" category="Food">
         <Locations>
             <Location url="" phone="" address1="1800 28th St" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="" phone="" address1="2920 Baseline Rd" address2="" city="Boulder" state="" zip=""></Location>
@@ -1035,7 +1033,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Glacier Ice Cream &amp; Gelato" category="Food">
+    <Merchant tag=""  name="Glacier Ice Cream &amp; Gelato" category="Food">
         <Locations>
             <Location url="www.glaciericecream.com" phone="303-440-6542" address1="3133 28th St" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="www.glaciericecream.com" phone="303-499-4760" address1="4760 Baseline Rd" address2="" city="Boulder" state="" zip=""></Location>
@@ -1055,7 +1053,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Loaf &amp; Ladle" category="Food">
+    <Merchant tag=""  name="Loaf &amp; Ladle" category="Food">
         <Locations>
             <Location url="" phone="303-776-7575" address1="1134 Francis St" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -1067,7 +1065,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Spruce Confections" category="Food">
+    <Merchant tag=""  name="Spruce Confections" category="Food">
         <Locations>
             <Location url="" phone="303-449-6773" address1="767 Pearl St" address2="Suite B" city="Boulder" state="" zip="80302"></Location>
             <Location url="" phone="303-449-5819" address1="4684 Broadway" address2="" city="Boulder" state="" zip="80304"></Location>
@@ -1085,7 +1083,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Mumtaz Mediterranean Food" category="Food">
+    <Merchant tag=""  name="Mumtaz Mediterranean Food" category="Food">
         <Locations>
             <Location url="www.mumtazfood.com" phone="303-926-1400" address1="588 North Hwy 287" address2="Suite 100" city="Lafayette" state="" zip="80026"></Location>
         </Locations>
@@ -1097,7 +1095,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Snowcap Creamery &amp; Cafe" category="Food">
+    <Merchant tag=""  name="Snowcap Creamery &amp; Cafe" category="Food">
         <Locations>
             <Location url="" phone="303-828-3301" address1="615 Mitchell Way" address2="" city="Erie" state="" zip=""></Location>
         </Locations>
@@ -1109,7 +1107,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Eggcredible Cafe" category="Food">
+    <Merchant tag=""  name="Eggcredible Cafe" category="Food">
         <Locations>
             <Location url="www.eggcredible.com" phone="303-301-0005" address1="5397 South Boulder Rd" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1121,7 +1119,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Le Peep" category="Food">
+    <Merchant tag=""  name="Le Peep" category="Food">
         <Locations>
             <Location url="" phone="303-444-5119" address1="2525 Arapahoe" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="" phone="720-652-6680" address1="1225 ken Pratt Blvd" address2="" city="Longmont" state="" zip=""></Location>
@@ -1134,7 +1132,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Two Spoons" category="Food">
+    <Merchant tag=""  name="Two Spoons" category="Food">
         <Locations>
             <Location url="" phone="303-545-0027" address1="021 Pearl St" address2="" city="Boulder" state="" zip="80302"></Location>
         </Locations>
@@ -1146,7 +1144,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Quiznos Sub" category="Food">
+    <Merchant tag=""  name="Quiznos Sub" category="Food">
         <Locations>
             <Location url="" phone="303-494-5360" address1="601 South Broadway" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="" phone="303-443-7827" address1="3040 28th St" address2="" city="Boulder" state="" zip=""></Location>
@@ -1159,7 +1157,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pulcinella Pizzeria" category="Food">
+    <Merchant tag=""  name="Pulcinella Pizzeria" category="Food">
         <Locations>
             <Location url="" phone="303-664-1599" address1="385 Crossing Drive" address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -1171,7 +1169,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="IHOP" category="Food">
+    <Merchant tag=""  name="IHOP" category="Food">
         <Locations>
             <Location url="" phone="303-444-2115" address1="1675 28th St" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="" phone="303-499-2177" address1="401 Center Dr" address2="" city="Superior" state="" zip=""></Location>
@@ -1189,7 +1187,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Cafe Sole" category="Food">
+    <Merchant tag=""  name="Cafe Sole" category="Food">
         <Locations>
             <Location url="www.caffesole.com" phone="303-499-2985" address1="637 R. South Broadway" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1201,7 +1199,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Subway" category="Food">
+    <Merchant tag=""  name="Subway" category="Food">
         <Locations>
             <Location url="" phone="303-494-7827" address1="BaseMar Center" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="" phone="720-274-1101" address1="4760 Baseline Rd" address2="" city="Boulder" state="" zip=""></Location>
@@ -1215,7 +1213,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lindsay's Boulder Deli" category="Food">
+    <Merchant tag=""  name="Lindsay's Boulder Deli" category="Food">
         <Locations>
             <Location url="" phone="303-443-9032" address1="1148 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1227,7 +1225,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Mickey C's Bagels" category="Food">
+    <Merchant tag=""  name="Mickey C's Bagels" category="Food">
         <Locations>
             <Location url="" phone="303-494-2002" address1="637 South Broadway" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1239,7 +1237,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Boulder Ice Cream" category="Food">
+    <Merchant tag=""  name="Boulder Ice Cream" category="Food">
         <Locations>
             <Location url="" phone="303-494-2002" address1="637 South Broadway" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1251,7 +1249,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Boulder Running Company" category="Shopping Services">
+    <Merchant tag=""  name="Boulder Running Company" category="Shopping Services">
         <Locations>
             <Location url="www.BoulderRunningCompany.com" phone="303-RUN-WALk" address1="2775 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1263,7 +1261,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Dept of Clothing" category="Shopping Services">
+    <Merchant tag=""  name="Dept of Clothing" category="Shopping Services">
         <Locations>
             <Location url="www.deptofclothing.com" phone="720-340-4229" address1="350 Main St" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -1275,7 +1273,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Found Underground" category="Shopping Services">
+    <Merchant tag=""  name="Found Underground" category="Shopping Services">
         <Locations>
             <Location url="www.foundundergroundconsignment.com" phone="303-666-6900" address1="901 Main St" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -1287,7 +1285,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="House Gifts" category="Shopping Services">
+    <Merchant tag=""  name="House Gifts" category="Shopping Services">
         <Locations>
             <Location url="" phone="303-219-6948" address1="2015 Ionosphere " address2="#101" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -1299,7 +1297,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="McGuckin Hardware" category="Shopping Services">
+    <Merchant tag=""  name="McGuckin Hardware" category="Shopping Services">
         <Locations>
             <Location url="www.mcguckin.com" phone="303-443-1822" address1="2525 Arapahoe Ave" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1312,7 +1310,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Free key</Title>
                 <Summary>$10 OFF ANY MERCHANDISE PURCHASE OF $50 OR MORE</Summary>
-                <Details>Single sided only. Plastic headed and custom finish not included. Coupon must be used at time of Purchase only. One coupon per person, per day</Details>
+                <Details>Single sided only. Plastic headed and custom finish not included. Coupon must be used at time of Purchase only. One coupon per person, per day.</Details>
             </Deal>
             <Deal>
                 <Title>$10 off</Title>
@@ -1322,11 +1320,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Free key</Title>
                 <Summary>$10 OFF ANY MERCHANDISE PURCHASE OF $50 OR MORE</Summary>
-                <Details>Single sided only. Plastic headed and custom finish not included. Coupon must be used at time of Purchase only. One coupon per person, per day</Details>
+                <Details>Single sided only. Plastic headed and custom finish not included. Coupon must be used at time of Purchase only. One coupon per person, per day.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Neptune Mountaineering" category="Shopping Services">
+    <Merchant tag=""  name="Neptune Mountaineering" category="Shopping Services">
         <Locations>
             <Location url="www.neptunemountaineering.com" phone="303-499-8866" address1="633 South Broadway" address2="" city="Boulder" state="" zip="80305"></Location>
         </Locations>
@@ -1338,7 +1336,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Once Upon A Child" category="Shopping Services">
+    <Merchant tag=""  name="Once Upon A Child" category="Shopping Services">
         <Locations>
             <Location url="www.onceuponachildlongmont.com" phone="303-772-5437" address1="700 ken Pratt Blvd " address2="Suite 207" city="Longmont" state="" zip="80501"></Location>
         </Locations>
@@ -1350,7 +1348,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Outdoor Divas" category="Shopping Services">
+    <Merchant tag=""  name="Outdoor Divas" category="Shopping Services">
         <Locations>
             <Location url="www.outdoordivas.com" phone="303-449-DIVA" address1="2317 30th St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1367,7 +1365,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Plato's Closet" category="Shopping Services">
+    <Merchant tag=""  name="Plato's Closet" category="Shopping Services">
         <Locations>
             <Location url="www.platosclosetboulder.com" phone="303-444-2274" address1="2510 Arapahoe Rd" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1384,7 +1382,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Sport Clips" category="Shopping Services">
+    <Merchant tag=""  name="Sport Clips" category="Shopping Services">
         <Locations>
             <Location url="www.sportclips.com" phone="303-665-7200" address1="133 McCaslin Blvd" address2="" city="Louisville" state="" zip="80027"></Location>
         </Locations>
@@ -1401,7 +1399,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Studio Boom" category="Shopping Services">
+    <Merchant tag=""  name="Studio Boom" category="Shopping Services">
         <Locations>
             <Location url="www.studioboomsalons.com" phone="303-774-9880" address1="1240 ken Pratt Blvd" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -1413,7 +1411,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Boulder Rec Center" category="Fun">
+    <Merchant tag=""  name="Boulder Rec Center" category="Fun">
         <Locations>
             <Location url="" phone="303-441-4400" address1="5660 Sioux dr" address2="" city="Boulder" state="" zip=""></Location>
             <Location url="" phone="303-413-7260" address1="3170 Broadway" address2="" city="Boulder" state="" zip=""></Location>
@@ -1423,11 +1421,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$10 off</Title>
                 <Summary>$10 OFF AN AdULT 10-PUNCH PASS</Summary>
-                <Details>Good off resident or non-resident rate.  May not be combined with other discounts or offers.  original coupon must be presented at the time of entry)</Details>
+                <Details>Good off resident or non-resident rate.  May not be combined with other discounts or offers.  original coupon must be presented at the time of entry.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Louisville Rec Center" category="Fun">
+    <Merchant tag=""  name="Louisville Rec Center" category="Fun">
         <Locations>
             <Location url="www.louisvillerecreation.com" phone="303-666-7400" address1="900 West Via Appia" address2="" city="Louisville" state="" zip=""></Location>
         </Locations>
@@ -1439,7 +1437,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Longmont Rec Center" category="Fun">
+    <Merchant tag=""  name="Longmont Rec Center" category="Fun">
         <Locations>
             <Location url="www.ci.longmont.co.us/rec" phone="303-774-4800" address1="310 quail Rd" address2="" city="Longmont" state="" zip=""></Location>
             <Location url="www.ci.longmont.co.us/rec" phone="303-651-8406" address1="1201 Alpine St" address2="" city="Longmont" state="" zip=""></Location>
@@ -1452,7 +1450,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Boulder Valley Ice" category="Fun">
+    <Merchant tag=""  name="Boulder Valley Ice" category="Fun">
         <Locations>
             <Location url="www.bvice.com" phone="303-494-4777" address1="125 Superior Plaza Way" address2="" city="Superior" state="" zip=""></Location>
         </Locations>
@@ -1464,7 +1462,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Carbon Valley Rec Center" category="Fun">
+    <Merchant tag=""  name="Carbon Valley Rec Center" category="Fun">
         <Locations>
             <Location url="www.recdistrict.com" phone="303-833-3660" address1="701 5th St" address2="" city="Firestone" state="" zip=""></Location>
         </Locations>
@@ -1476,7 +1474,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Coal Creek Bowling Center" category="Fun">
+    <Merchant tag=""  name="Coal Creek Bowling Center" category="Fun">
         <Locations>
             <Location url="www.coalcreekbowling.com" phone="303-673-0772" address1="550 W.South Boulder Rd" address2="" city="Lafayette" state="" zip=""></Location>
         </Locations>
@@ -1488,7 +1486,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Fat Cats Fun Center" category="Fun">
+    <Merchant tag=""  name="Fat Cats Fun Center" category="Fun">
         <Locations>
             <Location url="www.fatcatsfun.com" phone="303-466-7515" address1="10685 Westminster Blvd" address2="" city="Westminster" state="" zip=""></Location>
         </Locations>
@@ -1496,16 +1494,16 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE ATTRACTION, GET ATTRACTION OF EqUAL OR LESSER VALUE</Summary>
-                <Details>(Choose from a game of bowling, Lazer Maze or Glow Golf! One coupon per guest, per day).</Details>
+                <Details>Choose from a game of bowling, Lazer Maze or Glow Golf! One coupon per guest, per day.</Details>
             </Deal>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE ATTRACTION, GET ATTRACTION OF EqUAL OR LESSER VALUE</Summary>
-                <Details>(Choose from a game of bowling, Lazer Maze or Glow Golf! One coupon per guest, per day).</Details>
+                <Details>Choose from a game of bowling, Lazer Maze or Glow Golf! One coupon per guest, per day.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Haystack Mountain Golf Club" category="Fun">
+    <Merchant tag=""  name="Haystack Mountain Golf Club" category="Fun">
         <Locations>
             <Location url="www.golfhaystack.com" phone="303-530-1400" address1="5877 Niwot Road" address2="" city="Niwot" state="" zip=""></Location>
         </Locations>
@@ -1522,7 +1520,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Loveland Ski Area" category="Fun">
+    <Merchant tag=""  name="Loveland Ski Area" category="Fun">
         <Locations>
             <Location url="www.skiloveland.com" phone="303-571-5580" address1="I-70" address2="Exit 216" city="" state="" zip=""></Location>
         </Locations>
@@ -1530,22 +1528,22 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$10 Off</Title>
                 <Summary>$10 OFF AdULT LIFT TICkET</Summary>
-                <Details>Present this coupon at any Loveland Ski Area Ticket Window and save $10 on the purchase of a full priced, full day adult lift ticket. (Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14)</Details>
+                <Details>Present this coupon at any Loveland Ski Area Ticket Window and save $10 on the purchase of a full priced, full day adult lift ticket. (Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14).</Details>
             </Deal>
             <Deal>
                 <Title>Free Child Ticket</Title>
                 <Summary>FREE CHILd TICkET</Summary>
-                <Details>Present this coupon at any Loveland Ski Area Ticket Window and receive a FREE child(6-14) lift ticket with the purchase of a full priced, full day adult lift ticket.  (Free ticket valid same day as purchased ticket. Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14)</Details>
+                <Details>Present this coupon at any Loveland Ski Area Ticket Window and receive a FREE child(6-14) lift ticket with the purchase of a full priced, full day adult lift ticket.  (Free ticket valid same day as purchased ticket. Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14).</Details>
             </Deal>
             <Deal>
                 <Title>$10 Off</Title>
                 <Summary>$10 OFF AdULT LIFT TICkET</Summary>
-                <Details>Present this coupon at any Loveland Ski Area Ticket Window and save $10 on the purchase of a full priced, full day adult lift ticket. (Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14)</Details>
+                <Details>Present this coupon at any Loveland Ski Area Ticket Window and save $10 on the purchase of a full priced, full day adult lift ticket. (Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14).</Details>
             </Deal>
             <Deal>
                 <Title>Free Child Ticket</Title>
                 <Summary>FREE CHILd TICkET</Summary>
-                <Details>Present this coupon at any Loveland Ski Area Ticket Window and receive a FREE child(6-14) lift ticket with the purchase of a full priced, full day adult lift ticket.  (Free ticket valid same day as purchased ticket. Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14)</Details>
+                <Details>Present this coupon at any Loveland Ski Area Ticket Window and receive a FREE child(6-14) lift ticket with the purchase of a full priced, full day adult lift ticket.  (Free ticket valid same day as purchased ticket. Valid 2013 – 2014 season only. Not valid 12/21/13 – 1/5/14).</Details>
             </Deal>
             <Deal>
                 <Title>$12 Off</Title>
@@ -1559,7 +1557,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Monarch Mountain" category="Fun">
+    <Merchant tag=""  name="Monarch Mountain" category="Fun">
         <Locations>
             <Location url="www.skimonarch.com" phone="719-530-5000" address1="23715 US Hwy 50" address2="" city="Monarch" state="" zip=""></Location>
         </Locations>
@@ -1567,36 +1565,36 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Save $15</Title>
                 <Summary>ENJOY ONE ALL dAY AdULT LIFT TICkET FOR $50.  SAVINGS OF $15</Summary>
-                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014</Details>
+                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014.</Details>
             </Deal>
             <Deal>
                 <Title>Save $15</Title>
                 <Summary>ENJOY ONE ALL dAY AdULT LIFT TICkET FOR $50.  SAVINGS OF $15</Summary>
-                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014</Details>
+                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014.</Details>
             </Deal>
             <Deal>
                 <Title>Save $15</Title>
                 <Summary>ENJOY ONE ALL dAY AdULT LIFT TICkET FOR $50.  SAVINGS OF $15</Summary>
-                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014</Details>
+                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014.</Details>
             </Deal>
             <Deal>
                 <Title>Save $15</Title>
                 <Summary>ENJOY ONE ALL dAY AdULT LIFT TICkET FOR $50.  SAVINGS OF $15</Summary>
-                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014</Details>
+                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014.</Details>
             </Deal>
             <Deal>
                 <Title>Save $10</Title>
                 <Summary>ENJOY ONE ALL dAY TEEN LIFT TICkET FOR $30.  SAVINGS OF $10</Summary>
-                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014</Details>
+                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014.</Details>
             </Deal>
             <Deal>
                 <Title>Save $10</Title>
                 <Summary>ENJOY ONE ALL dAY TEEN LIFT TICkET FOR $30.  SAVINGS OF $10</Summary>
-                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014</Details>
+                <Details>Valid 2013/2014 ski season; excluding blackout dates: 12/26/13 – 1/4/14, 1/18/14 – 1/19/14, 2/15/14 – 2/16/14, 3/10/14 – 3/21/14. Not valid with any other coupon or discount offer. Resale of lift ticket or coupons is unlawful. Expires Closing day, April 2014.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Posh Paint &amp; Wine Studio" category="Fun">
+    <Merchant tag=""  name="Posh Paint &amp; Wine Studio" category="Fun">
         <Locations>
             <Location url="www.poshsplat.com" phone="303-442-7674" address1="468 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
         </Locations>
@@ -1613,7 +1611,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Sunset Golf Club" category="Fun">
+    <Merchant tag=""  name="Sunset Golf Club" category="Fun">
         <Locations>
             <Location url="www.golflongmont.com" phone="(303) 651-8466" address1="1900 Longs Peak Avenue" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -1625,7 +1623,7 @@ Not valid on holidays, and subject to rules of Use.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Twin Peaks Golf" category="Fun">
+    <Merchant tag=""  name="Twin Peaks Golf" category="Fun">
         <Locations>
             <Location url="www.golflongmont.com" phone="(303) 651-8401" address1="1200 Cornell drive" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -1633,11 +1631,11 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>YOU OR YOUR GUEST WILL RECEIVE A COMPLIMENTARY 18-HOLE GREEN FEE WHEN A SECONd 18-HOLE GREEN FEE IS PURCHASEd AT THE REGULAR PRICE.</Summary>
-                <Details>(Golf car rental is required, not included. Valid Monday thru Thursday anytime or Friday- Sunday & Holidays after 2:00 pm. Maximum Value: $31./twosome or Maximum Value: $62./foursome .Not valid for league and tournament play or with any other offers, discounts or promotions. One coupon per customer. Coupon must be surrendered at check-in).</Details>
+                <Details>(Golf car rental is required, not included. Valid Monday thru Thursday anytime or Friday- Sunday &amp; Holidays after 2:00 pm. Maximum Value: $31./twosome or Maximum Value: $62./foursome .Not valid for league and tournament play or with any other offers, discounts or promotions. One coupon per customer. Coupon must be surrendered at check-in).</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Regal Cinemas" category="Fun">
+    <Merchant tag=""  name="Regal Cinemas" category="Fun">
         <Locations>
             <Location url="REGMovies.com" phone="" address1="1164 W. dILLON ROAd" address2="" city="LOUISVILLE" state="" zip=""></Location>
         </Locations>
@@ -1645,16 +1643,16 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>$2 Off Adult Movie Ticket</Title>
                 <Summary>$2 OFF ANY FULL PRICEd AdULT AdMISSION OF $8 ANd ABOVE</Summary>
-                <Details>(Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included.) Valid at any Regal Entertainment Group location nationwide. This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash. Offer expires November 1, 2013</Details>
+                <Details>(Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included.) Valid at any Regal Entertainment Group location nationwide. This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash. Offer expires November 1, 2013.</Details>
             </Deal>
             <Deal>
                 <Title>$2 Off Adult Movie Ticket</Title>
                 <Summary>$2 OFF ANY FULL PRICEd AdULT AdMISSION OF $8 ANd ABOVE</Summary>
-                <Details>(Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included.) Valid at any Regal Entertainment Group location nationwide. This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash. Offer expires November 1, 2013</Details>
+                <Details>(Limit two discounts per coupon. IMAX, RPX, Large Format, 3-d and Restricted Films also included.) Valid at any Regal Entertainment Group location nationwide. This coupon has no cash value. Offer not valid for special events, private screenings or group events. Offer not valid with any other discount including Senior Citizen, Military or Student admissions. No copies or facsimiles accepted. Limit 2 discounts per coupon. Coupon VOId if purchased, sold or bartered for cash. Offer expires November 1, 2013.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ute Creek Golf" category="Fun">
+    <Merchant tag=""  name="Ute Creek Golf" category="Fun">
         <Locations>
             <Location url="www.golflongmont.com" phone="(303) 774-4342" address1="2000 Ute Creek drive" address2="" city="Longmont" state="" zip=""></Location>
         </Locations>
@@ -1662,16 +1660,16 @@ Not valid on holidays, and subject to rules of Use.</Details>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>YOU OR YOUR GUEST WILL RECEIVE A COMPLIMENTARY 18-HOLE GREEN FEE WHEN A SECONd 18-HOLE GREEN FEE IS PURCHASEd AT THE REGULAR PRICE.</Summary>
-                <Details>(Golf car rental is required, not included. Valid Monday thru Thursday anytime or Friday- Sunday & Holidays after 2:00 pm. Maximum Value: $41./twosome or Maximum Value: $82./foursome .Not valid for league and tournament play or with any other offers, discounts or promotions. One coupon per customer. Coupon must be surrendered at check-in).</Details>
+                <Details>(Golf car rental is required, not included. Valid Monday thru Thursday anytime or Friday- Sunday &amp; Holidays after 2:00 pm. Maximum Value: $41./twosome or Maximum Value: $82./foursome .Not valid for league and tournament play or with any other offers, discounts or promotions. One coupon per customer. Coupon must be surrendered at check-in).</Details>
             </Deal>
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>YOU OR YOUR GUEST WILL RECEIVE A COMPLIMENTARY 18-HOLE GREEN FEE WHEN A SECONd 18-HOLE GREEN FEE IS PURCHASEd AT THE REGULAR PRICE.</Summary>
-                <Details>(Golf car rental is required, not included. Valid Monday thru Thursday anytime or Friday- Sunday & Holidays after 2:00 pm. Maximum Value: $41./twosome or Maximum Value: $82./foursome .Not valid for league and tournament play or with any other offers, discounts or promotions. One coupon per customer. Coupon must be surrendered at check-in).</Details>
+                <Details>(Golf car rental is required, not included. Valid Monday thru Thursday anytime or Friday- Sunday &amp; Holidays after 2:00 pm. Maximum Value: $41./twosome or Maximum Value: $82./foursome .Not valid for league and tournament play or with any other offers, discounts or promotions. One coupon per customer. Coupon must be surrendered at check-in).</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Winter Park Resort" category="Fun">
+    <Merchant tag=""  name="Winter Park Resort" category="Fun">
         <Locations>
             <Location url="www.winterparkresort.com" phone="800-453-2525" address1="85 Parsenn Rd." address2="" city="Winter Park" state="" zip="80482"></Location>
         </Locations>

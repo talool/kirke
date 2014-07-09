@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Talool nextPage="">
     
-    <Merchant name="360 Pizzeria" category="Food">
+    <Merchant tag=""  name="360 Pizzeria" category="Food">
         <Locations>
             <Location url="www.360pizzeria.com" phone="360-260-3605" address1="3425 SE 192nd Ave " address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -13,7 +13,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Abhiruchi Indian Cuisine" category="Food">
+    <Merchant tag=""  name="Abhiruchi Indian Cuisine" category="Food">
         <Locations>
             <Location url="" phone="360-260-1014" address1="233 NE Chkalov Dr" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -25,7 +25,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Applewood NW Cuisine" category="Food">
+    <Merchant tag=""  name="Applewood NW Cuisine" category="Food">
         <Locations>
             <Location url="" phone="360-882-3725" address1="2005 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -42,7 +42,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Baja Fresh" category="Food">
+    <Merchant tag=""  name="Baja Fresh" category="Food">
         <Locations>
             <Location url="" phone="360-823-2252" address1="16010 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="" phone="360-823-8001" address1="7801 NE Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
@@ -60,7 +60,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Big Al’s Sports Bar" category="Food">
+    <Merchant tag=""  name="Big Al’s Sports Bar" category="Food">
         <Locations>
             <Location url="" phone="360-944-6118" address1="16615 SE 18th St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -72,7 +72,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Blind Onion Pizza" category="Food">
+    <Merchant tag=""  name="Blind Onion Pizza" category="Food">
         <Locations>
             <Location url="" phone="360-750-7490" address1="2900 East Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="" phone="360-597-4898" address1="9230 NE Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
@@ -82,11 +82,11 @@
             <Deal>
                 <Title>50% OFF</Title>
                 <Summary>50% OFF THE REGULAR PRICE OF ANY ONE PIzzA</Summary>
-                <Details>Up to $9 max</Details>
+                <Details>Up to $9 max.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bone's Steak and Chop House" category="Food">
+    <Merchant tag=""  name="Bone's Steak and Chop House" category="Food">
         <Locations>
             <Location url="www.bonessteak.com" phone="360-723-0810" address1="1207 SE Rasmussen Blvd" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -94,11 +94,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Boppin’ Bo’s" category="Food">
+    <Merchant tag=""  name="Boppin’ Bo’s" category="Food">
         <Locations>
             <Location url="" phone="360-883-4900" address1="7809 NE Vancouver Plaza Dr. " address2="" city="Vancouver" state="" zip="98662"></Location>
         </Locations>
@@ -110,7 +110,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Brewtopia" category="Food">
+    <Merchant tag=""  name="Brewtopia" category="Food">
         <Locations>
             <Location url="" phone="360-448-4100" address1="8500 NE Vancouver Mall Drive" address2="" city="Vancouver" state="" zip="98662"></Location>
         </Locations>
@@ -122,7 +122,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Café Pacific at Chips Casino" category="Food">
+    <Merchant tag=""  name="Café Pacific at Chips Casino" category="Food">
         <Locations>
             <Location url="www.nwcasinos.com" phone="360-263-2988" address1="318 Old Pacific Hwy" address2="" city="La Center" state="" zip=""></Location>
         </Locations>
@@ -130,11 +130,11 @@
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE ENTREE, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $13 max</Details>
+                <Details>Up to $13 max.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Camas Thai Cuisine" category="Food">
+    <Merchant tag=""  name="Camas Thai Cuisine" category="Food">
         <Locations>
             <Location url="" phone="360-833-1175" address1="450 NE Birch St " address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -146,7 +146,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Catedral Tapatia" category="Food">
+    <Merchant tag=""  name="Catedral Tapatia" category="Food">
         <Locations>
             <Location url="" phone="360-891-0055" address1="707 sE 164th St. " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -158,7 +158,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Charlies Bistro" category="Food">
+    <Merchant tag=""  name="Charlies Bistro" category="Food">
         <Locations>
             <Location url="www.charliesbistro.com" phone="360-693-9998" address1="1220 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -170,7 +170,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Duck Takes Kitchen" category="Food">
+    <Merchant tag=""  name="Duck Takes Kitchen" category="Food">
         <Locations>
             <Location url="www.ducktaleskitchen.com" phone="360-735-7932" address1="612 North Devine Rd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -178,11 +178,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Eastland Sushi" category="Food">
+    <Merchant tag=""  name="Eastland Sushi" category="Food">
         <Locations>
             <Location url="" phone="360-883-1858" address1="16519 SE McGillivray Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -194,7 +194,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="El Valle Mexican Grill" category="Food">
+    <Merchant tag=""  name="El Valle Mexican Grill" category="Food">
         <Locations>
             <Location url="" phone="360-891-6868" address1="6700 NE 162nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -206,7 +206,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Farrar's Bistro" category="Food">
+    <Merchant tag=""  name="Farrar's Bistro" category="Food">
         <Locations>
             <Location url="" phone="360-571-7005" address1="12514 NW 36th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -218,7 +218,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Fujis Grill and Sushi" category="Food">
+    <Merchant tag=""  name="Fujis Grill and Sushi" category="Food">
         <Locations>
             <Location url="" phone="360-896-4899" address1="305 SE Chkalov Rd " address2="#105" city="Vancouver" state="" zip=""></Location>
             <Location url="" phone="503-625-7849" address1="16062 SW Tualatin Sherwood Hwy " address2="" city="Sherwood" state="OR" zip=""></Location>
@@ -231,7 +231,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ginger Pop Thai" category="Food">
+    <Merchant tag=""  name="Ginger Pop Thai" category="Food">
         <Locations>
             <Location url="www.gingerpopthai.com" phone="360-699-7273" address1="2520 Columbia House Drive" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -243,7 +243,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Goldies BBQ" category="Food">
+    <Merchant tag=""  name="Goldies BBQ" category="Food">
         <Locations>
             <Location url="www.goldiesbbq.com" phone="360-253-2836" address1="5640 NE Fourth Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -251,11 +251,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF A FULL PRICED PURCHASE OF $20 OR MORE</Summary>
-                <Details>Alchohol and taxes excluded</Details>
+                <Details>Alchohol and taxes excluded.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Grant House" category="Food">
+    <Merchant tag=""  name="Grant House" category="Food">
         <Locations>
             <Location url="www.thegranthouse.us" phone="360-906-1101" address1="1101 Officers Row" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -267,7 +267,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Gustav's Pub &amp; Grill" category="Food">
+    <Merchant tag=""  name="Gustav's Pub &amp; Grill" category="Food">
         <Locations>
             <Location url="" phone="360-883-0222" address1="1705 SE 164TH" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -279,7 +279,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Harvest" category="Food">
+    <Merchant tag=""  name="Harvest" category="Food">
         <Locations>
             <Location url="www.camasharvest.com" phone="360-210-4037" address1="401 NE 4th Ave" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -291,7 +291,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Hawaiian Style Grill " category="Food">
+    <Merchant tag=""  name="Hawaiian Style Grill " category="Food">
         <Locations>
             <Location url="www.hawaiianstylegrill.com" phone="360-993-5306" address1="5000 East Fourth Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -303,7 +303,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Jerusalem Cafe" category="Food">
+    <Merchant tag=""  name="Jerusalem Cafe" category="Food">
         <Locations>
             <Location url="" phone="360-891-1490" address1="516 SE Chkalov Drive" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -311,11 +311,11 @@
             <Deal>
                 <Title>Buy one get one free</Title>
                 <Summary>BUY ONE ENTREE AND TWO DRINKS, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>up to $9 max</Details>
+                <Details>up to $9 max.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Jollie's" category="Food">
+    <Merchant tag=""  name="Jollie's" category="Food">
         <Locations>
             <Location url="" phone="360-573-3141" address1="17701 NE Union Rd" address2="" city="Ridgefield" state="" zip=""></Location>
         </Locations>
@@ -327,7 +327,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="K’Syrah" category="Food">
+    <Merchant tag=""  name="K’Syrah" category="Food">
         <Locations>
             <Location url="www.ksyrahcatering.com" phone="(360) 833-9429" address1="316 NE Dallas St" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -335,11 +335,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Killer Burger" category="Food">
+    <Merchant tag=""  name="Killer Burger" category="Food">
         <Locations>
             <Location url="www.killerburger.net" phone="360-836-5275" address1="1525 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -351,7 +351,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="La Costa Azteca" category="Food">
+    <Merchant tag=""  name="La Costa Azteca" category="Food">
         <Locations>
             <Location url="" phone="360-885-7675" address1="4708 NE Thurson Way" address2="" city="Vancouver" state="" zip="98662"></Location>
         </Locations>
@@ -363,7 +363,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="La Solera" category="Food">
+    <Merchant tag=""  name="La Solera" category="Food">
         <Locations>
             <Location url="www.lasolera.com" phone="360-687-4500" address1="2210 West Main St" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -371,11 +371,11 @@
             <Deal>
                 <Title>$6 OFF</Title>
                 <Summary>$6 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lapellah" category="Food">
+    <Merchant tag=""  name="Lapellah" category="Food">
         <Locations>
             <Location url="www.lapellah.com" phone="360-828-7911" address1="2520 Columbia House Blvd" address2="Suite 108" city="Vancouver" state="" zip="98661"></Location>
         </Locations>
@@ -387,7 +387,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Las Mesitas" category="Food">
+    <Merchant tag=""  name="Las Mesitas" category="Food">
         <Locations>
             <Location url="" phone="360-687-7221" address1="715 West Main St" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -399,7 +399,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Los 3 Garcias" category="Food">
+    <Merchant tag=""  name="Los 3 Garcias" category="Food">
         <Locations>
             <Location url="" phone="360-260-7157" address1="10412 Fourth Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -407,11 +407,11 @@
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE LUNCH OR DINNER ENTREE, GET ONE LUNCH OR DINNER ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $10 max</Details>
+                <Details>Up to $10 max.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Los Jalapenos Mexican" category="Food">
+    <Merchant tag=""  name="Los Jalapenos Mexican" category="Food">
         <Locations>
             <Location url="" phone="360-883-6588" address1="11711 NE 99th St. " address2="" city="Vancouver" state="" zip="98682"></Location>
             <Location url="" phone="360-335-9400" address1="1736 B St. " address2="" city="Washougal" state="" zip="98671"></Location>
@@ -425,7 +425,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Los Potrillos" category="Food">
+    <Merchant tag=""  name="Los Potrillos" category="Food">
         <Locations>
             <Location url="" phone="360-838-2431" address1="1735 SE 192nd Ave" address2="Ste 101" city="Camas" state="" zip="98607"></Location>
         </Locations>
@@ -442,7 +442,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Main Event Sports Grill" category="Food">
+    <Merchant tag=""  name="Main Event Sports Grill" category="Food">
         <Locations>
             <Location url="www.MESPORTSGRILL.COM" phone="360-448-7146" address1="800 Main St" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.MESPORTSGRILL.COM" phone="360-828-8583" address1="3200 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
@@ -455,9 +455,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Makoto Japanese Buffet" category="Food">
+    <Merchant tag=""  name="Makoto Japanese Buffet" category="Food">
         <Locations>
-            <Location url="" phone="" address1="1119 SE 163rd Place" address2="" city="Vancouver" state="" zip=""></Location>
+            <Location url="www.makotojapanesebuffet.com" phone="(360) 891-4296" address1="1119 SE 163rd Place" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -467,7 +467,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Mill City Brew Werks" category="Food">
+    <Merchant tag=""  name="Mill City Brew Werks" category="Food">
         <Locations>
             <Location url="" phone="360-210-4761" address1="339 NE Cedar St" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -475,11 +475,11 @@
             <Deal>
                 <Title>$5 Off</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Mill Creek Pub" category="Food">
+    <Merchant tag=""  name="Mill Creek Pub" category="Food">
         <Locations>
             <Location url="www.millcreekpub.com" phone="360-723-5223" address1="1710 SW 9th Ave" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -487,16 +487,16 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE Dinner ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="New King's Buffet" category="Food">
+    <Merchant tag=""  name="New King's Buffet" category="Food">
         <Locations>
             <Location url="" phone="360-260-7888" address1="304 SE 123rd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -508,7 +508,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Oaks Grill at Camas Meadows" category="Food">
+    <Merchant tag=""  name="Oaks Grill at Camas Meadows" category="Food">
         <Locations>
             <Location url="" phone="360-833-2000" address1="4105 NW Camas Meadows Dr " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -520,7 +520,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Old Town Burgers" category="Food">
+    <Merchant tag=""  name="Old Town Burgers" category="Food">
         <Locations>
             <Location url="" phone="360-666-0522" address1="813 West Main St" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -532,7 +532,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Outback Steakhouse" category="Food">
+    <Merchant tag=""  name="Outback Steakhouse" category="Food">
         <Locations>
             <Location url="www.outback.com" phone="360-883-0005" address1="8700 NE Vancouver Mall Dr" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -540,11 +540,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE DINNER ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Patricks Hawaiian Café" category="Food">
+    <Merchant tag=""  name="Patricks Hawaiian Café" category="Food">
         <Locations>
             <Location url="www.hawaiiancafe.com" phone="360-885-0881" address1="316 SE 123rd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -552,11 +552,11 @@
             <Deal>
                 <Title>Buy one get one free</Title>
                 <Summary>BUY ONE ENTREE AND TWO DRINKS, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $8 max</Details>
+                <Details>Up to $8 max.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pho Le Vietnamese" category="Food">
+    <Merchant tag=""  name="Pho Le Vietnamese" category="Food">
         <Locations>
             <Location url="" phone="360-892-8484" address1="2100 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -568,7 +568,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pizzicato" category="Food">
+    <Merchant tag=""  name="Pizzicato" category="Food">
         <Locations>
             <Location url="www.pizzicatopizza.com" phone="360-891-2081" address1="1900 NE 162nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -585,7 +585,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Puffin Café" category="Food">
+    <Merchant tag=""  name="Puffin Café" category="Food">
         <Locations>
             <Location url="www.puffincafe.com" phone="360-335-1522" address1="14 South A St" address2="" city="Washougal" state="" zip=""></Location>
         </Locations>
@@ -593,11 +593,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Roots" category="Food">
+    <Merchant tag=""  name="Roots" category="Food">
         <Locations>
             <Location url="" phone="360-260-3001" address1="1925 SE 34th St." address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -609,7 +609,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Salty’s Seafood Grill" category="Food">
+    <Merchant tag=""  name="Salty’s Seafood Grill" category="Food">
         <Locations>
             <Location url="www.Saltys.com/Portland" phone="503-288-4444" address1="3839 NE Marine Dr." address2="" city="Portland" state="OR" zip="97211"></Location>
         </Locations>
@@ -621,7 +621,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Sportsmen’s Bar and Grill" category="Food">
+    <Merchant tag=""  name="Sportsmen’s Bar and Grill" category="Food">
         <Locations>
             <Location url="" phone="360-887-3141" address1="121 North Main St " address2="" city="Ridgefield" state="" zip="98642"></Location>
         </Locations>
@@ -629,11 +629,11 @@
             <Deal>
                 <Title>Buy one, get one free</Title>
                 <Summary>BUY ONE ENTREE, GET ONE ENTREE OF EQUAL OR LESSER VALUE FREE</Summary>
-                <Details>Up to $10 max discount</Details>
+                <Details>Up to $10 max discount.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Strada Street Food of Italy" category="Food">
+    <Merchant tag=""  name="Strada Street Food of Italy" category="Food">
         <Locations>
             <Location url="www.gostrada.com" phone="360-326-4364" address1="2100 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -645,7 +645,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Talay Thai Cuisine" category="Food">
+    <Merchant tag=""  name="Talay Thai Cuisine" category="Food">
         <Locations>
             <Location url="www.talaythaicuisine.com" phone="360-604-0999" address1="13510 NE 84th" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -657,7 +657,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="The Old Spaghetti Factory" category="Food">
+    <Merchant tag=""  name="The Old Spaghetti Factory" category="Food">
         <Locations>
             <Location url="www.osf.com" phone="360-253-9030" address1="730 SE 160th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -674,7 +674,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="The Rock Wood Fired Pizza" category="Food">
+    <Merchant tag=""  name="The Rock Wood Fired Pizza" category="Food">
         <Locations>
             <Location url="www.therockwfp.com" phone="360-695-7625" address1="2420 Columbia House Blvd" address2="" city="Vancouver" state="" zip="98661"></Location>
         </Locations>
@@ -686,7 +686,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Tiger Lily" category="Food">
+    <Merchant tag=""  name="Tiger Lily" category="Food">
         <Locations>
             <Location url="" phone="360 828-1245" address1="1109 Washington St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -694,16 +694,16 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE LUNCH ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF TWO OR MORE dinner ENTREES</Summary>
-                <Details>Dine in only</Details>
+                <Details>Dine in only.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Tommy O’s" category="Food">
+    <Merchant tag=""  name="Tommy O’s" category="Food">
         <Locations>
             <Location url="www.tommyosaloha.com" phone="360-694-5107" address1="801 Washington" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -715,7 +715,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Twilight Pizza Bistro" category="Food">
+    <Merchant tag=""  name="Twilight Pizza Bistro" category="Food">
         <Locations>
             <Location url="www.twilightpizzabistro.com" phone="(360) 833-1919" address1="905 SE 192nd Avenue" address2="#101" city="Vancouver" state="" zip="98607"></Location>
             <Location url="www.twilightpizzabistro.com" phone="(360) 833-1919" address1="224 NE 4th Avenue" address2="" city="Camas" state="" zip="98607"></Location>
@@ -724,11 +724,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF THE REGULAR PRICE OF ANY PURCHASE OF $15 OR MORE</Summary>
-                <Details>Tax excluded</Details>
+                <Details>Tax excluded.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Vinotopia" category="Food">
+    <Merchant tag=""  name="Vinotopia" category="Food">
         <Locations>
             <Location url="www.cinetopiatheaters.com" phone="360-213-2800" address1="11700 SE 7th St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -740,7 +740,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Woody’s Tacos" category="Food">
+    <Merchant tag=""  name="Woody’s Tacos" category="Food">
         <Locations>
             <Location url="" phone="360-718-8193" address1="210 West Evergreen Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -752,7 +752,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Yummy Mongolian Grill" category="Food">
+    <Merchant tag=""  name="Yummy Mongolian Grill" category="Food">
         <Locations>
             <Location url="" phone="360-256-2468" address1="316 SE 123rd " address2="" city="Vancouver" state="" zip="98683"></Location>
             <Location url="" phone="360-256-2468" address1="8513 NE Hwy 99 " address2="" city="Vancouver" state="" zip=""></Location>
@@ -765,7 +765,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Arby’s" category="Food">
+    <Merchant tag=""  name="Arby’s" category="Food">
         <Locations>
             <Location url="www.arbys.com" phone="360-896-5154" address1="7117 NE FOURTH PLAIN BLVD" address2="" city="VANCOUVER" state="" zip=""></Location>
             <Location url="www.arbys.com" phone="360-253-3556" address1="221 NE 104 AVENUE" address2="" city="VANCOUVER" state="" zip=""></Location>
@@ -793,7 +793,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bellagio’s" category="Food">
+    <Merchant tag=""  name="Bellagio’s" category="Food">
         <Locations>
             <Location url="" phone="360-567-1007" address1="322 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -810,7 +810,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Black Rock Coffee Bar" category="Food">
+    <Merchant tag=""  name="Black Rock Coffee Bar" category="Food">
         <Locations>
             <Location url="www.blackrockcoffeebar.com" phone="(503) 689-3229" address1="13721 SE Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.blackrockcoffeebar.com" phone="(503) 689-3229" address1="1801 SE 164th Ave" address2="Ste 111" city="Vancouver" state="" zip=""></Location>
@@ -829,7 +829,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bleu Door Bakery" category="Food">
+    <Merchant tag=""  name="Bleu Door Bakery" category="Food">
         <Locations>
             <Location url="www.bleudoorbakery.com" phone="360-693-2538" address1="413 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -841,7 +841,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Brewed" category="Food">
+    <Merchant tag=""  name="Brewed" category="Food">
         <Locations>
             <Location url="www.brewed360.com" phone="360-597-3386" address1="603 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -853,7 +853,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bruchi’s Subs" category="Food">
+    <Merchant tag=""  name="Bruchi’s Subs" category="Food">
         <Locations>
             <Location url="" phone="360-571-5383" address1="800 NE Tenney Road" address2="Suite 108" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -870,7 +870,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Burgerville" category="Food">
+    <Merchant tag=""  name="Burgerville" category="Food">
         <Locations>
             <Location url="www.burgerville.com" phone="360-696-0308" address1="2200 E Fourth Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.burgerville.com" phone="360-694-4971" address1="7401 E Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
@@ -906,7 +906,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Coffee Gallery" category="Food">
+    <Merchant tag=""  name="Coffee Gallery" category="Food">
         <Locations>
             <Location url="" phone="360-980-8268" address1="8115 NE Vancouver Mall Drive " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -923,7 +923,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Compass Coffee" category="Food">
+    <Merchant tag=""  name="Compass Coffee" category="Food">
         <Locations>
             <Location url="" phone="360-696-1612" address1="1304 West Main St " address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="" phone="360-696-1612" address1="8013 St Johns Rd " address2="" city="Vancouver" state="" zip=""></Location>
@@ -936,7 +936,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Del Taco" category="Food">
+    <Merchant tag=""  name="Del Taco" category="Food">
         <Locations>
             <Location url="www.deltaco.com" phone="360-546-0707" address1="8724 Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -948,7 +948,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Di Tazza Gourmet Coffee" category="Food">
+    <Merchant tag=""  name="Di Tazza Gourmet Coffee" category="Food">
         <Locations>
             <Location url="www.ditazzagourmetcoffee.com" phone="360-210-7087" address1="2011 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -960,7 +960,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Domino's" category="Food">
+    <Merchant tag=""  name="Domino's" category="Food">
         <Locations>
             <Location url="www.dominos.com" phone="(360) 254-4408" address1="6300 NE 117th St." address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.dominos.com" phone="(360) 885-3030" address1="1723 NE Andresen" address2="" city="Vancouver" state="" zip=""></Location>
@@ -969,17 +969,17 @@
         <Deals>
             <Deal>
                 <Title>Buy one, get one free</Title>
-                <Summary>BUY A LARGE PIzzA AT REGULAR MENU PRICE & GET A ONE TOPPING MEDIUM OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Summary>BUY A LARGE PIzzA AT REGULAR MENU PRICE &amp; GET A ONE TOPPING MEDIUM OF EQUAL OR LESSER VALUE FREE</Summary>
                 <Details>One coupon per person. Taxes and Delivery Charges may apply.</Details>
             </Deal>
             <Deal>
                 <Title>Buy one, get one free</Title>
-                <Summary>BUY A LARGE PIzzA AT REGULAR MENU PRICE & GET A ONE TOPPING MEDIUM OF EQUAL OR LESSER VALUE FREE</Summary>
+                <Summary>BUY A LARGE PIzzA AT REGULAR MENU PRICE &amp; GET A ONE TOPPING MEDIUM OF EQUAL OR LESSER VALUE FREE</Summary>
                 <Details>One coupon per person. Taxes and Delivery Charges may apply.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Dot Donuts" category="Food">
+    <Merchant tag=""  name="Dot Donuts" category="Food">
         <Locations>
             <Location url="www.dotdonuts.com" phone="360-253-1910" address1="825 SE 164th Ave " address2="" city="Vancouver" state="" zip="98683"></Location>
         </Locations>
@@ -996,7 +996,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Dutch Bros Coffee" category="Food">
+    <Merchant tag=""  name="Dutch Bros Coffee" category="Food">
         <Locations>
             <Location url="www.dutchbros.com" phone="(360) 258-1880" address1="5700 NE 4th Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.dutchbros.com" phone="(360) 258-1880" address1="2610 NE 138th Ave" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1025,7 +1025,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Fatty Patty’s" category="Food">
+    <Merchant tag=""  name="Fatty Patty’s" category="Food">
         <Locations>
             <Location url="" phone="360-574-4940" address1="10501 NE Hwy 99 " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1042,7 +1042,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Gaia Java" category="Food">
+    <Merchant tag=""  name="Gaia Java" category="Food">
         <Locations>
             <Location url="" phone="360-719-2360" address1="1104 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1054,7 +1054,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Garlic Jim's" category="Food">
+    <Merchant tag=""  name="Garlic Jim's" category="Food">
         <Locations>
             <Location url="www.garlicjimspizza.com" phone="360-573-8400" address1="13317 NE 12th Ave." address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1071,7 +1071,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Godfather's Pizza" category="Food">
+    <Merchant tag=""  name="Godfather's Pizza" category="Food">
         <Locations>
             <Location url="" phone="360-256-0000" address1="2100 SE 164th Avenue" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1098,7 +1098,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ice Cream Renaissance" category="Food">
+    <Merchant tag=""  name="Ice Cream Renaissance" category="Food">
         <Locations>
             <Location url="" phone="360-694-3892" address1="1925 Main St " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1115,7 +1115,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Jack in the Box" category="Food">
+    <Merchant tag=""  name="Jack in the Box" category="Food">
         <Locations>
             <Location url="www.jackinthebox.com" phone="(360) 260-2666" address1="16333 12th Street" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.jackinthebox.com" phone="(360) 885-2450" address1="7205 117th Avenue" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1140,7 +1140,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="La Bella Café" category="Food">
+    <Merchant tag=""  name="La Bella Café" category="Food">
         <Locations>
             <Location url="www.facebook.com/LaBellasCafe" phone="(360) 695-6009" address1="2110 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1152,7 +1152,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Latte Da Coffee House" category="Food">
+    <Merchant tag=""  name="Latte Da Coffee House" category="Food">
         <Locations>
             <Location url="www.lattedacoffeehouse.com" phone="360-448-7651" address1="205 East 39th St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1164,7 +1164,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lime Berry Frozen Yogurt" category="Food">
+    <Merchant tag=""  name="Lime Berry Frozen Yogurt" category="Food">
         <Locations>
             <Location url="" phone="360-723-5060" address1="11 NW 12th Ave" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -1176,7 +1176,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Little Caesars Pizza" category="Food">
+    <Merchant tag=""  name="Little Caesars Pizza" category="Food">
         <Locations>
             <Location url="www.littlecaesars.com" phone="360 869-8583" address1="221G NE 104th Ave." address2="Suite 104" city="Vancouver" state="" zip=""></Location>
             <Location url="www.littlecaesars.com" phone="360 869-8583" address1="2010-A NE 4th Plain Road" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1196,19 +1196,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Little Cups and Grownups" category="Food">
-        <Locations>
-            <Location url="" phone="" address1="" address2="" city="" state="" zip=""></Location>
-        </Locations>
-        <Deals>
-            <Deal>
-                <Title></Title>
-                <Summary></Summary>
-                <Details></Details>
-            </Deal>
-        </Deals>
-    </Merchant>
-    <Merchant name="McDonald's" category="Food">
+    <Merchant tag=""  name="McDonald's" category="Food">
         <Locations>
             <Location url="www.mcdonalds.com" phone="(360)735-0583" address1="2110 E 4TH PLAIN BLVD" address2="" city="VANCOUVER" state="" zip=""></Location>
         </Locations>
@@ -1235,7 +1223,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Namaste" category="Food">
+    <Merchant tag=""  name="Namaste" category="Food">
         <Locations>
             <Location url="www.namasteindiancuisine.com" phone="360-891-5857" address1="6300A NE 117th Ave." address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1252,7 +1240,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="NW Bagel Deli" category="Food">
+    <Merchant tag=""  name="NW Bagel Deli" category="Food">
         <Locations>
             <Location url="" phone="360-573-1190" address1="512 NE 81st St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1264,7 +1252,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="NYC Pizzeria" category="Food">
+    <Merchant tag=""  name="NYC Pizzeria" category="Food">
         <Locations>
             <Location url="www.nycpizzeria-van.com" phone="360-882-7670" address1="700 SE Chkalov Drive " address2="Suite #1" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1291,7 +1279,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Old Town Battle Grounds" category="Food">
+    <Merchant tag=""  name="Old Town Battle Grounds" category="Food">
         <Locations>
             <Location url="" phone="360-666-2441" address1="316 East Main St" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -1303,19 +1291,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pacific NW Best Fish Co" category="Food">
-        <Locations>
-            <Location url="" phone="" address1="" address2="" city="" state="" zip=""></Location>
-        </Locations>
-        <Deals>
-            <Deal>
-                <Title></Title>
-                <Summary></Summary>
-                <Details></Details>
-            </Deal>
-        </Deals>
-    </Merchant>
-    <Merchant name="Pizza Schmizza" category="Food">
+    <Merchant tag=""  name="Pizza Schmizza" category="Food">
         <Locations>
             <Location url="www.facebook.com/SchmizzaSC" phone="360-571-4064" address1="910 NE Tenney Rd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1332,7 +1308,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Quiznos Subs" category="Food">
+    <Merchant tag=""  name="Quiznos Subs" category="Food">
         <Locations>
             <Location url="www.quiznos.com" phone="360-687-0166" address1="11 NW 12th Ave" address2="suite 104" city="Battle Ground" state="" zip=""></Location>
             <Location url="www.quiznos.com" phone="360-567-2444" address1="910 Tenney Rd" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1351,7 +1327,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Savona Coffee House" category="Food">
+    <Merchant tag=""  name="Savona Coffee House" category="Food">
         <Locations>
             <Location url="" phone="360-695-0678" address1="1898 SE Columbia River Dr " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1368,7 +1344,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Shari's" category="Food">
+    <Merchant tag=""  name="Shari's" category="Food">
         <Locations>
             <Location url="www.sharis.com" phone="253-859-5774" address1="24525 Russell Rd" address2="" city="Kent" state="" zip=""></Location>
         </Locations>
@@ -1395,7 +1371,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Squeeze and Grind" category="Food">
+    <Merchant tag=""  name="Squeeze and Grind" category="Food">
         <Locations>
             <Location url="" phone="360-833-2404" address1="537 NE Cedar St" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -1412,7 +1388,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Steamers and Screamers" category="Food">
+    <Merchant tag=""  name="Steamers and Screamers" category="Food">
         <Locations>
             <Location url="www.steamersandscreamers.com" phone="360-597-4521" address1="8400 NE Van Mall Loop" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1429,7 +1405,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Taco Del Mar" category="Food">
+    <Merchant tag=""  name="Taco Del Mar" category="Food">
         <Locations>
             <Location url="" phone="360-574-6375" address1="8902 NE 5th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1446,7 +1422,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Thatcher's Coffee" category="Food">
+    <Merchant tag=""  name="Thatcher's Coffee" category="Food">
         <Locations>
             <Location url="www.thatcherscoffee.net" phone="360-258-0571" address1="104 Grand Blvd" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.thatcherscoffee.net" phone="360-258-0571" address1="901 C St" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1459,7 +1435,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="The Igloo" category="Food">
+    <Merchant tag=""  name="The Igloo" category="Food">
         <Locations>
             <Location url="" phone="360-690-0803" address1="3128 East Evergreen Blvd " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1476,7 +1452,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Torque Coffee" category="Food">
+    <Merchant tag=""  name="Torque Coffee" category="Food">
         <Locations>
             <Location url="www.torquecoffeeroasters.com" phone="971-200-5252" address1="501 Columbia St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1493,7 +1469,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Tropical Smoothie Café" category="Food">
+    <Merchant tag=""  name="Tropical Smoothie Café" category="Food">
         <Locations>
             <Location url="www.tropicalsmoothie.com" phone="360-817-1800" address1="1905 SE 192nd Ave." address2="#113" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -1510,7 +1486,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Yogurt Shack" category="Food">
+    <Merchant tag=""  name="Yogurt Shack" category="Food">
         <Locations>
             <Location url="www.yogurtshacks.com" phone="360-326-4975" address1="104 South Grand Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1522,7 +1498,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Yogurt Time" category="Food">
+    <Merchant tag=""  name="Yogurt Time" category="Food">
         <Locations>
             <Location url="" phone="360-906-1000" address1="1813 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1534,7 +1510,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bella Vita Boutique" category="Shopping Services">
+    <Merchant tag=""  name="Bella Vita Boutique" category="Shopping Services">
         <Locations>
             <Location url="www.facebook.com/shop.bellavitaboutique" phone="360-844-5847" address1="407 NE 4th Ave" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -1546,7 +1522,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Canine Utopia" category="Shopping Services">
+    <Merchant tag=""  name="Canine Utopia" category="Shopping Services">
         <Locations>
             <Location url="www.k9utopia.com" phone="360-737-7881" address1="2309 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1558,7 +1534,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Chuck's Produce" category="Shopping Services">
+    <Merchant tag=""  name="Chuck's Produce" category="Shopping Services">
         <Locations>
             <Location url="www.chucksproduce.com" phone="360-597-2700" address1="13215 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.chucksproduce.com" phone="360-597-2700" address1="2302 NE 117th St" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1586,7 +1562,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Dejàvu Consignment " category="Shopping Services">
+    <Merchant tag=""  name="Dejàvu Consignment " category="Shopping Services">
         <Locations>
             <Location url="" phone="360-253-9053" address1="16111 SE McGillivary Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1598,7 +1574,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Denim and Frills" category="Shopping Services">
+    <Merchant tag=""  name="Denim and Frills" category="Shopping Services">
         <Locations>
             <Location url="www.denimandfrills.com" phone="360-571-9014" address1="10501 NE hWy 99 " address2="ST 17" city="Vancouver" state="" zip=""></Location>
             <Location url="www.denimandfrills.com" phone="360-844-5163" address1="905 SE 192nd Ave " address2="ST 107" city="Vancouver" state="" zip=""></Location>
@@ -1611,7 +1587,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Game Play" category="Shopping Services">
+    <Merchant tag=""  name="Game Play" category="Shopping Services">
         <Locations>
             <Location url="www.gameplayrus.com" phone="360-882-6883" address1="11205 NE 28th St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1623,7 +1599,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Kazoodles Toys" category="Shopping Services">
+    <Merchant tag=""  name="Kazoodles Toys" category="Shopping Services">
         <Locations>
             <Location url="www.kazoodlestoys.com" phone="360-823-0123" address1="13503 SE Mill Plain Blvd. " address2="#B-3" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1635,7 +1611,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Kumon of Vancouver" category="Shopping Services">
+    <Merchant tag=""  name="Kumon of Vancouver" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-576-0777" address1="9901 NE 7th Ave" address2="B-112" city="Vancouver" state="" zip=""></Location>
             <Location url="" phone="360-521-6284" address1="14930 SE Mill Plain Blvd" address2="Suite 105" city="Vancouver" state="" zip=""></Location>
@@ -1648,7 +1624,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lil Dudes N Divas" category="Shopping Services">
+    <Merchant tag=""  name="Lil Dudes N Divas" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-696-4717" address1="1815 Main St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1660,7 +1636,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="New Seasons Market" category="Shopping Services">
+    <Merchant tag=""  name="New Seasons Market" category="Shopping Services">
         <Locations>
             <Location url="www.newseasonsmarket.com" phone="(360) 760-5005" address1="2100 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1687,7 +1663,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="NW Ambush Extreme Sports" category="Shopping Services">
+    <Merchant tag=""  name="NW Ambush Extreme Sports" category="Shopping Services">
         <Locations>
             <Location url="www.nwambush.com" phone="360-666-0029" address1="711 East Main St" address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -1699,7 +1675,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pacific NW Best Fish Co" category="Shopping Services">
+    <Merchant tag=""  name="Pacific NW Best Fish Co" category="Shopping Services">
         <Locations>
             <Location url="www.pacificnwbest.com" phone="(360) 887-4268" address1="24415 Northeast 10th Avenue" address2="" city="Ridgefield" state="" zip=""></Location>
         </Locations>
@@ -1716,7 +1692,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pipsqueak Resale Consignment" category="Shopping Services">
+    <Merchant tag=""  name="Pipsqueak Resale Consignment" category="Shopping Services">
         <Locations>
             <Location url="www.pipsqeakresale.com" phone="360-896-7411" address1="16111 SE McGillivary Blvd" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.pipsqeakresale.com" phone="360-253-2772" address1="14602 NE Fourth Plain" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1729,7 +1705,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Play it Again Sports" category="Shopping Services">
+    <Merchant tag=""  name="Play it Again Sports" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-260-9440" address1="8101 NE Parkway Dr. " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1741,7 +1717,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Rons Automotive" category="Shopping Services">
+    <Merchant tag=""  name="Rons Automotive" category="Shopping Services">
         <Locations>
             <Location url="www.ronsautomotive.com" phone="360-253-6000" address1="16211 SE 1st St" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.ronsautomotive.com" phone="360-574-2233" address1="7818 NE 30th Ave" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1755,7 +1731,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Whole Foods Market" category="Shopping Services">
+    <Merchant tag=""  name="Whole Foods Market" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-253-4082" address1="815 SE 160th Ave " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1767,7 +1743,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Athena Day Spa" category="Shopping Services">
+    <Merchant tag=""  name="Athena Day Spa" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-573-4813" address1="2702 NE 78th St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1779,7 +1755,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Barre 3" category="Shopping Services">
+    <Merchant tag=""  name="Barre 3" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-314-6769" address1="16415 SE 15th" address2="St # 108" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1791,7 +1767,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Beyond Bliss Day Spa" category="Shopping Services">
+    <Merchant tag=""  name="Beyond Bliss Day Spa" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-750-1887" address1="1711 Broadway" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1803,7 +1779,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bikram Hot Yoga" category="Shopping Services">
+    <Merchant tag=""  name="Bikram Hot Yoga" category="Shopping Services">
         <Locations>
             <Location url="www.vancouverbikramyoga.com" phone="360-254-9642" address1="1801 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.vancouverbikramyoga.com" phone="360-254-9642" address1="616 NE 81st St" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1816,7 +1792,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Bloom Organics" category="Shopping Services">
+    <Merchant tag=""  name="Bloom Organics" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-834-1886" address1="417 NE Birch St" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -1828,7 +1804,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Curves" category="Shopping Services">
+    <Merchant tag=""  name="Curves" category="Shopping Services">
         <Locations>
             <Location url="www.curves.com" phone="360-256-0205" address1="2702 NE 114th Avenue" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.curves.com" phone="360-896-5332" address1="1901 NE 162nd Avenue" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1844,7 +1820,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Fancy Nails" category="Shopping Services">
+    <Merchant tag=""  name="Fancy Nails" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-253-2171" address1="3000 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1856,7 +1832,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Glo Beauty Lounge" category="Shopping Services">
+    <Merchant tag=""  name="Glo Beauty Lounge" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-210-5478" address1="1877 Main St" address2="" city="Washougal" state="" zip=""></Location>
         </Locations>
@@ -1868,7 +1844,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Great Clips" category="Shopping Services">
+    <Merchant tag=""  name="Great Clips" category="Shopping Services">
         <Locations>
             <Location url="www.greatclips.com" phone="(360) 896-0157" address1="322 SE 192nd Ave" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.greatclips.com" phone="(360) 696-1979" address1="7220 NE Highway 99" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1884,7 +1860,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lil Snippers" category="Shopping Services">
+    <Merchant tag=""  name="Lil Snippers" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-953-8524" address1="3000 SE 164th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1896,7 +1872,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Madison Nails" category="Shopping Services">
+    <Merchant tag=""  name="Madison Nails" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-253-4481" address1="16020 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1908,7 +1884,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Sharkeys Cuts for Kids" category="Shopping Services">
+    <Merchant tag=""  name="Sharkeys Cuts for Kids" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-949-7638" address1="16020 SE Mill Plain Blvd" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1920,7 +1896,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Ship Shape Tanning" category="Shopping Services">
+    <Merchant tag=""  name="Ship Shape Tanning" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-944-1974" address1="316 SE 123rd Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1932,7 +1908,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Sport Clips" category="Shopping Services">
+    <Merchant tag=""  name="Sport Clips" category="Shopping Services">
         <Locations>
             <Location url="www.sportclips.com" phone="360-882-8832" address1="9171 SE Mill Plain" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.sportclips.com" phone="360-882-3305" address1="310 NE 78th Street" address2="" city="Vancouver" state="" zip=""></Location>
@@ -1960,7 +1936,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Supercuts" category="Shopping Services">
+    <Merchant tag=""  name="Supercuts" category="Shopping Services">
         <Locations>
             <Location url="www.supercuts.com" phone="360-891-4869" address1="16420 SE McGillvary Blvd. " address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.supercuts.com" phone="360-944-4415" address1="13215 SE Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
@@ -1974,7 +1950,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Tans and Company" category="Shopping Services">
+    <Merchant tag=""  name="Tans and Company" category="Shopping Services">
         <Locations>
             <Location url="" phone="360-574-8267" address1="616 NE 81st Street " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -1986,7 +1962,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Battle Ground Cinema" category="Fun">
+    <Merchant tag=""  name="Battle Ground Cinema" category="Fun">
         <Locations>
             <Location url="www.BattleGroundCinema.com" phone="360-666-7200" address1="1700 SW 9th Avenue " address2="" city="Battle Ground" state="" zip=""></Location>
         </Locations>
@@ -2003,7 +1979,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Big Al's Bowling" category="Fun">
+    <Merchant tag=""  name="Big Al's Bowling" category="Fun">
         <Locations>
             <Location url="" phone="360-944-6118" address1="16615 SE 18th St " address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -2020,7 +1996,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Camas Meadows Golf" category="Fun">
+    <Merchant tag=""  name="Camas Meadows Golf" category="Fun">
         <Locations>
             <Location url="www.camasmeadows.com" phone="360-833-2000" address1="4105 NW Camas Meadows drive " address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -2028,11 +2004,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF ThE REGULAR PRICE OF ONE ROUNd OF GOLF</Summary>
-                <Details>Not to be combined with other discounts or promotions</Details>
+                <Details>Not to be combined with other discounts or promotions.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Cedars at Salmon Creek" category="Fun">
+    <Merchant tag=""  name="Cedars at Salmon Creek" category="Fun">
         <Locations>
             <Location url="www.golfcedars.com" phone="360-687-4233" address1="15001 NE 181st St" address2="" city="Brush Prairie" state="" zip=""></Location>
         </Locations>
@@ -2040,11 +2016,11 @@
             <Deal>
                 <Title>$5 OFF</Title>
                 <Summary>$5 OFF OF ThE REGULAR PRICE OF ONE ROUNd OF GOLF</Summary>
-                <Details>Not to be combined with other discounts or promotions</Details>
+                <Details>Not to be combined with other discounts or promotions.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Firstenburg Comm Center" category="Fun">
+    <Merchant tag=""  name="Firstenburg Comm Center" category="Fun">
         <Locations>
             <Location url="www.cityofvancouver.us/fcc" phone="360-487-7001" address1="700 NE 136th Ave" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -2056,7 +2032,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="G6 Airpark" category="Fun">
+    <Merchant tag=""  name="G6 Airpark" category="Fun">
         <Locations>
             <Location url="www.g6airpark.com" phone="360-828-1444" address1="2200 NE Andresson Rd" address2="Ste. J " city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -2068,7 +2044,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Kids Club Fun and Fitness" category="Fun">
+    <Merchant tag=""  name="Kids Club Fun and Fitness" category="Fun">
         <Locations>
             <Location url="www.kidsclub4fun.com" phone="360-546-5437" address1="13914 NW 3rd Ct." address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -2085,7 +2061,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lacamas Jazzercise" category="Fun">
+    <Merchant tag=""  name="Lacamas Jazzercise" category="Fun">
         <Locations>
             <Location url="www.jazzercise.com" phone="360-980-0022" address1="2950 NW 38th Ave" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -2097,7 +2073,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Lacamas Swim and Sport" category="Fun">
+    <Merchant tag=""  name="Lacamas Swim and Sport" category="Fun">
         <Locations>
             <Location url="www.lacamassport.com" phone="360-834-8506" address1="2950 NW 38th Ave" address2="" city="Camas" state="" zip=""></Location>
         </Locations>
@@ -2105,11 +2081,11 @@
             <Deal>
                 <Title>50% OFF</Title>
                 <Summary>50% OFF OF BEGINNING/GROUP SWIM LESSONS, OR 50% OFF OF ThE REGULAR PRICE OF PUBLIC SWIM FEE</Summary>
-                <Details>up to 2 people max)</Details>
+                <Details>up to 2 people max.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Mt View Ice Arena" category="Fun">
+    <Merchant tag=""  name="Mt View Ice Arena" category="Fun">
         <Locations>
             <Location url="" phone="360-896-8700" address1="14313 SE Mill Plain Blvd." address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -2121,7 +2097,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="OMSI" category="Fun">
+    <Merchant tag=""  name="OMSI" category="Fun">
         <Locations>
             <Location url="www.OMSI.edu" phone="503-797-4000" address1="1945 SE Water Ave" address2="" city="Portland" state="OR" zip=""></Location>
         </Locations>
@@ -2129,11 +2105,11 @@
             <Deal>
                 <Title>$2 Off</Title>
                 <Summary>$2 OFF ThE REGULAR PRICE OF ONE MUSEUM AdMISSION</Summary>
-                <Details>Exchange at OMSI Ticket Desk for $2 off museum admission. Limit ONE coupon per person. Offer valid for walk-up redemption only; ticket cannot be purchased for a future date.. Subject to availability. Not valid for other OMSI attractions. May not be used for phone or online orders or combined with other offers or discounts or promotion. Subject to Rules of Use. CODE:PAYBACK</Details>
+                <Details>Exchange at OMSI Ticket Desk for $2 off museum admission. Limit ONE coupon per person. Offer valid for walk-up redemption only; ticket cannot be purchased for a future date.. Subject to availability. Not valid for other OMSI attractions. May not be used for phone or online orders or combined with other offers or discounts or promotion. Subject to Rules of Use. CODE:PAYBACK.</Details>
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Pine Crest Golf Course" category="Fun">
+    <Merchant tag=""  name="Pine Crest Golf Course" category="Fun">
         <Locations>
             <Location url="WWW.PINECRESTGC.NET" phone="360-573-2051" address1="2415 NW 143rd St" address2="" city="Vancouver" state="" zip=""></Location>
         </Locations>
@@ -2145,7 +2121,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Regal Entertainment Group " category="Fun">
+    <Merchant tag=""  name="Regal Entertainment Group " category="Fun">
         <Locations>
             <Location url="www.regmovies.com" phone="360-735-1223" address1="801 C Street" address2="" city="Vancouver" state="" zip=""></Location>
             <Location url="www.regmovies.com" phone="360-571-0984" address1="9010 NE Hwy 99" address2="" city="Vancouver" state="" zip=""></Location>
@@ -2175,7 +2151,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Timberline Ski Area" category="Fun">
+    <Merchant tag=""  name="Timberline Ski Area" category="Fun">
         <Locations>
             <Location url="www.timberlinelodge.com" phone="503-272-3311" address1="27500 W Leg Rd" address2="" city="Timberline Lodge" state="OR" zip=""></Location>
         </Locations>
@@ -2187,7 +2163,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant name="Vancouver Volcanoes" category="Fun">
+    <Merchant tag=""  name="Vancouver Volcanoes" category="Fun">
         <Locations>
             <Location url="www.vancouvervolcanoes.com" phone="360-719-7163" address1="609 Main St. " address2="Suite 100" city="Vancouver" state="" zip=""></Location>
         </Locations>
