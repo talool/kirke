@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Talool nextPage="">
     
-    <Merchant tag="foo"  name="Aji" category="Food">
+    <Merchant tag="Latin American"  name="Aji" category="Food">
         <Locations>
-            <Location url="www.ajirestaurant.com" phone="303-442-3464" address1="1601 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.ajirestaurant.com" phone="303-442-3464" address1="1601 Pearl St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -13,9 +13,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Thai Shi House" category="Food">
+    <Merchant tag="Thai"  name="Thai Shi House" category="Food">
         <Locations>
-            <Location url="www.thaishihouse.com" phone="303-444-3133" address1="3033 28th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.thaishihouse.com" phone="303-444-3133" address1="3033 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -25,9 +25,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Taj Mahal III" category="Food">
+    <Merchant tag="Indian"  name="Taj Mahal III" category="Food">
         <Locations>
-            <Location url="" phone="303-926-0999" address1="1075 South Boulder Rd" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="" phone="303-926-0999" address1="1075 South Boulder Rd" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -37,9 +37,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="NaRaYa" category="Food">
+    <Merchant tag="Thai"  name="NaRaYa" category="Food">
         <Locations>
-            <Location url="www.narayathaisushi.com" phone="303-447-9718" address1="1575 Folsom St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.narayathaisushi.com" phone="303-447-9718" address1="1575 Folsom St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -49,9 +49,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Nepal Cuisine" category="Food">
+    <Merchant tag="Indian"  name="Nepal Cuisine" category="Food">
         <Locations>
-            <Location url="" phone="303-554-5828" address1="4720 Table Mesa Drive" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-554-5828" address1="4720 Table Mesa Drive" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -61,9 +61,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="The Huckleberry" category="Food">
+    <Merchant tag="Family Dining"  name="The Huckleberry" category="Food">
         <Locations>
-            <Location url="www.thehuckleberry.com" phone="303-666-8020" address1="700 Main St" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.thehuckleberry.com" phone="303-666-8020" address1="700 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -73,9 +73,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Two Dog Diner" category="Food">
+    <Merchant tag="Diner"  name="Two Dog Diner" category="Food">
         <Locations>
-            <Location url="www.twodogdiner.com" phone="303-772-2DOG" address1="645 Tenacity Drive" address2="" city="Longmont" state="" zip="80504"></Location>
+            <Location url="www.twodogdiner.com" phone="303-772-2DOG" address1="645 Tenacity Drive" address2="" city="Longmont" state="CO" zip="80504"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -85,9 +85,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Tibet's Restaurant &amp; Bar" category="Food">
+    <Merchant tag="Indian"  name="Tibet's Restaurant &amp; Bar" category="Food">
         <Locations>
-            <Location url="www.tibetsrestaurant.com" phone="303-665-2557" address1="321 McCaslin Blvd" address2="Suite A" city="Louisville" state="" zip="80027"></Location>
+            <Location url="www.tibetsrestaurant.com" phone="303-665-2557" address1="321 McCaslin Blvd" address2="Suite A" city="Louisville" state="CO" zip="80027"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -97,9 +97,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Foolish Craig's" category="Food">
+    <Merchant tag="American"  name="Foolish Craig's" category="Food">
         <Locations>
-            <Location url="www.foolishcraigs.com" phone="303-247-9383" address1="1611 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.foolishcraigs.com" phone="303-247-9383" address1="1611 Pearl St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -109,9 +109,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Anthony's Pizza &amp; Pasta" category="Food">
+    <Merchant tag="Pizza"  name="Anthony's Pizza &amp; Pasta" category="Food">
         <Locations>
-            <Location url="www.anthonyspizzaandpasta.com" phone="303-485-5555" address1="2321 Clover Basin Drive" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.anthonyspizzaandpasta.com" phone="303-485-5555" address1="2321 Clover Basin Drive" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -121,9 +121,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Los Tapatios" category="Food">
+    <Merchant tag="mexican"  name="Los Tapatios" category="Food">
         <Locations>
-            <Location url="" phone="303-664-1435" address1="1005 South Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="" phone="303-664-1435" address1="1005 South Public Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -133,9 +133,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Buddha Cafe" category="Food">
+    <Merchant tag="Thai"  name="Buddha Cafe" category="Food">
         <Locations>
-            <Location url="" phone="720-565-0506" address1="2719 Iris Ave" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="720-565-0506" address1="2719 Iris Ave" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -145,9 +145,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Casa Alvarez" category="Food">
+    <Merchant tag="mexican"  name="Casa Alvarez" category="Food">
         <Locations>
-            <Location url="www.casaalvarezcolorado.com" phone="303-546-0630" address1="3161 Walnut St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.casaalvarezcolorado.com" phone="303-546-0630" address1="3161 Walnut St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -157,9 +157,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="The Sink" category="Food">
+    <Merchant tag="Pizza"  name="The Sink" category="Food">
         <Locations>
-            <Location url="www.thesink.com" phone="303-444-7465" address1="1165 13th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.thesink.com" phone="303-444-7465" address1="1165 13th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -174,9 +174,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Old Santa Fe Mexican Grille" category="Food">
+    <Merchant tag="mexican"  name="Old Santa Fe Mexican Grille" category="Food">
         <Locations>
-            <Location url="" phone="720-890-8456" address1="994 Dillon Rd" address2="" city="Louisville" state="" zip="80027"></Location>
+            <Location url="" phone="720-890-8456" address1="994 Dillon Rd" address2="" city="Louisville" state="CO" zip="80027"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -186,9 +186,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Aloy" category="Food">
+    <Merchant tag="Thai"  name="Aloy" category="Food">
         <Locations>
-            <Location url="www.chythaicuisine.com" phone="303-440-2903" address1="2720 Canyon Blvd" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.chythaicuisine.com" phone="303-440-2903" address1="2720 Canyon Blvd" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -198,9 +198,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Leaf" category="Food">
+    <Merchant tag="Vegetarian / Vegan"  name="Leaf" category="Food">
         <Locations>
-            <Location url="www.leafvegetarianrestaurant.com" phone="303-442-1485" address1="2010 16th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.leafvegetarianrestaurant.com" phone="303-442-1485" address1="2010 16th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -210,9 +210,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Restaurant 5480" category="Food">
+    <Merchant tag="American"  name="Restaurant 5480" category="Food">
         <Locations>
-            <Location url="www.restaurant4580.com" phone="303-448-1500" address1="4580 Broadway" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.restaurant4580.com" phone="303-448-1500" address1="4580 Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -222,9 +222,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Lui's" category="Food">
+    <Merchant tag="Family Dining"  name="Lui's" category="Food">
         <Locations>
-            <Location url="" phone="303-828-2282" address1="89 South Briggs St" address2="" city="Erie" state="" zip=""></Location>
+            <Location url="" phone="303-828-2282" address1="89 South Briggs St" address2="" city="Erie" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -234,9 +234,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="The Garden Gate Cafe" category="Food">
+    <Merchant tag="Breakfast"  name="The Garden Gate Cafe" category="Food">
         <Locations>
-            <Location url="www.thegardengatecafe.com" phone="303-652-8595" address1="7960 Niwot Rd" address2="" city="Niwot" state="" zip=""></Location>
+            <Location url="www.thegardengatecafe.com" phone="303-652-8595" address1="7960 Niwot Rd" address2="" city="Niwot" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -246,9 +246,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Moongate Asian Bistro" category="Food">
+    <Merchant tag="Asian"  name="Moongate Asian Bistro" category="Food">
         <Locations>
-            <Location url="www.moongateasianbistro.com" phone="720-406-8888" address1="1628 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.moongateasianbistro.com" phone="720-406-8888" address1="1628 Pearl St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -258,9 +258,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="The Blue Parrot" category="Food">
+    <Merchant tag="Family Dining"  name="The Blue Parrot" category="Food">
         <Locations>
-            <Location url="" phone="303-666-0677" address1="640 Main St" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="" phone="303-666-0677" address1="640 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -270,9 +270,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Parkway Sports Grille" category="Food">
+    <Merchant tag="Burgers"  name="Parkway Sports Grille" category="Food">
         <Locations>
-            <Location url="www.parkwaysportsgrille.com" phone="303-828-3329" address1="615 Mitchell Way" address2="" city="Erie" state="" zip=""></Location>
+            <Location url="www.parkwaysportsgrille.com" phone="303-828-3329" address1="615 Mitchell Way" address2="" city="Erie" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -282,7 +282,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Pinocchios" category="Food">
+    <Merchant tag="Italian"  name="Pinocchios" category="Food">
         <Locations>
             <Location url="www.incredibleitalian.com" phone="303 651-7828" address1="210 Ken Pratt Blvd" address2="" city="Longmont" state="CO" zip=""></Location>
             <Location url="www.incredibleitalian.com" phone="303 664-1234" address1="211 North Public Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
@@ -301,10 +301,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Murphy's" category="Food">
+    <Merchant tag="Burgers"  name="Murphy's" category="Food">
         <Locations>
-            <Location url="www.murphysboulder.com" phone="303-494-7626" address1="657 S. Broadway" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="www.murphysboulder.com" phone="303-449-4473" address1="2731 Iris Ave" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.murphysboulder.com" phone="303-494-7626" address1="657 S. Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="www.murphysboulder.com" phone="303-449-4473" address1="2731 Iris Ave" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -319,10 +319,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Si Senior!" category="Food">
+    <Merchant tag="mexican"  name="Si Senior!" category="Food">
         <Locations>
-            <Location url="www.sisenorrealmexicanfood.com" phone="720-890-1765" address1="1389 Forest Park Circle" address2="" city="Lafayette" state="" zip=""></Location>
-            <Location url="www.sisenorrealmexicanfood.com" phone="720-890-9765" address1="3120 Village Vista Dr" address2="" city="Erie" state="" zip=""></Location>
+            <Location url="www.sisenorrealmexicanfood.com" phone="720-890-1765" address1="1389 Forest Park Circle" address2="" city="Lafayette" state="CO" zip=""></Location>
+            <Location url="www.sisenorrealmexicanfood.com" phone="720-890-9765" address1="3120 Village Vista Dr" address2="" city="Erie" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -332,9 +332,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Spice China" category="Food">
+    <Merchant tag="Asian"  name="Spice China" category="Food">
         <Locations>
-            <Location url="www.spicechina.com" phone="720-890-0999" address1="269 McCaslin Blvd" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.spicechina.com" phone="720-890-0999" address1="269 McCaslin Blvd" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -344,10 +344,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Outback Steakhouse">
+    <Merchant tag="Steakhouse"  name="Outback Steakhouse" category="Food">
         <Locations>
-            <Location url="www.outback.com" phone="303-684-8149" address1="1315 Dry Creek Drive" address2="" city="Longmont" state="" zip="80503"></Location>
-            <Location url="www.outback.com" phone="303-661-9855" address1="988 Dillon Rd" address2="" city="Louisville" state="" zip="80027"></Location>
+            <Location url="www.outback.com" phone="303-684-8149" address1="1315 Dry Creek Drive" address2="" city="Longmont" state="CO" zip="80503"></Location>
+            <Location url="www.outback.com" phone="303-661-9855" address1="988 Dillon Rd" address2="" city="Louisville" state="CO" zip="80027"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -357,9 +357,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Via Toscana" category="Food">
+    <Merchant tag="Italian"  name="Via Toscana" category="Food">
         <Locations>
-            <Location url="www.viatoscana.com" phone="303-604-6960" address1="356 McCaslin Blvd" address2="" city="Louisville" state="" zip="80027"></Location>
+            <Location url="www.viatoscana.com" phone="303-604-6960" address1="356 McCaslin Blvd" address2="" city="Louisville" state="CO" zip="80027"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -369,9 +369,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Ragazzi Italian Grill" category="Food">
+    <Merchant tag="Italian"  name="Ragazzi Italian Grill" category="Food">
         <Locations>
-            <Location url="www.ragazzigrill.com" phone="303-651-2828" address1="135 Francis St" address2="" city="LSonegemolonct" state="" zip=""></Location>
+            <Location url="www.ragazzigrill.com" phone="303-651-2828" address1="135 Francis St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -386,9 +386,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Cantina Laredo" category="Food">
+    <Merchant tag="mexican"  name="Cantina Laredo" category="Food">
         <Locations>
-            <Location url="www.cantinalaredo.com" phone="303-444-2260" address1="1680 29th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.cantinalaredo.com" phone="303-444-2260" address1="1680 29th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -398,9 +398,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Walnut Brewery" category="Food">
+    <Merchant tag="Brewery"  name="Walnut Brewery" category="Food">
         <Locations>
-            <Location url="www.walnutbrewery.com" phone="303-447-1345" address1="1123 Walnut St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.walnutbrewery.com" phone="303-447-1345" address1="1123 Walnut St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -410,9 +410,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Parrott's Sports Grille" category="Food">
+    <Merchant tag="Burgers"  name="Parrott's Sports Grille" category="Food">
         <Locations>
-            <Location url="www.parrottsgrille.com" phone="303-774-0700" address1="6050 Firestone Blvd" address2="" city="Firestone" state="" zip=""></Location>
+            <Location url="www.parrottsgrille.com" phone="303-774-0700" address1="6050 Firestone Blvd" address2="" city="Firestone" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -422,9 +422,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Martini's Bistro" category="Food">
+    <Merchant tag="American"  name="Martini's Bistro" category="Food">
         <Locations>
-            <Location url="" phone="303-651-2772" address1="543 Terry St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="" phone="303-651-2772" address1="543 Terry St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -434,9 +434,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Boulder Dushanbe Teahouse" category="Food">
+    <Merchant tag="Tea"  name="Boulder Dushanbe Teahouse" category="Food">
         <Locations>
-            <Location url="www.boulderteahouse.com" phone="303-442-4993" address1="1770 13th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.boulderteahouse.com" phone="303-442-4993" address1="1770 13th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -451,9 +451,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Colterra" category="Food">
+    <Merchant tag="Fine Dining"  name="Colterra" category="Food">
         <Locations>
-            <Location url="www.colterra.com" phone="303-652-0777" address1="210 Franklin St" address2="" city="Niwot" state="" zip=""></Location>
+            <Location url="www.colterra.com" phone="303-652-0777" address1="210 Franklin St" address2="" city="Niwot" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -463,9 +463,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Rincon Del Sol" category="Food">
+    <Merchant tag="mexican"  name="Rincon Del Sol" category="Food">
         <Locations>
-            <Location url="" phone="303-442-0541" address1="2350 Arapahoe Rd" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-442-0541" address1="2350 Arapahoe Rd" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -475,9 +475,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Pete's Place" category="Food">
+    <Merchant tag="Family Dining"  name="Pete's Place" category="Food">
         <Locations>
-            <Location url="www.petesplace-papafranks.com" phone="303-833-2818" address1="201 5th St" address2="" city="Frederick" state="" zip=""></Location>
+            <Location url="www.petesplace-papafranks.com" phone="303-833-2818" address1="201 5th St" address2="" city="Frederick" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -487,9 +487,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Tortugas" category="Food">
+    <Merchant tag="Family Dining"  name="Tortugas" category="Food">
         <Locations>
-            <Location url="" phone="303-772-6954" address1="218 Coffman St" address2="" city="Longmont" state="" zip="80501"></Location>
+            <Location url="" phone="303-772-6954" address1="218 Coffman St" address2="" city="Longmont" state="CO" zip="80501"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -499,10 +499,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Lazy Dog Sports Bar &amp; Grill" category="Food">
+    <Merchant tag="Burgers"  name="Lazy Dog Sports Bar &amp; Grill" category="Food">
         <Locations>
-            <Location url="www.thelazydog.com" phone="303-440-3355" address1="1346 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="www.thelazydog.com" phone="303-664-5299" address1="3100 Village Vista Dr" address2="" city="Erie" state="" zip=""></Location>
+            <Location url="www.thelazydog.com" phone="303-440-3355" address1="1346 Pearl St" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="www.thelazydog.com" phone="303-664-5299" address1="3100 Village Vista Dr" address2="" city="Erie" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -517,9 +517,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Zucca" category="Food">
+    <Merchant tag="Italian"  name="Zucca" category="Food">
         <Locations>
-            <Location url="www.zuccalouisville.com" phone="303-666-6649" address1="808 Main St" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.zuccalouisville.com" phone="303-666-6649" address1="808 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -529,9 +529,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Walnut Cafe" category="Food">
+    <Merchant tag="Lunch"  name="Walnut Cafe" category="Food">
         <Locations>
-            <Location url="www.walnutcafe.com" phone="" address1="2770 Arapahoe" address2="Suite. 116" city="Lafayette" state="" zip=""></Location>
+            <Location url="www.walnutcafe.com" phone="" address1="2770 Arapahoe" address2="Suite. 116" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -541,9 +541,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Pump House Brewery" category="Food">
+    <Merchant tag="Brewery"  name="Pump House Brewery" category="Food">
         <Locations>
-            <Location url="www.pumphousebrewery.com" phone="303-702-0881" address1="540 Main St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.pumphousebrewery.com" phone="303-702-0881" address1="540 Main St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -558,9 +558,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Hacienda Calisco" category="Food">
+    <Merchant tag="mexican"  name="Hacienda Calisco" category="Food">
         <Locations>
-            <Location url="www.haciendajaliscofirestone.com" phone="303-684-9133" address1="6160 Firestone Blvd" address2="" city="Firestone" state="" zip=""></Location>
+            <Location url="www.haciendajaliscofirestone.com" phone="303-684-9133" address1="6160 Firestone Blvd" address2="" city="Firestone" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -570,9 +570,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Pepper Jack's" category="Food">
+    <Merchant tag="mexican"  name="Pepper Jack's" category="Food">
         <Locations>
-            <Location url="" phone="303-833-4361" address1="3768 Hwy 52" address2="" city="Frederick" state="" zip=""></Location>
+            <Location url="" phone="303-833-4361" address1="3768 Hwy 52" address2="" city="Frederick" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -582,9 +582,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Rio Grande" category="Food">
+    <Merchant tag="mexican"  name="Rio Grande" category="Food">
         <Locations>
-            <Location url="" phone="303-444-3690" address1="1101 Walnut St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-444-3690" address1="1101 Walnut St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -599,9 +599,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Millers Grill" category="Food">
+    <Merchant tag="Burgers"  name="Millers Grill" category="Food">
         <Locations>
-            <Location url="" phone="720-746-9649" address1="103 South Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="" phone="720-746-9649" address1="103 South Public Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -611,9 +611,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="La Revolucion" category="Food">
+    <Merchant tag="mexican"  name="La Revolucion" category="Food">
         <Locations>
-            <Location url="" phone="303-926-3998" address1="701 Main St" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="" phone="303-926-3998" address1="701 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -623,7 +623,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Delvickio's" category="Food">
+    <Merchant tag="Italian"  name="Delvickio's" category="Food">
         <Locations>
             <Location url="www.delvickios.com" phone="303-494-6000" address1="1631 Coalton Rd" address2="" city="Superior" state="CO" zip=""></Location>
         </Locations>
@@ -635,7 +635,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Rock Creek Sports Grill" category="Food">
+    <Merchant tag="Burgers"  name="Rock Creek Sports Grill" category="Food">
         <Locations>
             <Location url="www.rockcreeksportsgrill.com" phone="303-499-2111" address1="1627 Coalton Rd" address2="" city="Superior" state="CO" zip=""></Location>
         </Locations>
@@ -647,7 +647,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Taco" category="Food">
+    <Merchant tag="Taco"  name="Taco" category="Food">
         <Locations>
             <Location url="www.tacocolorado.com" phone="303-443-9468" address1="1175 Walnut St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
@@ -659,7 +659,7 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Rex" category="Food">
+    <Merchant tag="Family Dining"  name="Rex" category="Food">
         <Locations>
             <Location url="www.louisvillerex.com" phone="303-666-6224" address1="817 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
@@ -671,9 +671,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Ricco's Burritos" category="Food">
+    <Merchant tag="Burritos"  name="Ricco's Burritos" category="Food">
         <Locations>
-            <Location url="www.riccosburritos.com" phone="720-542-8375" address1="318 S. McCaslin Blvd" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.riccosburritos.com" phone="720-542-8375" address1="318 S. McCaslin Blvd" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -683,9 +683,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="JuJu's Bakery &amp; Cafe" category="Food">
+    <Merchant tag="Cafe"  name="JuJu's Bakery &amp; Cafe" category="Food">
         <Locations>
-            <Location url="www.jujusbakeryandcafe.com" phone="303-515-7126" address1="1619 Coalton Rd" address2="" city="Superior" state="" zip=""></Location>
+            <Location url="www.jujusbakeryandcafe.com" phone="303-515-7126" address1="1619 Coalton Rd" address2="" city="Superior" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -700,9 +700,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Good Measure" category="Food">
+    <Merchant tag="Coffee"  name="Good Measure" category="Food">
         <Locations>
-            <Location url="" phone="303-284-3445" address1="1075 E. South Boulder Rd" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="" phone="303-284-3445" address1="1075 E. South Boulder Rd" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -717,9 +717,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Madison's Cheese Press" category="Food">
+    <Merchant tag="Lunch"  name="Madison's Cheese Press" category="Food">
         <Locations>
-            <Location url="www.madisonscheesepress.com" phone="303-530-1560" address1="6562 Lookout Road" address2="" city="Boulder" state="" zip="80301"></Location>
+            <Location url="www.madisonscheesepress.com" phone="303-530-1560" address1="6562 Lookout Road" address2="" city="Boulder" state="CO" zip="80301"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -734,9 +734,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Paul's Coffee &amp; Tea" category="Food">
+    <Merchant tag="Coffee"  name="Paul's Coffee &amp; Tea" category="Food">
         <Locations>
-            <Location url="www.paulscoffeeandtea.com" phone="720-259-1723" address1="956 West Cherry" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.paulscoffeeandtea.com" phone="720-259-1723" address1="956 West Cherry" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -752,8 +752,8 @@
         </Deals>
     </Merchant><Merchant tag=""  name="Aspen Leaf Frozen Yogurt" category="Food">
         <Locations>
-            <Location url="" phone="720-432-2591" address1="637 A S Broadway" address2="" city="Boulder" state="" zip="80305"></Location>
-            <Location url="" phone="720-432-2591" address1="6562 Lookout Rd" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="720-432-2591" address1="637 A S Broadway" address2="" city="Boulder" state="CO" zip="80305"></Location>
+            <Location url="" phone="720-432-2591" address1="6562 Lookout Rd" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -763,9 +763,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Spooners Frozen Yogurt" category="Food">
+    <Merchant tag="Yogurt"  name="Spooners Frozen Yogurt" category="Food">
         <Locations>
-            <Location url="www.spoonersfroyo.com" phone="303-440-7066" address1="1805 29th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.spoonersfroyo.com" phone="303-440-7066" address1="1805 29th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -775,9 +775,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Ripple" category="Food">
+    <Merchant tag="Yogurt"  name="Ripple" category="Food">
         <Locations>
-            <Location url="www.rippleyogurt.com" phone="303-444-0690" address1="1682 30th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.rippleyogurt.com" phone="303-444-0690" address1="1682 30th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -787,9 +787,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Bean &amp; Berry" category="Food">
+    <Merchant tag="Coffee"  name="Bean &amp; Berry" category="Food">
         <Locations>
-            <Location url="www.thebeanandberry.com" phone="720-328-6890" address1="305 McCaslin Blvd" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.thebeanandberry.com" phone="720-328-6890" address1="305 McCaslin Blvd" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -798,9 +798,9 @@
                 <Details></Details>
             </Deal>
         </Deals>
-    </Merchant><Merchant tag=""  name="Morning Glory" category="Food">
+    </Merchant><Merchant tag="Breakfast"  name="Morning Glory" category="Food">
         <Locations>
-            <Location url="" phone="303-604-6351" address1="1377 Forest Park Circle" address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="" phone="303-604-6351" address1="1377 Forest Park Circle" address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -810,9 +810,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Mod Market" category="Food">
+    <Merchant tag="American"  name="Mod Market" category="Food">
         <Locations>
-            <Location url="www.modmarket.com" phone="303-440-0476" address1="1600 28th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.modmarket.com" phone="303-440-0476" address1="1600 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -822,9 +822,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Red Frog Coffee" category="Food">
+    <Merchant tag="Coffee"  name="Red Frog Coffee" category="Food">
         <Locations>
-            <Location url="www.redfrogcoffee.com" phone="303-772-7209" address1="15 ken Pratt Blvd" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.redfrogcoffee.com" phone="303-772-7209" address1="15 ken Pratt Blvd" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -839,9 +839,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="La Vita Bella Coffee Etc" category="Food">
+    <Merchant tag="Coffee"  name="La Vita Bella Coffee Etc" category="Food">
         <Locations>
-            <Location url="" phone="720-204-6298" address1="475 Main St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="" phone="720-204-6298" address1="475 Main St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -850,10 +850,11 @@
                 <Details></Details>
             </Deal>
         </Deals>
-    </Merchant><Merchant tag=""  name="Larkburger" category="Food">
+    </Merchant>
+    <Merchant tag="Burgers"  name="Larkburger" category="Food">
         <Locations>
-            <Location url="www.larkburger.com" phone="303-444-1487" address1="2525 Arapahoe Rd" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="www.larkburger.com" phone="720-452-2410" address1="4660 West 121st Avenue" address2="Unit 1" city="Broomfield" state="" zip=""></Location>
+            <Location url="www.larkburger.com" phone="303-444-1487" address1="2525 Arapahoe Rd" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="www.larkburger.com" phone="720-452-2410" address1="4660 West 121st Avenue" address2="Unit 1" city="Broomfield" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -863,11 +864,11 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Ziggi's Premium Coffee" category="Food">
+    <Merchant tag="Coffee"  name="Ziggi's Premium Coffee" category="Food">
         <Locations>
-            <Location url="" phone="303-682-5120" address1="400 Main Street" address2="" city="Longmont" state="" zip=""></Location>
-            <Location url="" phone="303-682-5120" address1="1729 Hover Street" address2="" city="Longmont" state="" zip=""></Location>
-            <Location url="" phone="303-682-5120" address1="1139 Francis Street" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="" phone="303-682-5120" address1="400 Main Street" address2="" city="Longmont" state="CO" zip=""></Location>
+            <Location url="" phone="303-682-5120" address1="1729 Hover Street" address2="" city="Longmont" state="CO" zip=""></Location>
+            <Location url="" phone="303-682-5120" address1="1139 Francis Street" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -879,7 +880,7 @@
     </Merchant>
     <Merchant tag=""  name="Eats &amp; Sweets" category="Food">
         <Locations>
-            <Location url="www.eatsandsweets.com" phone="303-665-3287" address1="401 South Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="www.eatsandsweets.com" phone="303-665-3287" address1="401 South Public Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -889,9 +890,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Bittersweet Cafe" category="Food">
+    <Merchant tag="Cafe"  name="Bittersweet Cafe" category="Food">
         <Locations>
-            <Location url="www.bittersweetcafes.com" phone="303-317-5522" address1="820 Main St" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.bittersweetcafes.com" phone="303-317-5522" address1="820 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -901,11 +902,11 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Menchie's Frozen Yogurt" category="Food">
+    <Merchant tag="Yogurt"  name="Menchie's Frozen Yogurt" category="Food">
         <Locations>
-            <Location url="www.menchies.com" phone="720-890-9500" address1="535 W. South Boulder Rd" address2="" city="Lafayette" state="" zip=""></Location>
-            <Location url="www.menchies.com" phone="303-375-1101" address1="8302 E. Northfield Blvd" address2="" city="Denver" state="" zip=""></Location>
-            <Location url="www.menchies.com" phone="720-378-4247" address1="1749 Main St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.menchies.com" phone="720-890-9500" address1="535 W. South Boulder Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
+            <Location url="www.menchies.com" phone="303-375-1101" address1="8302 E. Northfield Blvd" address2="" city="Denver" state="CO" zip=""></Location>
+            <Location url="www.menchies.com" phone="720-378-4247" address1="1749 Main St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -920,9 +921,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Daylight Donuts" category="Food">
+    <Merchant tag="Donut"  name="Daylight Donuts" category="Food">
         <Locations>
-            <Location url="" phone="303-833-2009" address1="821 Carbondale Drive" address2="" city="Dacono" state="" zip=""></Location>
+            <Location url="" phone="303-833-2009" address1="821 Carbondale Drive" address2="" city="Dacono" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -932,12 +933,12 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Papa Murphy's" category="Food">
+    <Merchant tag="Pizza"  name="Papa Murphy's" category="Food">
         <Locations>
-            <Location url="" phone="720-890-8967" address1="3331 Arapahoe Rd" address2="" city="Erie" state="" zip=""></Location>
-            <Location url="" phone="303-440-5300" address1="3325 28th St" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="303-499-0909" address1="659 South Broadway" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="303-651-7272" address1="6050 Firestone Blvd" address2="" city="Firestone" state="" zip=""></Location>
+            <Location url="" phone="720-890-8967" address1="3331 Arapahoe Rd" address2="" city="Erie" state="CO" zip=""></Location>
+            <Location url="" phone="303-440-5300" address1="3325 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="303-499-0909" address1="659 South Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="303-651-7272" address1="6050 Firestone Blvd" address2="" city="Firestone" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -947,9 +948,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Perky Coffee" category="Food">
+    <Merchant tag="Coffee"  name="Perky Coffee" category="Food">
         <Locations>
-            <Location url="www.perkyslongmont.com" phone="303-776-6711" address1="1515 Main St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.perkyslongmont.com" phone="303-776-6711" address1="1515 Main St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -959,9 +960,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Red Rock Coffeehouse" category="Food">
+    <Merchant tag="Coffee"  name="Red Rock Coffeehouse" category="Food">
         <Locations>
-            <Location url="" phone="303-443-1975" address1="3325 28th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-443-1975" address1="3325 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -971,9 +972,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Cannon Mine Coffee" category="Food">
+    <Merchant tag="Coffee"  name="Cannon Mine Coffee" category="Food">
         <Locations>
-            <Location url="www.cannonmine.com" phone="303-665-0625" address1="210 S. Public Rd." address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="www.cannonmine.com" phone="303-665-0625" address1="210 S. Public Rd." address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -983,9 +984,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="MoJo Coffeehouse" category="Food">
+    <Merchant tag="Coffee"  name="MoJo Coffeehouse" category="Food">
         <Locations>
-            <Location url="" phone="303-665-9026" address1="211 North Public Rd" address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="" phone="303-665-9026" address1="211 North Public Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1000,15 +1001,15 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="McDonald's" category="Food">
+    <Merchant tag="Burgers"  name="McDonald's" category="Food">
         <Locations>
-            <Location url="" phone="" address1="1800 28th St" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="" address1="2920 Baseline Rd" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="" address1="4770 Table Mesa Drive" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="" address1="1900 North Main St" address2="" city="Longmont" state="" zip=""></Location>
-            <Location url="" phone="" address1="245 South Main St" address2="" city="Longmont" state="" zip=""></Location>
-            <Location url="" phone="" address1="800 South Hover" address2="" city="Longmont" state="" zip=""></Location>
-            <Location url="" phone="" address1="1051 South Hover" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="" phone="" address1="1800 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="" address1="2920 Baseline Rd" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="" address1="4770 Table Mesa Drive" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="" address1="1900 North Main St" address2="" city="Longmont" state="CO" zip=""></Location>
+            <Location url="" phone="" address1="245 South Main St" address2="" city="Longmont" state="CO" zip=""></Location>
+            <Location url="" phone="" address1="800 South Hover" address2="" city="Longmont" state="CO" zip=""></Location>
+            <Location url="" phone="" address1="1051 South Hover" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1033,12 +1034,12 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Glacier Ice Cream &amp; Gelato" category="Food">
+    <Merchant tag="Ice Cream"  name="Glacier Ice Cream &amp; Gelato" category="Food">
         <Locations>
-            <Location url="www.glaciericecream.com" phone="303-440-6542" address1="3133 28th St" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="www.glaciericecream.com" phone="303-499-4760" address1="4760 Baseline Rd" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="www.glaciericecream.com" phone="303-442-4400" address1="1350 College Ave" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="www.glaciericecream.com" phone="303-485-8834" address1="1749 Main St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.glaciericecream.com" phone="303-440-6542" address1="3133 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="www.glaciericecream.com" phone="303-499-4760" address1="4760 Baseline Rd" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="www.glaciericecream.com" phone="303-442-4400" address1="1350 College Ave" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="www.glaciericecream.com" phone="303-485-8834" address1="1749 Main St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1053,9 +1054,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Loaf &amp; Ladle" category="Food">
+    <Merchant tag="Family Dining"  name="Loaf &amp; Ladle" category="Food">
         <Locations>
-            <Location url="" phone="303-776-7575" address1="1134 Francis St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="" phone="303-776-7575" address1="1134 Francis St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1065,10 +1066,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Spruce Confections" category="Food">
+    <Merchant tag="Dessert"  name="Spruce Confections" category="Food">
         <Locations>
-            <Location url="" phone="303-449-6773" address1="767 Pearl St" address2="Suite B" city="Boulder" state="" zip="80302"></Location>
-            <Location url="" phone="303-449-5819" address1="4684 Broadway" address2="" city="Boulder" state="" zip="80304"></Location>
+            <Location url="" phone="303-449-6773" address1="767 Pearl St" address2="Suite B" city="Boulder" state="CO" zip="80302"></Location>
+            <Location url="" phone="303-449-5819" address1="4684 Broadway" address2="" city="Boulder" state="CO" zip="80304"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1083,9 +1084,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Mumtaz Mediterranean Food" category="Food">
+    <Merchant tag="Mediterranean"  name="Mumtaz Mediterranean Food" category="Food">
         <Locations>
-            <Location url="www.mumtazfood.com" phone="303-926-1400" address1="588 North Hwy 287" address2="Suite 100" city="Lafayette" state="" zip="80026"></Location>
+            <Location url="www.mumtazfood.com" phone="303-926-1400" address1="588 North Hwy 287" address2="Suite 100" city="Lafayette" state="CO" zip="80026"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1095,9 +1096,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Snowcap Creamery &amp; Cafe" category="Food">
+    <Merchant tag="Ice Cream"  name="Snowcap Creamery &amp; Cafe" category="Food">
         <Locations>
-            <Location url="" phone="303-828-3301" address1="615 Mitchell Way" address2="" city="Erie" state="" zip=""></Location>
+            <Location url="" phone="303-828-3301" address1="615 Mitchell Way" address2="" city="Erie" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1107,9 +1108,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Eggcredible Cafe" category="Food">
+    <Merchant tag="Breakfast"  name="Eggcredible Cafe" category="Food">
         <Locations>
-            <Location url="www.eggcredible.com" phone="303-301-0005" address1="5397 South Boulder Rd" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.eggcredible.com" phone="303-301-0005" address1="5397 South Boulder Rd" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1119,10 +1120,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Le Peep" category="Food">
+    <Merchant tag="Breakfast"  name="Le Peep" category="Food">
         <Locations>
-            <Location url="" phone="303-444-5119" address1="2525 Arapahoe" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="720-652-6680" address1="1225 ken Pratt Blvd" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="" phone="303-444-5119" address1="2525 Arapahoe" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="720-652-6680" address1="1225 ken Pratt Blvd" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1132,9 +1133,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Two Spoons" category="Food">
+    <Merchant tag="Gelato"  name="Two Spoons" category="Food">
         <Locations>
-            <Location url="" phone="303-545-0027" address1="021 Pearl St" address2="" city="Boulder" state="" zip="80302"></Location>
+            <Location url="" phone="303-545-0027" address1="021 Pearl St" address2="" city="Boulder" state="CO" zip="80302"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1144,10 +1145,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Quiznos Sub" category="Food">
+    <Merchant tag="Lunch"  name="Quiznos Sub" category="Food">
         <Locations>
-            <Location url="" phone="303-494-5360" address1="601 South Broadway" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="303-443-7827" address1="3040 28th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-494-5360" address1="601 South Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="303-443-7827" address1="3040 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1157,9 +1158,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Pulcinella Pizzeria" category="Food">
+    <Merchant tag="Pizza"  name="Pulcinella Pizzeria" category="Food">
         <Locations>
-            <Location url="" phone="303-664-1599" address1="385 Crossing Drive" address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="" phone="303-664-1599" address1="385 Crossing Drive" address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1169,10 +1170,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="IHOP" category="Food">
+    <Merchant tag="Breakfast"  name="IHOP" category="Food">
         <Locations>
-            <Location url="" phone="303-444-2115" address1="1675 28th St" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="303-499-2177" address1="401 Center Dr" address2="" city="Superior" state="" zip=""></Location>
+            <Location url="" phone="303-444-2115" address1="1675 28th St" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="303-499-2177" address1="401 Center Dr" address2="" city="Superior" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1187,9 +1188,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Cafe Sole" category="Food">
+    <Merchant tag="Coffee"  name="Cafe Sole" category="Food">
         <Locations>
-            <Location url="www.caffesole.com" phone="303-499-2985" address1="637 R. South Broadway" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.caffesole.com" phone="303-499-2985" address1="637 R. South Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1199,11 +1200,11 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Subway" category="Food">
+    <Merchant tag="Lunch"  name="Subway" category="Food">
         <Locations>
-            <Location url="" phone="303-494-7827" address1="BaseMar Center" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="720-274-1101" address1="4760 Baseline Rd" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="303-492-1643" address1="1669 Euclid Ave" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-494-7827" address1="BaseMar Center" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="720-274-1101" address1="4760 Baseline Rd" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="303-492-1643" address1="1669 Euclid Ave" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1213,9 +1214,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Lindsay's Boulder Deli" category="Food">
+    <Merchant tag="Lunch"  name="Lindsay's Boulder Deli" category="Food">
         <Locations>
-            <Location url="" phone="303-443-9032" address1="1148 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-443-9032" address1="1148 Pearl St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1225,9 +1226,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Mickey C's Bagels" category="Food">
+    <Merchant tag="Bagels"  name="Mickey C's Bagels" category="Food">
         <Locations>
-            <Location url="" phone="303-494-2002" address1="637 South Broadway" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-494-2002" address1="637 South Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1237,9 +1238,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Boulder Ice Cream" category="Food">
+    <Merchant tag="Ice Cream"  name="Boulder Ice Cream" category="Food">
         <Locations>
-            <Location url="" phone="303-494-2002" address1="637 South Broadway" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-494-2002" address1="637 South Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1249,9 +1250,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Boulder Running Company" category="Shopping Services">
+    <Merchant tag="Sporting Goods Shop"  name="Boulder Running Company" category="Shopping Services">
         <Locations>
-            <Location url="www.BoulderRunningCompany.com" phone="303-RUN-WALk" address1="2775 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.BoulderRunningCompany.com" phone="303-RUN-WALk" address1="2775 Pearl St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1261,9 +1262,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Dept of Clothing" category="Shopping Services">
+    <Merchant tag="Clothing Store"  name="Dept of Clothing" category="Shopping Services">
         <Locations>
-            <Location url="www.deptofclothing.com" phone="720-340-4229" address1="350 Main St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.deptofclothing.com" phone="720-340-4229" address1="350 Main St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1273,9 +1274,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Found Underground" category="Shopping Services">
+    <Merchant tag="Resale / Consignment"  name="Found Underground" category="Shopping Services">
         <Locations>
-            <Location url="www.foundundergroundconsignment.com" phone="303-666-6900" address1="901 Main St" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.foundundergroundconsignment.com" phone="303-666-6900" address1="901 Main St" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1285,9 +1286,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="House Gifts" category="Shopping Services">
+    <Merchant tag="Gift Shop"  name="House Gifts" category="Shopping Services">
         <Locations>
-            <Location url="" phone="303-219-6948" address1="2015 Ionosphere " address2="#101" city="Longmont" state="" zip=""></Location>
+            <Location url="" phone="303-219-6948" address1="2015 Ionosphere " address2="#101" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1297,9 +1298,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="McGuckin Hardware" category="Shopping Services">
+    <Merchant tag="Hardware Store"  name="McGuckin Hardware" category="Shopping Services">
         <Locations>
-            <Location url="www.mcguckin.com" phone="303-443-1822" address1="2525 Arapahoe Ave" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.mcguckin.com" phone="303-443-1822" address1="2525 Arapahoe Ave" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1324,9 +1325,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Neptune Mountaineering" category="Shopping Services">
+    <Merchant tag="Sporting Goods Shop"  name="Neptune Mountaineering" category="Shopping Services">
         <Locations>
-            <Location url="www.neptunemountaineering.com" phone="303-499-8866" address1="633 South Broadway" address2="" city="Boulder" state="" zip="80305"></Location>
+            <Location url="www.neptunemountaineering.com" phone="303-499-8866" address1="633 South Broadway" address2="" city="Boulder" state="CO" zip="80305"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1336,9 +1337,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Once Upon A Child" category="Shopping Services">
+    <Merchant tag="Kids Store"  name="Once Upon A Child" category="Shopping Services">
         <Locations>
-            <Location url="www.onceuponachildlongmont.com" phone="303-772-5437" address1="700 ken Pratt Blvd " address2="Suite 207" city="Longmont" state="" zip="80501"></Location>
+            <Location url="www.onceuponachildlongmont.com" phone="303-772-5437" address1="700 ken Pratt Blvd " address2="Suite 207" city="Longmont" state="CO" zip="80501"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1348,9 +1349,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Outdoor Divas" category="Shopping Services">
+    <Merchant tag="Sporting Goods Shop"  name="Outdoor Divas" category="Shopping Services">
         <Locations>
-            <Location url="www.outdoordivas.com" phone="303-449-DIVA" address1="2317 30th St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.outdoordivas.com" phone="303-449-DIVA" address1="2317 30th St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1365,9 +1366,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Plato's Closet" category="Shopping Services">
+    <Merchant tag="Resale / Consignment"  name="Plato's Closet" category="Shopping Services">
         <Locations>
-            <Location url="www.platosclosetboulder.com" phone="303-444-2274" address1="2510 Arapahoe Rd" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.platosclosetboulder.com" phone="303-444-2274" address1="2510 Arapahoe Rd" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1382,9 +1383,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Sport Clips" category="Shopping Services">
+    <Merchant tag="Barbershop"  name="Sport Clips" category="Shopping Services">
         <Locations>
-            <Location url="www.sportclips.com" phone="303-665-7200" address1="133 McCaslin Blvd" address2="" city="Louisville" state="" zip="80027"></Location>
+            <Location url="www.sportclips.com" phone="303-665-7200" address1="133 McCaslin Blvd" address2="" city="Louisville" state="CO" zip="80027"></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1399,9 +1400,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Studio Boom" category="Shopping Services">
+    <Merchant tag="Salon"  name="Studio Boom" category="Shopping Services">
         <Locations>
-            <Location url="www.studioboomsalons.com" phone="303-774-9880" address1="1240 ken Pratt Blvd" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.studioboomsalons.com" phone="303-774-9880" address1="1240 ken Pratt Blvd" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1411,11 +1412,11 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Boulder Rec Center" category="Fun">
+    <Merchant tag="Community / Rec Center"  name="Boulder Rec Center" category="Fun">
         <Locations>
-            <Location url="" phone="303-441-4400" address1="5660 Sioux dr" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="303-413-7260" address1="3170 Broadway" address2="" city="Boulder" state="" zip=""></Location>
-            <Location url="" phone="303-441-3448" address1="1360 Gillaspie" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="" phone="303-441-4400" address1="5660 Sioux dr" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="303-413-7260" address1="3170 Broadway" address2="" city="Boulder" state="CO" zip=""></Location>
+            <Location url="" phone="303-441-3448" address1="1360 Gillaspie" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1425,9 +1426,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Louisville Rec Center" category="Fun">
+    <Merchant tag="Community / Rec Center"  name="Louisville Rec Center" category="Fun">
         <Locations>
-            <Location url="www.louisvillerecreation.com" phone="303-666-7400" address1="900 West Via Appia" address2="" city="Louisville" state="" zip=""></Location>
+            <Location url="www.louisvillerecreation.com" phone="303-666-7400" address1="900 West Via Appia" address2="" city="Louisville" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1437,10 +1438,10 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Longmont Rec Center" category="Fun">
+    <Merchant tag="Community / Rec Center"  name="Longmont Rec Center" category="Fun">
         <Locations>
-            <Location url="www.ci.longmont.co.us/rec" phone="303-774-4800" address1="310 quail Rd" address2="" city="Longmont" state="" zip=""></Location>
-            <Location url="www.ci.longmont.co.us/rec" phone="303-651-8406" address1="1201 Alpine St" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.ci.longmont.co.us/rec" phone="303-774-4800" address1="310 quail Rd" address2="" city="Longmont" state="CO" zip=""></Location>
+            <Location url="www.ci.longmont.co.us/rec" phone="303-651-8406" address1="1201 Alpine St" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1452,7 +1453,7 @@
     </Merchant>
     <Merchant tag=""  name="Boulder Valley Ice" category="Fun">
         <Locations>
-            <Location url="www.bvice.com" phone="303-494-4777" address1="125 Superior Plaza Way" address2="" city="Superior" state="" zip=""></Location>
+            <Location url="www.bvice.com" phone="303-494-4777" address1="125 Superior Plaza Way" address2="" city="Superior" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1462,9 +1463,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Carbon Valley Rec Center" category="Fun">
+    <Merchant tag="Community / Rec Center"  name="Carbon Valley Rec Center" category="Fun">
         <Locations>
-            <Location url="www.recdistrict.com" phone="303-833-3660" address1="701 5th St" address2="" city="Firestone" state="" zip=""></Location>
+            <Location url="www.recdistrict.com" phone="303-833-3660" address1="701 5th St" address2="" city="Firestone" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1474,9 +1475,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Coal Creek Bowling Center" category="Fun">
+    <Merchant tag="bowling"  name="Coal Creek Bowling Center" category="Fun">
         <Locations>
-            <Location url="www.coalcreekbowling.com" phone="303-673-0772" address1="550 W.South Boulder Rd" address2="" city="Lafayette" state="" zip=""></Location>
+            <Location url="www.coalcreekbowling.com" phone="303-673-0772" address1="550 W.South Boulder Rd" address2="" city="Lafayette" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1486,9 +1487,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Fat Cats Fun Center" category="Fun">
+    <Merchant tag="Amusement Center"  name="Fat Cats Fun Center" category="Fun">
         <Locations>
-            <Location url="www.fatcatsfun.com" phone="303-466-7515" address1="10685 Westminster Blvd" address2="" city="Westminster" state="" zip=""></Location>
+            <Location url="www.fatcatsfun.com" phone="303-466-7515" address1="10685 Westminster Blvd" address2="" city="Westminster" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1503,9 +1504,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Haystack Mountain Golf Club" category="Fun">
+    <Merchant tag="Golf"  name="Haystack Mountain Golf Club" category="Fun">
         <Locations>
-            <Location url="www.golfhaystack.com" phone="303-530-1400" address1="5877 Niwot Road" address2="" city="Niwot" state="" zip=""></Location>
+            <Location url="www.golfhaystack.com" phone="303-530-1400" address1="5877 Niwot Road" address2="" city="Niwot" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1520,9 +1521,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Loveland Ski Area" category="Fun">
+    <Merchant tag="Skiing / Boarding"  name="Loveland Ski Area" category="Fun">
         <Locations>
-            <Location url="www.skiloveland.com" phone="303-571-5580" address1="I-70" address2="Exit 216" city="" state="" zip=""></Location>
+            <Location url="www.skiloveland.com" phone="303-571-5580" address1="I-70" address2="Exit 216" city="" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1557,9 +1558,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Monarch Mountain" category="Fun">
+    <Merchant tag="Skiing / Boarding"  name="Monarch Mountain" category="Fun">
         <Locations>
-            <Location url="www.skimonarch.com" phone="719-530-5000" address1="23715 US Hwy 50" address2="" city="Monarch" state="" zip=""></Location>
+            <Location url="www.skimonarch.com" phone="719-530-5000" address1="23715 US Hwy 50" address2="" city="Monarch" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1594,9 +1595,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Posh Paint &amp; Wine Studio" category="Fun">
+    <Merchant tag="painting"  name="Posh Paint &amp; Wine Studio" category="Fun">
         <Locations>
-            <Location url="www.poshsplat.com" phone="303-442-7674" address1="468 Pearl St" address2="" city="Boulder" state="" zip=""></Location>
+            <Location url="www.poshsplat.com" phone="303-442-7674" address1="468 Pearl St" address2="" city="Boulder" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1611,9 +1612,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Sunset Golf Club" category="Fun">
+    <Merchant tag="Golf"  name="Sunset Golf Club" category="Fun">
         <Locations>
-            <Location url="www.golflongmont.com" phone="(303) 651-8466" address1="1900 Longs Peak Avenue" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.golflongmont.com" phone="(303) 651-8466" address1="1900 Longs Peak Avenue" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1623,9 +1624,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Twin Peaks Golf" category="Fun">
+    <Merchant tag="Golf"  name="Twin Peaks Golf" category="Fun">
         <Locations>
-            <Location url="www.golflongmont.com" phone="(303) 651-8401" address1="1200 Cornell drive" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.golflongmont.com" phone="(303) 651-8401" address1="1200 Cornell drive" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1635,9 +1636,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Regal Cinemas" category="Fun">
+    <Merchant tag="Movies"  name="Regal Cinemas" category="Fun">
         <Locations>
-            <Location url="REGMovies.com" phone="" address1="1164 W. dILLON ROAd" address2="" city="LOUISVILLE" state="" zip=""></Location>
+            <Location url="REGMovies.com" phone="" address1="1164 W. dILLON ROAd" address2="" city="LOUISVILLE" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1652,9 +1653,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Ute Creek Golf" category="Fun">
+    <Merchant tag="Golf"  name="Ute Creek Golf" category="Fun">
         <Locations>
-            <Location url="www.golflongmont.com" phone="(303) 774-4342" address1="2000 Ute Creek drive" address2="" city="Longmont" state="" zip=""></Location>
+            <Location url="www.golflongmont.com" phone="(303) 774-4342" address1="2000 Ute Creek drive" address2="" city="Longmont" state="CO" zip=""></Location>
         </Locations>
         <Deals>
             <Deal>
@@ -1669,9 +1670,9 @@
             </Deal>
         </Deals>
     </Merchant>
-    <Merchant tag=""  name="Winter Park Resort" category="Fun">
+    <Merchant tag="Skiing / Boarding"  name="Winter Park Resort" category="Fun">
         <Locations>
-            <Location url="www.winterparkresort.com" phone="800-453-2525" address1="85 Parsenn Rd." address2="" city="Winter Park" state="" zip="80482"></Location>
+            <Location url="www.winterparkresort.com" phone="800-453-2525" address1="85 Parsenn Rd." address2="" city="Winter Park" state="CO" zip="80482"></Location>
         </Locations>
         <Deals>
             <Deal>

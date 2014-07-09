@@ -153,6 +153,11 @@ public class MerchantLocationConvertor extends NodeConvertor {
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node location = nodes.item(i);
+			if (!location.getNodeName().equals("Location"))
+			{
+				//JobStatus.get().println("skipped empty node.");
+				continue;
+			}
 			try
 			{
 				MerchantLocation mloc = convert(location, merchantId, merchantAccount, existingLocations);

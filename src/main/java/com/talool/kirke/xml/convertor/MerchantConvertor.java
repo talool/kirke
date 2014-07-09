@@ -177,16 +177,31 @@ public class MerchantConvertor extends NodeConvertor {
 				try
 				{
 					List<MerchantLocation> locations = MerchantLocationConvertor.convert(locationsNode.getChildNodes(), merchantId, merchantAccount);
+					MerchantMedia defaultMedia = null;
+					boolean existingMedia = false;
+					
+					List<MerchantLocation> allLocations = ServiceUtils.get().getService().getLocationsForMerchant(merchantId);
+					allLocations.addAll(locations);
+					for (MerchantLocation loc : allLocations)
+					{
+						// check for existing media
+						if (loc.getMerchantImage() != null)
+						{
+							existingMedia = true;
+						}
+					}
+					
+					if (!existingMedia)
+					{
+						defaultMedia = MerchantMediaConvertor.getStockMedia(merchant.getTags());
+					}
+					
 					for (MerchantLocation loc : locations)
 					{
 						// check for an image on the location
-						if (loc.getMerchantImage() == null)
+						if (loc.getMerchantImage() == null && defaultMedia!=null)
 						{
-							MerchantMedia media = MerchantMediaConvertor.getStockMedia(merchant.getTags());
-							if (media != null)
-							{
-								loc.setMerchantImage(media);
-							}
+							loc.setMerchantImage(defaultMedia);
 						}
 						
 						// check for an existing loc with this id
@@ -197,6 +212,10 @@ public class MerchantConvertor extends NodeConvertor {
 				catch (KirkeException e)
 				{
 					log.error("Failed to convert location for: "+merchant.getName() + " because " + e.getMessage());
+				}
+				catch (ServiceException se)
+				{
+					log.error("failed to load existing merchant locations", se);
 				}
 				
 				if (merchant.getLocations().size() == 0)
@@ -259,7 +278,7 @@ public class MerchantConvertor extends NodeConvertor {
 	{
 		for (MerchantLocation location:merchant.getLocations())
 		{
-			if (location.getId().equals(loc.getId()))
+			if (loc.getId() != null && location.getId().equals(loc.getId()))
 			{
 				merchant.getLocations().remove(location);
 				break;
@@ -312,6 +331,11 @@ public class MerchantConvertor extends NodeConvertor {
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node merchantNode = nodes.item(i);
+			if (!merchantNode.getNodeName().equals("Merchant"))
+			{
+				//JobStatus.get().println("skipped empty node.");
+				continue;
+			}
 			try 
 			{
 				Merchant merchant = convert(merchantNode);

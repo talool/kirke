@@ -38,6 +38,8 @@ public class DealConvertor extends NodeConvertor {
 	private static final String ImageTag = "Image";
 	private static final String TagsTag = "Tags";
 	
+	private static final int maxDetailsLength = 510;
+	
 	static private Deal convert(Node dealNode, Merchant merchant, MerchantAccount merchantAccount, List<Deal> existingDeals, List<MerchantMedia> existingMedia) throws KirkeException 
 	{
 		NodeList dealData = dealNode.getChildNodes();
@@ -87,6 +89,10 @@ public class DealConvertor extends NodeConvertor {
 		String details = getNodeValue(DetailsTag, dealData);
 		details = StringUtils.normalizeSpace(details);
 		details = StringUtils.capitalize(details);
+		if (details.length() > maxDetailsLength)
+		{
+			details = details.substring(0,maxDetailsLength);
+		}
 		deal.setDetails(details);
 		Node image = getNode(ImageTag,dealData);
 		if (image != null)
@@ -175,6 +181,11 @@ public class DealConvertor extends NodeConvertor {
 		for (int i=0; i<nodes.getLength(); i++)
 	    {
 			Node dealNode = nodes.item(i);
+			if (!dealNode.getNodeName().equals("Deal"))
+			{
+				//JobStatus.get().println("skipped empty node.");
+				continue;
+			}
 			try 
 			{
 				Deal deal = convert(dealNode, merchant, merchantAccount, existingDeals, existingMedia);

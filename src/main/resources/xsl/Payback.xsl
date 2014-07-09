@@ -4,7 +4,7 @@
 	<xsl:output method='xml' indent='no'/>
 	
 	<xsl:variable name="defaultState">CO</xsl:variable>
-	<xsl:variable name="defaultExpDate">09/01/2015</xsl:variable>
+	<xsl:variable name="defaultExpDate">2015-09-01</xsl:variable>
 	
 	<xsl:template match="/Talool">
 		<Talool xmlns="http://www.talool.com/Talool">
@@ -44,8 +44,8 @@
 				  state="{$state}" 
 				  zip="{@zip}" 
 				  country="US" 
-				  latitude="" 
-				  longitude="">
+				  latitude="{@lat}" 
+				  longitude="{@long}">
 		</Location>
 		
 	</xsl:template>

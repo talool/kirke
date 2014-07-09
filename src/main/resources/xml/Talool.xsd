@@ -17,7 +17,7 @@
 
     <xsd:complexType name="LocationType">
     	<xsd:sequence>
-    		<xsd:element name="Image" type="ImageType"></xsd:element>
+    		<xsd:element name="Image" type="ImageType" maxOccurs="1" minOccurs="0"></xsd:element>
     	</xsd:sequence>
     	<xsd:attribute name="name" type="xsd:string"></xsd:attribute>
     	<xsd:attribute name="url" type="xsd:string"></xsd:attribute>
