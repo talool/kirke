@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang.WordUtils;
 import org.apache.log4j.Logger;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -49,7 +50,7 @@ public class DealConvertor extends NodeConvertor {
 		String dateString = getNodeAttr("expires", dealNode);
 		String dealSummary = getNodeValue(SummaryTag, dealData);
 		dealSummary = StringUtils.normalizeSpace(dealSummary);
-		dealSummary = StringUtils.capitalize(dealSummary);
+		dealSummary = WordUtils.capitalizeFully(dealSummary);
 		Deal deal = getDeal(existingDeals, dealSummary, dateString);
 		
 		// new deal
@@ -70,7 +71,7 @@ public class DealConvertor extends NodeConvertor {
 			// - changing summary or expDate will cause a new deal to be created on each import of this deal
 			String title = getNodeAttr("title", dealNode);
 			title = StringUtils.normalizeSpace(title);
-			title = StringUtils.capitalize(title);
+			title = WordUtils.capitalizeFully(title);
 			deal.setTitle(title); 
 			deal.setSummary(dealSummary);
 			try
