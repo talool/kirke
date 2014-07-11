@@ -58,10 +58,10 @@
 	</xsl:template>
 	
 	<xsl:template match="Details">
-		<xsl:variable name="defaultDetails">May not be combined with any other offer, discount or promotion. Not valid on holidays, and subject to rules of use.</xsl:variable>
+		<xsl:variable name="defaultDetails"> May not be combined with any other offer, discount or promotion. Not valid on holidays, and subject to rules of use.</xsl:variable>
 		
 		<Details>
-			<xsl:value-of select="."/> <xsl:value-of select="defaultDetails"/>
+			<xsl:value-of select="."/> <xsl:value-of select="$defaultDetails"/>
 		</Details>
 		
 		<Tags><Tag><xsl:value-of select="../../../@tag"/></Tag></Tags>

@@ -254,19 +254,24 @@ public class MerchantMediaConvertor extends NodeConvertor {
 			List<MerchantMedia> mList = stockMediaMap.get(tag.getName());
 			if (mList!=null && !mList.isEmpty())
 			{
-				Double rdm = Math.floor(Math.random()*(mList.size()-1));
-				int i = rdm.intValue();
-				if (i > mList.size() || i < 0)
-				{
-					// oops
-					i = 0;
-					log.error("Failed to pick a random number for stock media selection");
-				}
-				media = mList.get(i);
+				media = mList.get(getRandomIndex(mList.size()));
 				break;
 			}
 		}
 		return media;
+	}
+	
+	private static int getRandomIndex(int sz)
+	{
+		Double rdm = Math.floor(Math.random()*(sz-1));
+		int i = rdm.intValue();
+		if (i > sz || i < 0)
+		{
+			// oops
+			i = 0;
+			log.error("Failed to pick a random number for stock media selection");
+		}
+		return i;
 	}
 
 }

@@ -251,7 +251,7 @@ public class MerchantConvertor extends NodeConvertor {
 						{
 							deal.setDealOffer(dealOffer);
 							deal.setMerchant(merchant);
-							ServiceUtils.get().getService().save(deal);
+							ServiceUtils.get().getService().merge(deal);
 							
 							JobStatus.get().addDeal();
 						}

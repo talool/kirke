@@ -95,11 +95,27 @@ public class DealConvertor extends NodeConvertor {
 			details = details.substring(0,maxDetailsLength);
 		}
 		deal.setDetails(details);
+		
+		// convert the deal tags
+		Node tagsNode = getNode(TagsTag,dealData);
+		List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes(), merchant.getCategory());
+		Set<Tag> tags = new HashSet<Tag>(tagList);
+		deal.setTags(tags);
+				
+				
 		Node image = getNode(ImageTag,dealData);
 		if (image != null)
 		{
 			MerchantMedia media = MerchantMediaConvertor.convert(image, merchant.getId(),merchantAccount, existingMedia);
 			deal.setImage(media);
+		}
+		else
+		{
+			// get a stock image
+			MerchantMedia defaultMedia = MerchantMediaConvertor.getStockMedia(tags);
+			if (defaultMedia != null){
+				deal.setImage(defaultMedia);
+			}
 		}
 		
 		// put the rating and value in properties on the deal
@@ -113,12 +129,6 @@ public class DealConvertor extends NodeConvertor {
 		{
 			deal.getProperties().createOrReplace(KeyValue.dealValue, value);
 		}
-		
-		// convert the deal tags
-		Node tagsNode = getNode(TagsTag,dealData);
-		List<Tag> tagList = TagConvertor.get().convert(tagsNode.getChildNodes(), merchant.getCategory());
-		Set<Tag> tags = new HashSet<Tag>(tagList);
-		deal.setTags(tags);
 		
 		return deal;
 	}
