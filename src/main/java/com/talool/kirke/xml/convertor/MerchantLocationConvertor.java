@@ -215,6 +215,11 @@ public class MerchantLocationConvertor extends NodeConvertor {
 		{
 			// hit Google
 			point = HttpUtils.getGeometry(mloc);
+			// ensure we don't do this too fast...
+			// google has a limit of 2500 requests/day, but they also block if you "abuse"
+			// their service by sending too many requests/second.
+			// https://developers.google.com/maps/documentation/business/articles/usage_limits
+			Thread.sleep(1000);
 			
 		}
 		catch(ServiceException se)
